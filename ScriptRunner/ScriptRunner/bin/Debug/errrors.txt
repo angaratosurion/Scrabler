@@ -1,0 +1,14 @@
+﻿
+c:\Program Files\ScriptRunner\scripts\Googleplus\googleplus.cs(17,35) : error CS1026: ) expected
+
+c:\Program Files\ScriptRunner\scripts\Googleplus\googleplus.cs(17,35) : error CS1026: ) expected
+
+c:\Program Files\ScriptRunner\scripts\Googleplus\googleplus.cs(17,35) : error CS1026: ) expected
+
+c:\Program Files\ScriptRunner\scripts\Googleplus\googleplus.cs(17,35) : error CS1026: ) expected
+
+c:\Program Files\ScriptRunner\scripts\googleplus\googleplus.cs(18,35) : error CS1026: ) expected
+
+c:\Program Files\ScriptRunner\scripts\googleplus\googleplus.cs(19,35) : error CS1026: ) expected
+
+c:\Program Files\ScriptRunner\scripts\googleplus\googleplus.cs(19,35) : error CS1026: ) expected

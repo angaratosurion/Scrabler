@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrabler", "Scrabler\Scrabler.csproj", "{CBAA13DD-7740-406A-BB12-6E26325F2BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrablerService", "ScrablerScriptsRunnerService\ScrablerService.csproj", "{08CFB1C8-2530-4E0B-9030-B8C5F9A15553}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9} = {CBAA13DD-7740-406A-BB12-6E26325F2BE9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrablerScriptsRunner", "ScrablerScriptsRunnerClient\ScrablerScriptsRunner.csproj", "{85EE19B0-F249-460D-8D47-CFEDC880B6C5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553} = {08CFB1C8-2530-4E0B-9030-B8C5F9A15553}
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9} = {CBAA13DD-7740-406A-BB12-6E26325F2BE9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrablerServiceHost", "ScrablerServiceHost\ScrablerServiceHost.csproj", "{DD0DDE5C-9D08-4EFD-96BF-99E81E5058EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9} = {CBAA13DD-7740-406A-BB12-6E26325F2BE9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrablerRunnerService", "ScrablerRunnerService\ScrablerRunnerService.csproj", "{F8A17297-184B-42C1-9852-8D836ED028CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553} = {08CFB1C8-2530-4E0B-9030-B8C5F9A15553}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrablerConsoleHost", "ScrablerConsoleHost\ScrablerConsoleHost.csproj", "{F43EC710-0531-4B92-B975-037A9A32EDD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553} = {08CFB1C8-2530-4E0B-9030-B8C5F9A15553}
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9} = {CBAA13DD-7740-406A-BB12-6E26325F2BE9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptRunner", "ScriptRunner\ScriptRunner\ScriptRunner.csproj", "{9066AB3D-38F8-4063-8EC1-8A7D23692CAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1DDD065D-5216-4CDB-A6C9-CA24B18C0280}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug with window|Any CPU = Debug with window|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9}.Debug with window|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9}.Debug with window|Any CPU.Build.0 = Debug|Any CPU
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAA13DD-7740-406A-BB12-6E26325F2BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553}.Debug with window|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553}.Debug with window|Any CPU.Build.0 = Debug|Any CPU
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CFB1C8-2530-4E0B-9030-B8C5F9A15553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85EE19B0-F249-460D-8D47-CFEDC880B6C5}.Debug with window|Any CPU.ActiveCfg = Debug|Any CPU
+		{85EE19B0-F249-460D-8D47-CFEDC880B6C5}.Debug with window|Any CPU.Build.0 = Debug|Any CPU
+		{85EE19B0-F249-460D-8D47-CFEDC880B6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85EE19B0-F249-460D-8D47-CFEDC880B6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85EE19B0-F249-460D-8D47-CFEDC880B6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85EE19B0-F249-460D-8D47-CFEDC880B6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0DDE5C-9D08-4EFD-96BF-99E81E5058EE}.Debug with window|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0DDE5C-9D08-4EFD-96BF-99E81E5058EE}.Debug with window|Any CPU.Build.0 = Debug|Any CPU
+		{DD0DDE5C-9D08-4EFD-96BF-99E81E5058EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0DDE5C-9D08-4EFD-96BF-99E81E5058EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0DDE5C-9D08-4EFD-96BF-99E81E5058EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0DDE5C-9D08-4EFD-96BF-99E81E5058EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A17297-184B-42C1-9852-8D836ED028CB}.Debug with window|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A17297-184B-42C1-9852-8D836ED028CB}.Debug with window|Any CPU.Build.0 = Debug|Any CPU
+		{F8A17297-184B-42C1-9852-8D836ED028CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A17297-184B-42C1-9852-8D836ED028CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A17297-184B-42C1-9852-8D836ED028CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A17297-184B-42C1-9852-8D836ED028CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43EC710-0531-4B92-B975-037A9A32EDD4}.Debug with window|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43EC710-0531-4B92-B975-037A9A32EDD4}.Debug with window|Any CPU.Build.0 = Debug|Any CPU
+		{F43EC710-0531-4B92-B975-037A9A32EDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43EC710-0531-4B92-B975-037A9A32EDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43EC710-0531-4B92-B975-037A9A32EDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43EC710-0531-4B92-B975-037A9A32EDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9066AB3D-38F8-4063-8EC1-8A7D23692CAC}.Debug with window|Any CPU.ActiveCfg = Debug with window|Any CPU
+		{9066AB3D-38F8-4063-8EC1-8A7D23692CAC}.Debug with window|Any CPU.Build.0 = Debug with window|Any CPU
+		{9066AB3D-38F8-4063-8EC1-8A7D23692CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9066AB3D-38F8-4063-8EC1-8A7D23692CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9066AB3D-38F8-4063-8EC1-8A7D23692CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9066AB3D-38F8-4063-8EC1-8A7D23692CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

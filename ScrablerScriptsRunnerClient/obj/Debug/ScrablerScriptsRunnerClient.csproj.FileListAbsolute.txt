@@ -1,0 +1,30 @@
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\ScrablerScriptsRunnerClient.exe
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\ScrablerScriptsRunnerClient.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Debug\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Debug\ScrablerScriptsRunnerClient.Properties.Resources.resources
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Debug\ScrablerScriptsRunnerClient.csproj.GenerateResource.Cache
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Debug\ScrablerScriptsRunnerClient.exe
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Debug\ScrablerScriptsRunnerClient.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Debug\ScrablerScriptsRunnerClient.Form1.resources
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\ScrablerScriptsRunnerClient.exe.config
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\BugTracking_config.hbt
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\contact_config.hbt
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\Scrabler.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\WareForms.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\LocaleHundler.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\HydrobaseSDK.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\Hydrobase.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\Scrabler.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\Scrabler.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\WareForms.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\LocaleHundler.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\HydrobaseSDK.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\HydrobaseSDK.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\Hydrobase.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\Hydrobase.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\el-GR\Scrabler.resources.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\en\Scrabler.resources.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\The Dark Owl Logger.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Debug\The Dark Owl Logger.xml

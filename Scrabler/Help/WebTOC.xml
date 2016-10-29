@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="54dcf7e1-cdc8-4f2c-91cc-05799649d4c0" Title="Scrabler Namespace" Url="html/eb740115-b877-1f3c-2886-46f41f55d903.htm">
+    <HelpTOCNode Id="50ac6074-7851-4894-9d53-bb1418c2851b" Title="AssemblyCollection Class" Url="html/7c517f9f-f025-6c48-a3c0-f42acaa9e4fc.htm">
+      <HelpTOCNode Title="AssemblyCollection Constructor " Url="html/5ea7544b-bbe7-8bf9-5015-38d30fad17a5.htm" />
+      <HelpTOCNode Title="Add Method (assembly, scrinf)" Url="html/e8418554-4850-1d23-2449-97ca5f9c67a8.htm" />
+      <HelpTOCNode Title="AddRange Method (assembly, scriptinf)" Url="html/2e252b5e-470a-9cbc-a36c-413e5ac8d2ea.htm" />
+      <HelpTOCNode Id="a987a9ea-a12d-422c-9177-5315dfef3bbd" Title="Contains Method " Url="html/5d51cfef-d474-54ef-3601-b8a970b683da.htm">
+        <HelpTOCNode Title="Contains Method (assembly)" Url="html/4088b7b6-f1ca-4c81-0215-2cc79689e704.htm" />
+        <HelpTOCNode Title="Contains Method (nameSpace)" Url="html/5c1672fd-11b1-55d3-3256-2fb492c7dfdb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f3c21fa-5750-4f8a-9f71-4f1173987124" Title="GetItem Method " Url="html/98a43764-563c-b59b-7d02-29dd9edb137c.htm">
+        <HelpTOCNode Title="GetItem Method (index)" Url="html/b37c878b-a991-0770-fc49-4c178af8b207.htm" />
+        <HelpTOCNode Title="GetItem Method (Namespace)" Url="html/2fd3a71f-cc7b-452a-c5bd-eb0497ff0878.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="20df1ef2-e97b-40a1-9fd0-662a608b2490" Title="IndexOf Method " Url="html/9cc68660-2036-eaf3-60e0-2c1d83acc447.htm">
+        <HelpTOCNode Title="IndexOf Method (assmbly)" Url="html/7c7acf1f-13e1-4228-379d-effcab809519.htm" />
+        <HelpTOCNode Title="IndexOf Method (nameSpace)" Url="html/bc4c3d24-8469-3b49-dfeb-80222ad82104.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Remove Method (assembly)" Url="html/6917c439-cefa-d0e5-0b02-75bbf5288fc0.htm" />
+      <HelpTOCNode Title="ScriptInfoCollection Method " Url="html/26441f4a-389e-151e-87b0-f5c0d6c6a0d5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="enumScriptRuningMode Enumeration" Url="html/99649d34-3134-962d-8235-8f4d43a2a820.htm" />
+    <HelpTOCNode Id="6d9bcf22-be5d-4a9a-a5df-5f9813a23de1" Title="ErrorWindow Class" Url="html/398f0d10-d869-f5d1-d7c6-860fa5b44352.htm">
+      <HelpTOCNode Id="2c4817c1-7d7e-4d85-86d9-13b97df2f948" Title="ErrorWindow Constructor " Url="html/4f58c551-f308-0355-a528-4ea3d02a77da.htm">
+        <HelpTOCNode Title="ErrorWindow Constructor " Url="html/a2b43e07-0ead-3412-d8e4-6481cb9a19a9.htm" />
+        <HelpTOCNode Title="ErrorWindow Constructor (cerrcol, tcode)" Url="html/50bbc1b7-7e57-7a7b-6b25-ee9a9c9dde48.htm" />
+        <HelpTOCNode Title="ErrorWindow Constructor (cerrcol, tcode, tsaveerrorrep)" Url="html/557fe2ce-37a3-3f62-2492-b946971206ca.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Dispose Method (disposing)" Url="html/246d6865-e9db-7d02-e789-097b980f31c1.htm" />
+      <HelpTOCNode Title="listErrors Field" Url="html/fddf51b3-c342-89c2-db3e-cf28aa205326.htm" />
+      <HelpTOCNode Title="SaveErrorrs Method " Url="html/8a7439d5-a538-0540-8a4c-12fb37fb6a7d.htm" />
+      <HelpTOCNode Title="txtCode Field" Url="html/6c3314a3-5459-f7d2-2815-39a996d7ff13.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="573ef993-3d59-4fb8-bfbb-98b93a30d66c" Title="LoadedScripts Class" Url="html/e5729b9e-3f6a-c323-f61c-cd0c0c9d2300.htm">
+      <HelpTOCNode Title="LoadedScripts Constructor " Url="html/d4d781cc-773e-f60a-cbb7-96b18af09923.htm" />
+      <HelpTOCNode Title="dataScriptsInfo Field" Url="html/b8056f0f-86c6-a004-d203-7f43d9975ceb.htm" />
+      <HelpTOCNode Title="Dispose Method (disposing)" Url="html/f789440d-cc85-9f60-c1a9-0be72e9c0b44.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b39f8a4-0d17-40b0-b7ec-8d44c30e0b2c" Title="Program Class" Url="html/382c53aa-b964-b681-72c3-e3bdfb012776.htm">
+      <HelpTOCNode Title="Bugger Field" Url="html/76aba697-88bc-a4a2-5aab-577c590f98ac.htm" />
+      <HelpTOCNode Title="Bugtracking Method (e)" Url="html/e6ded5f2-f73e-a57d-8ea9-af2af67a1aec.htm" />
+      <HelpTOCNode Title="MainForm Field" Url="html/23e5c4ce-172e-b5d9-0e08-072fee7485d6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c37743e4-a20a-4235-8c4a-ff3d774852a2" Title="Replacer Class" Url="html/c523d961-f10b-d6eb-185d-11643f47bd15.htm">
+      <HelpTOCNode Title="Replacer Constructor " Url="html/fb8d200d-6e09-cb03-0225-d8a87b461ca8.htm" />
+      <HelpTOCNode Title="findandreplaceDefinedConsts Method (source, filter, replacewith)" Url="html/37a65e4b-d355-a1a0-fecd-edab0176ccf5.htm" />
+      <HelpTOCNode Title="findandreplaceSymbols Method (source)" Url="html/202141a3-6b6f-9653-e289-3937e23696b8.htm" />
+      <HelpTOCNode Title="replacemanettag Field" Url="html/5484d9c0-592b-29fc-a558-5833a7c6a995.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dcbc9839-95e7-428a-9e57-29f83d5b59a7" Title="ScrablerCore Class" Url="html/d3b0e383-a4b1-2daa-dd91-5f912a76b5f0.htm">
+      <HelpTOCNode Id="2ef2129e-f875-4760-a49f-10118140b657" Title="ScrablerCore Constructor " Url="html/727705fb-5312-21e9-f158-de6f26366a2f.htm">
+        <HelpTOCNode Title="ScrablerCore Constructor " Url="html/14de93e5-5f56-5fcc-9bda-0fab088d4c4b.htm" />
+        <HelpTOCNode Title="ScrablerCore Constructor (runingmode)" Url="html/57c3ba47-683e-c51a-2947-bf1a7b3b60a1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AssemblyCol Field" Url="html/6fe27431-1a6d-1f5e-4cc4-54cd408e2c03.htm" />
+      <HelpTOCNode Title="Author Field" Url="html/a70fdc70-6bc6-5a18-e2cb-ed0c972875ff.htm" />
+      <HelpTOCNode Title="c Field" Url="html/b4b05f20-5e84-49cf-2843-e446e4b0c03d.htm" />
+      <HelpTOCNode Title="checkCompatibility Method (scrinf)" Url="html/b15465cc-2cf3-2c9a-9354-f86c55302737.htm" />
+      <HelpTOCNode Title="classtag Field" Url="html/003c0475-0a84-a58b-577b-a1460a96499d.htm" />
+      <HelpTOCNode Title="Code Field" Url="html/67c43a25-ef03-4a99-bf1b-a585e88ba968.htm" />
+      <HelpTOCNode Title="Copyright Field" Url="html/33b83bc2-a56f-9715-a8fe-09d55aae5fa8.htm" />
+      <HelpTOCNode Title="cp Field" Url="html/a5d3b3a2-b60c-0bd3-d9d4-dd60d780062f.htm" />
+      <HelpTOCNode Title="definedConstants Field" Url="html/51bbb538-782f-f253-82a1-ef93d2bc7202.htm" />
+      <HelpTOCNode Title="definedValues Field" Url="html/cc09cfb5-bb2e-ee44-000d-2403414ff5fd.htm" />
+      <HelpTOCNode Title="Description Field" Url="html/6fa38638-f78e-2e6b-9954-4e671ad29ec2.htm" />
+      <HelpTOCNode Id="2a927626-fc0e-46da-8216-391a7dad8260" Title="Eval Method " Url="html/50472772-8d4f-3fcb-a039-aad1050ebf20.htm">
+        <HelpTOCNode Title="Eval Method (sCSCode)" Url="html/163f0bb6-36aa-7cf3-90d5-c5c0edc37f9d.htm" />
+        <HelpTOCNode Title="Eval Method (sCSCode, scriptname, NameSapce, Clas, func, refs, scrinf)" Url="html/36c62d45-b90a-49bb-6376-a35425df1ff3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EvalAndSave Method (sCSCode, scriptname, NameSapce, Clas, func, refs, scrinf, path)" Url="html/7f73b380-d0ae-af37-1e6c-97da4fbc09e8.htm" />
+      <HelpTOCNode Title="EvalWithParams Method (sCSCode, scriptname, NameSapce, Clas, func, refs, winGUI, scrinf)" Url="html/ac0787d4-fb22-cbf2-586b-9a462e50c050.htm" />
+      <HelpTOCNode Title="execution_func Field" Url="html/3ec32261-9d04-e8ca-d630-a0c1c1051d9b.htm" />
+      <HelpTOCNode Title="GetClass Method (set)" Url="html/415295d4-4f73-cf4e-49c6-a00e41ab9e70.htm" />
+      <HelpTOCNode Title="GetCode Method (set)" Url="html/727d3f67-2616-ae43-5637-b5590137c2c3.htm" />
+      <HelpTOCNode Title="GetExeCutingApplicationVersion Method (app)" Url="html/79c7523d-707b-eebc-622e-0586be824d8f.htm" />
+      <HelpTOCNode Title="GetFunction Method (set)" Url="html/e4f8f3f6-063e-a786-15f5-bf291f268711.htm" />
+      <HelpTOCNode Title="GetLanguage Method (set)" Url="html/d1d3b4f9-0f36-bfa1-79f5-f2b14bba0225.htm" />
+      <HelpTOCNode Title="GetNameSace Method (set)" Url="html/ed276044-19c7-55b5-0ad5-ec66fe9f4961.htm" />
+      <HelpTOCNode Title="GetReferences Method (set)" Url="html/38d2a3bc-7922-5e4f-4a73-ef11193be87e.htm" />
+      <HelpTOCNode Title="GetScriptInfo Method (set)" Url="html/ae33629a-cea9-9ffa-5d80-536396291af2.htm" />
+      <HelpTOCNode Title="GetVersion Method " Url="html/a64ee7d5-441e-9795-6b23-002101eccd72.htm" />
+      <HelpTOCNode Title="LangTag Field" Url="html/95166451-29d3-752b-cb29-495db50b97be.htm" />
+      <HelpTOCNode Title="LowerApplicationVersionTag Field" Url="html/e4464775-55cd-6783-b75c-f21f8bb243c8.htm" />
+      <HelpTOCNode Title="MaxApplicationVersionTag Field" Url="html/ca5d928c-9d51-f732-eb0f-c19310f743bc.htm" />
+      <HelpTOCNode Title="namespacetag Field" Url="html/8b0f3a21-a0c2-d7e9-7249-b279c29c27d1.htm" />
+      <HelpTOCNode Id="c479a78c-3cb8-4a07-8f35-d1118102414d" Title="ReadScript Method " Url="html/e9404fb8-0fb8-62b8-ce28-36e2990eb636.htm">
+        <HelpTOCNode Title="ReadScript Method (filename)" Url="html/99fb056a-3b53-8d90-3c42-4208c8a2c0bd.htm" />
+        <HelpTOCNode Title="ReadScript Method (filename, dontExecute)" Url="html/6f72c730-abe1-b2dd-b5f5-92178a9f119e.htm" />
+        <HelpTOCNode Title="ReadScript Method (filename, gui)" Url="html/2b5c26fd-fdc3-b2a7-c491-3f309d631a32.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ReadScriptAndInstall Method (filename, path)" Url="html/c8831fd4-c7df-d622-1161-501ee837ff5a.htm" />
+      <HelpTOCNode Title="ReadScriptInLightMode Method (filename)" Url="html/64afe728-4255-7838-5933-4ec27546ae37.htm" />
+      <HelpTOCNode Title="references Field" Url="html/213175fd-faa7-3303-0bf4-e4c9cedbead1.htm" />
+      <HelpTOCNode Title="SaveScript Method (filename, code, refer, namespc, execfunc, execclass, info)" Url="html/4a3f86dc-2984-1f9e-6731-880fcd4317e9.htm" />
+      <HelpTOCNode Title="Scrabler_VersionTag Field" Url="html/3f2c7c36-5f8c-0e48-0e1f-ac5b4627767e.htm" />
+      <HelpTOCNode Title="scriptextenstion Field" Url="html/87ccc68b-7224-79a5-3d63-6dbaaec75ee9.htm" />
+      <HelpTOCNode Title="ScriptsFolder Field" Url="html/c7b6ad64-4caf-f23f-f3b4-27ba140363b3.htm" />
+      <HelpTOCNode Title="ScriptsFolderDLL Field" Url="html/0c72a12e-423e-29b2-9242-6c469944c03e.htm" />
+      <HelpTOCNode Title="ScriptsSet Field" Url="html/256f91d7-ca51-dc3a-d8f1-6acb4a854551.htm" />
+      <HelpTOCNode Title="SetReferences Method (set, scriptsreffolder, scriptfilename)" Url="html/f6ac4657-e98f-695a-65bb-3c52c806e4ed.htm" />
+      <HelpTOCNode Title="tForm Field" Url="html/df84414f-f060-2ed7-5133-adb66d715216.htm" />
+      <HelpTOCNode Title="Titletag Field" Url="html/3445334f-9d2c-655d-76c3-7ee4a3f0a1dc.htm" />
+      <HelpTOCNode Title="vb Field" Url="html/910892a7-6468-8628-87bd-47d1247354ea.htm" />
+      <HelpTOCNode Title="VersionTag Field" Url="html/c5583252-834f-024f-142e-99325ac593e2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="829d2f17-8a75-45aa-b4e8-1ae1702e90b2" Title="ScrablerDefSettings Class" Url="html/4b038210-376f-6244-b44f-603cc64794a0.htm">
+      <HelpTOCNode Title="ScrablerDefSettings Constructor " Url="html/2cd73155-a2e2-cae2-7041-b5726c1c505c.htm" />
+      <HelpTOCNode Title="CreateConfig Method " Url="html/b2f03a54-fbfd-3bb1-38c5-9e1acac091f5.htm" />
+      <HelpTOCNode Title="Readconfig Method " Url="html/74b75e7f-056a-13cb-6660-6c60dbeceb74.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="90626c79-b957-49cc-b16b-0f4676f90d4c" Title="ScrablerInstaller Class" Url="html/ff22fcae-d33a-af3c-b84e-79adcbfa1b89.htm">
+      <HelpTOCNode Title="ScrablerInstaller Constructor " Url="html/1d3b19f9-f2ea-1e4f-231a-d9cdb3c9069e.htm" />
+      <HelpTOCNode Title="CheckIfdllNeedToBeInstalled Method (ref_dll, dllinstalltionfolder)" Url="html/d2d9c56e-3d00-a92f-31b0-2578860975b4.htm" />
+      <HelpTOCNode Title="CopyProcessReference Method (cp, path)" Url="html/47996ab7-4bed-a599-630b-e86e300bead3.htm" />
+      <HelpTOCNode Title="Install Method (script_Archfilename, installfolder_scriptanddll)" Url="html/7fdb0594-d5d5-ffdb-f0ac-0b311f729359.htm" />
+      <HelpTOCNode Title="ReferenceTag Field" Url="html/54d678e7-9674-1811-bcfc-13426f6f23ee.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="45b1da9e-eda3-42c3-883a-722f81129a29" Title="ScrablerPlugin Class" Url="html/2b0ee5d3-718e-00cb-b70a-7b59708327b8.htm">
+      <HelpTOCNode Title="ScrablerPlugin Constructor " Url="html/054a4282-952b-529f-9ad2-922669f6de30.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b22d9dcb-933a-4e30-854b-816014c6cb72" Title="ScrablerPluginCollection Class" Url="html/4f590a98-c52e-dff2-e668-fb192294017c.htm">
+      <HelpTOCNode Id="62749cef-9e61-4e54-9ea5-878429184a2c" Title="ScrablerPluginCollection Constructor " Url="html/cb77d9c4-4979-8ab6-1d1a-c61130d48e24.htm">
+        <HelpTOCNode Title="ScrablerPluginCollection Constructor " Url="html/6c153bc1-7959-7c61-550c-5de497bae431.htm" />
+        <HelpTOCNode Title="ScrablerPluginCollection Constructor (value)" Url="html/2f7b6b67-c28d-4404-40c9-728a89d61dcf.htm" />
+        <HelpTOCNode Title="ScrablerPluginCollection Constructor (value)" Url="html/d5859b64-f5e5-3edb-23c5-c4102a9094e8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Add Method (value)" Url="html/9e25dbd1-ce6f-47b6-905d-3c44db50332e.htm" />
+      <HelpTOCNode Id="90793dcf-df46-4e42-bda7-a2ff2fc1261d" Title="AddRange Method " Url="html/3b9802df-995b-4877-41a5-3aa688c10456.htm">
+        <HelpTOCNode Title="AddRange Method (value)" Url="html/96ec391c-cc0b-3c5c-19fa-7ba9961a7579.htm" />
+        <HelpTOCNode Title="AddRange Method (value)" Url="html/533b29fe-a1ef-89c0-a495-9c412c92cbe0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Contains Method (value)" Url="html/147e2b1d-70c0-bd48-9105-817658e1a80c.htm" />
+      <HelpTOCNode Title="CopyTo Method (array, index)" Url="html/26f46520-7706-acc5-3e2d-6f5c12a96e24.htm" />
+      <HelpTOCNode Title="GetEnumerator Method " Url="html/0077d17f-c501-7780-db91-989df2b3fbb2.htm" />
+      <HelpTOCNode Title="IndexOf Method (value)" Url="html/f9c7e6dc-d3be-cc19-56d7-49f9c3c4d6b6.htm" />
+      <HelpTOCNode Title="Insert Method (index, value)" Url="html/a3dc301e-1a38-9923-f239-548507e75dec.htm" />
+      <HelpTOCNode Title="Item Property (index)" Url="html/802fad7b-a4cd-0ff4-21be-84cbebc096f2.htm" />
+      <HelpTOCNode Title="Remove Method (value)" Url="html/cdef7f5d-5abd-23c9-7746-e8738cca8b4f.htm" />
+      <HelpTOCNode Title="ToArray Method " Url="html/5f2797d7-0344-0317-9be1-3f8dc5d14eab.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b8645943-46ef-4958-92a7-dfdd9c964cb1" Title="ScrablerPluginCollection.ScrablerPluginCollectionEnumerator Class" Url="html/c67f3074-d9f9-7fdf-8fd7-1044cd6c0660.htm">
+      <HelpTOCNode Title="ScrablerPluginCollection.ScrablerPluginCollectionEnumerator Constructor (mappings)" Url="html/29a1cd63-f4dd-1d22-aa3f-92d1b2ef698a.htm" />
+      <HelpTOCNode Title="Current Property " Url="html/71ca1859-9267-53fc-6ddd-6149fec9fc0b.htm" />
+      <HelpTOCNode Title="MoveNext Method " Url="html/2e0f9781-305e-72a0-c96a-8a11bf4525d5.htm" />
+      <HelpTOCNode Title="Reset Method " Url="html/d1ae9d22-7b4c-6ac7-bf6b-63bcc0b5e7da.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1b59b5fe-2c1b-4095-a3cb-b3dfb91b2433" Title="ScrablerPluginSDK Class" Url="html/b3986fff-e806-9103-5732-9f93e2e80151.htm">
+      <HelpTOCNode Title="ScrablerPluginSDK Constructor " Url="html/52430c3b-015e-fdf4-9c24-b801f0c554d9.htm" />
+      <HelpTOCNode Title="AppFolder Field" Url="html/0156ed84-df17-edbe-254c-8b63def8f88e.htm" />
+      <HelpTOCNode Title="Dispose Method " Url="html/a86ed163-e261-0618-2b6c-b4eca041a4f0.htm" />
+      <HelpTOCNode Title="GetScrablerPluginVersion Method " Url="html/c8e224d3-6e3e-c0a0-f505-9cb92b9d8290.htm" />
+      <HelpTOCNode Title="MakeAction Method (plugcontent, tobj, tparam)" Url="html/14d5c52d-d39d-6504-a98a-e47d33a13bb0.htm" />
+      <HelpTOCNode Title="Name Property " Url="html/6516f5eb-9941-e276-45dd-73be43a10802.htm" />
+      <HelpTOCNode Id="71105761-9d48-47c0-ade1-9b681461eed0" Title="ReadScript Method " Url="html/7b593a93-0a09-224f-2cb5-b55d5f345583.htm">
+        <HelpTOCNode Title="ReadScript Method (filename)" Url="html/7e9ca06a-0a3c-399b-4c33-045558d469d3.htm" />
+        <HelpTOCNode Title="ReadScript Method (filename, gui)" Url="html/86fdccd4-1655-449b-9509-09685c9f094a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1de4147-e897-438d-bfc4-449649f21b4e" Title="ScrablerPluginsLoader Class" Url="html/cb7149c6-841a-0b8b-7e66-3ac0a124bf06.htm">
+      <HelpTOCNode Title="ScrablerPluginsLoader Constructor " Url="html/12c6d1d1-1c60-cbc1-5297-4234c8b40ef4.htm" />
+      <HelpTOCNode Title="ClearScrablerPluginsCollection Method (plugcoll)" Url="html/9c888249-d57d-3e67-e0f8-b12cd462d4d7.htm" />
+      <HelpTOCNode Title="CopyScrablerPlugin Method (source, target, plugname)" Url="html/51b0aff3-caf3-d4bf-63c1-57317f1855fe.htm" />
+      <HelpTOCNode Title="Create Method (parent, configContext, section)" Url="html/22dca360-b134-3f59-905c-3cea24d091b2.htm" />
+      <HelpTOCNode Title="DeleteSelectedScrablerPlugin Method (plugcoll, plugname)" Url="html/649514c8-d6d3-a59f-30dc-d4b0e70bb3fa.htm" />
+      <HelpTOCNode Title="ExistScrablerPlugin Method (plugColl, ScrablerPluginName)" Url="html/75c561a4-2add-e787-8747-13fb4368cc11.htm" />
+      <HelpTOCNode Title="ExistScrablerPluginStartsWith Method (plugColl, ScrablerPluginName)" Url="html/7f373e86-7957-acef-ca91-41d918be61e3.htm" />
+      <HelpTOCNode Title="FindAScrablerPlugin Method (plugColl, ScrablerPluginName)" Url="html/681af6ac-a4c3-479a-7717-c9e74671f267.htm" />
+      <HelpTOCNode Title="GetHydrobaseScrablerPluginsInfo Method (HyPlugColl)" Url="html/ff8036cc-8481-085e-0841-2bae0953bf93.htm" />
+      <HelpTOCNode Title="GetScrablerPluginsLoaderVersion Method " Url="html/5f1c891f-d86a-e3ed-2860-14c0e1af08c8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0b58c867-9586-4952-b207-5f6ddba051ea" Title="ScrablerSettings Class" Url="html/33f1737f-3928-51fb-4431-4616b60d4985.htm">
+      <HelpTOCNode Title="ScrablerSettings Constructor " Url="html/032aaa7b-f7aa-a97d-d26f-02d1231adf87.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="26fd3fba-fbbc-4074-a5f5-751a006e52ba" Title="ScrablerV2 Class" Url="html/ecbea43e-cce0-66ba-1b64-7945948f1268.htm">
+      <HelpTOCNode Title="ScrablerV2 Constructor " Url="html/de958ab1-3f49-127d-c427-33ae6feec86d.htm" />
+      <HelpTOCNode Title="Eval2 Method (sCSCode, scriptname, NameSapce, Clas, func, refs, scrinf)" Url="html/e30ae6ca-69b7-5fca-348b-a402853c270d.htm" />
+      <HelpTOCNode Title="EvalWithParams Method (sCSCode, scriptname, NameSapce, Clas, func, refs, winGUI, scrinf)" Url="html/ed6bb143-7851-362e-45d5-986ba963b657.htm" />
+      <HelpTOCNode Title="ReadScript Method (dirname, gui)" Url="html/80577bc0-ce87-4a2b-eba8-0007b8274820.htm" />
+      <HelpTOCNode Title="ReadScript2 Method (dirname)" Url="html/bafb78ef-03e5-f01c-7b5b-bf57d2298dca.htm" />
+      <HelpTOCNode Title="SaveErrorrs Method (compilererrcol)" Url="html/261f682b-a1af-1781-13bc-631e67d16d2f.htm" />
+      <HelpTOCNode Title="scrptInf Field" Url="html/d6cd86b6-9bb8-76c5-b85c-34877c40da55.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f0b78663-eee7-4aeb-9aa0-cf9f5df477b0" Title="ScriptInfo Class" Url="html/d710a1bd-1f61-d828-6012-ac68390b86aa.htm">
+      <HelpTOCNode Title="ScriptInfo Constructor " Url="html/52df6f89-64c7-7f3c-c5be-a0374bf98333.htm" />
+      <HelpTOCNode Title="Author Property " Url="html/867a2bf5-c0b7-ca90-0678-9966c7fe9892.htm" />
+      <HelpTOCNode Title="Copyright Property " Url="html/c5ce8b71-67e6-9fbb-953c-71e53553ad40.htm" />
+      <HelpTOCNode Title="Description Property " Url="html/13176859-96ec-750f-bc1b-832fcdd0fa00.htm" />
+      <HelpTOCNode Title="Filename Property " Url="html/ff66af0a-2c58-b4f1-aba9-1171b4abd4ea.htm" />
+      <HelpTOCNode Title="Language Property " Url="html/2364f33c-4daa-5100-672d-478094e16a55.htm" />
+      <HelpTOCNode Title="LowerApplicationVersion Property " Url="html/8221e514-9020-3a2d-f5b9-88d99ddb394f.htm" />
+      <HelpTOCNode Title="MaxApplicationVersion Property " Url="html/caa8207d-cf1f-549f-a963-a404edfb3050.htm" />
+      <HelpTOCNode Title="ScrablerVersion Property " Url="html/5180039a-6104-471f-be4d-2fc5cc4f5b11.htm" />
+      <HelpTOCNode Title="Title Property " Url="html/12e209d1-8970-749b-e907-6d7a4136dd9b.htm" />
+      <HelpTOCNode Title="Version Property " Url="html/79e24b5d-22e7-7bef-500d-ba529659a931.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="78c3b3de-311c-479f-9400-ef8b8ee470bb" Title="ScriptRepo Class" Url="html/38540422-b602-b54a-2874-19f3b15eb7a5.htm">
+      <HelpTOCNode Id="8057ea5c-5e30-41a0-bb74-b47078d4c5dd" Title="ScriptRepo Constructor " Url="html/d6f39a68-3d6b-5a0f-fa04-8954946d28f4.htm">
+        <HelpTOCNode Title="ScriptRepo Constructor " Url="html/87841ee7-0dd8-9add-6b37-3ff099e99357.htm" />
+        <HelpTOCNode Title="ScriptRepo Constructor (mainfold)" Url="html/15859b0c-8925-51d8-6590-15438c3b3c05.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Binaryfolder Property " Url="html/d2ac4ab1-c344-bcf7-6938-d024b1672f6e.htm" />
+      <HelpTOCNode Title="ClearTempfolder Method " Url="html/834c3fed-3e21-6662-0bec-aef0de1c41d1.htm" />
+      <HelpTOCNode Title="Executables Method " Url="html/43e0a785-ad5b-de5b-9ef2-eaa906bd6dff.htm" />
+      <HelpTOCNode Title="Init Method (mainfolder)" Url="html/27546c58-56c1-8cc5-40dd-2c42724d0fd8.htm" />
+      <HelpTOCNode Title="Repository Property " Url="html/75ae5e5b-cc15-e897-e62f-7a23e2051d7e.htm" />
+      <HelpTOCNode Title="Temp Property " Url="html/74030120-c522-2ef4-2869-fadb007e007b.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b915c9ec-03bb-4641-a521-1b8a965f40ba" Title="Scrabler.Controls Namespace" Url="html/bb59a921-10fd-6a23-43ae-b092315d46ff.htm">
+    <HelpTOCNode Id="b196ce43-2be7-469d-a4f7-8e5ce0e98368" Title="ConsoleBox Class" Url="html/08dfabcc-4f24-b5de-9c15-5c1bb57e16d2.htm">
+      <HelpTOCNode Title="ConsoleBox Constructor " Url="html/ae74ab50-4e7a-83cb-2dc4-e37c7acb4e48.htm" />
+      <HelpTOCNode Title="Dispose Method (disposing)" Url="html/1c7e41c3-c367-ea21-4cdd-6b9afa6ca5da.htm" />
+      <HelpTOCNode Title="PowerShellOutput Field" Url="html/333149ce-1b14-e29b-08b7-162b7f999b86.htm" />
+      <HelpTOCNode Title="SecureDirs Property " Url="html/620196a4-5cd2-5692-cbae-96f1bacafb87.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f305890c-5c5b-423e-a6d5-aa57c302acb6" Title="TabConsoleControl Class" Url="html/bcb7c945-90d9-577b-fb3a-a6c46c877767.htm">
+      <HelpTOCNode Title="TabConsoleControl Constructor " Url="html/ad49c74e-4b8b-daab-81f8-319bfba6929c.htm" />
+      <HelpTOCNode Title="CloseSession Method " Url="html/854043cb-4a32-6cc5-e78a-14f1e7132d9b.htm" />
+      <HelpTOCNode Title="createNewTabSession Method " Url="html/de5d3043-deca-c45e-0be4-d3d8274e91b2.htm" />
+      <HelpTOCNode Title="Dispose Method (disposing)" Url="html/c24e61d0-9a8f-4c12-5573-3fe08c0685c6.htm" />
+      <HelpTOCNode Title="IngoreKeys Property " Url="html/8b82250e-d549-9a70-f9a7-d85231beb16a.htm" />
+      <HelpTOCNode Title="SecureDirs Property " Url="html/34a5c8a0-e678-13e1-438d-9208de4aebc4.htm" />
+      <HelpTOCNode Title="TabControl Property " Url="html/8a4380ae-6793-73b6-cccd-973d44d06ba6.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="cedbcb4c-43aa-4ab8-a4ea-fa4b081971a2" Title="Scrabler.IDE Namespace" Url="html/8f835f96-f57b-8d88-f3cd-64e4d65f8c05.htm">
+    <HelpTOCNode Id="1a995841-f829-44ec-8db5-f186e5bc1fb7" Title="ScriptEditor Class" Url="html/aa1dcf02-dffe-0c99-59e8-44c4bef0e252.htm">
+      <HelpTOCNode Id="f283c739-5b76-44c3-8196-1d3a3f963e1a" Title="ScriptEditor Constructor " Url="html/0bed4e44-a600-bc28-79e4-7a4e92894355.htm">
+        <HelpTOCNode Title="ScriptEditor Constructor " Url="html/fe8da3c9-b66f-4195-7c00-fb86ae52e5ab.htm" />
+        <HelpTOCNode Title="ScriptEditor Constructor (filename)" Url="html/005e2fd5-1a4d-d2e7-003e-4f7e7d1df5eb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Dispose Method (disposing)" Url="html/5bb04d61-e247-648e-1303-971c7f3f4437.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5dbf83dd-6911-4772-99f3-e87c239c0964" Title="Scrabler.Tools Namespace" Url="html/e1d96217-7e7f-5e05-ceeb-07ad0b008dfe.htm">
+    <HelpTOCNode Id="bdcf8362-cfd8-4641-a472-9910ed48b484" Title="ProcessWatcher Class" Url="html/64798bf6-d348-4dd9-531f-7951a6d93dc1.htm">
+      <HelpTOCNode Id="b384a0d0-0876-4930-bc61-047047ced2ef" Title="ProcessWatcher Constructor " Url="html/cfca4c4d-c1df-5823-2ba8-b4732f95a98c.htm">
+        <HelpTOCNode Title="ProcessWatcher Constructor " Url="html/18b7efba-9db9-0859-09cc-8d3039862387.htm" />
+        <HelpTOCNode Title="ProcessWatcher Constructor (tproc)" Url="html/17e890ad-a86e-c451-d60d-2e68bbb48ba0.htm" />
+        <HelpTOCNode Title="ProcessWatcher Constructor (tproc, tmr)" Url="html/5d5f3436-89df-6b39-2a65-900319f3bb00.htm" />
+        <HelpTOCNode Title="ProcessWatcher Constructor (tmr)" Url="html/0204c1d5-9a45-01f1-1206-21f76d644270.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BasePrioirty Property " Url="html/ce44315e-a138-e8e1-8d68-f6a1a38486fb.htm" />
+      <HelpTOCNode Title="Kill Method " Url="html/e5276a08-ba21-62e6-3208-0eb16d0aa06a.htm" />
+      <HelpTOCNode Title="Process Property " Url="html/9b1a6fef-a28b-7591-817a-1bf52275b429.htm" />
+      <HelpTOCNode Title="Start Method " Url="html/34fdd3cf-f4fa-9979-e65b-247565f38f1c.htm" />
+      <HelpTOCNode Title="Timer Property " Url="html/ba808f36-8b52-518f-eebf-db9723d21fc1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0eccebbc-44e9-4bc3-ac70-68784d74399e" Title="TaskManager Class" Url="html/8bb584f9-2327-34cf-f8f8-9f48462a3d02.htm">
+      <HelpTOCNode Title="TaskManager Constructor " Url="html/67650d10-a680-be41-b510-5f0983af7c7f.htm" />
+      <HelpTOCNode Title="AddProcessWatcher Method (pw)" Url="html/d5694c9f-4e98-edae-a56d-0f8f75b7fc3e.htm" />
+      <HelpTOCNode Title="FindProcesessByName Method (name)" Url="html/7a0a4dff-1ee2-9536-d988-0a7316595ffb.htm" />
+      <HelpTOCNode Title="FindProcessByName Method (name)" Url="html/ae1345b1-6023-e745-afe0-d410cdd562e5.htm" />
+      <HelpTOCNode Title="KillById Method (id)" Url="html/afb38e3c-07a2-b326-61ab-c36e46642664.htm" />
+      <HelpTOCNode Title="KillByName Method (name)" Url="html/47dbcba1-ff48-3f3f-4d9a-4958f16db480.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="edfa6623-997d-4cdf-a166-71c6a7a354a5" Title="Scrabler.Tools.Helpers.Hardware Namespace" Url="html/ea877e8c-0a88-e425-89aa-5c1d09ab3602.htm">
+    <HelpTOCNode Id="3e6aecf7-3b7c-4857-ac7b-191854ae5078" Title="Monitor Class" Url="html/732c7d5c-c8c0-329e-ba29-fa598b3f3c2e.htm">
+      <HelpTOCNode Title="Monitor Constructor " Url="html/64ace94b-7c47-b8d4-9cda-bceb8f16474d.htm" />
+      <HelpTOCNode Title="LockWorkStation Method " Url="html/3f9738d1-3800-1cfe-9f1d-180f3d42d6a5.htm" />
+      <HelpTOCNode Title="SendMessage Method (hWnd, Msg, wParam, lParam)" Url="html/b710316b-0fb1-e434-38f1-fb209d0f1205.htm" />
+      <HelpTOCNode Title="TurnOffMonitor Method (hwnd)" Url="html/28cb230c-7367-71aa-2a95-f0cf5834c6eb.htm" />
+      <HelpTOCNode Title="TurnOnMonitor Method (hwnd)" Url="html/cc301bc6-4c96-c73d-d471-2173b7239d7b.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e06920d6-5cb9-4df1-ae17-c47daa059633" Title="Scrabler.Tools.Helpers.Software Namespace" Url="html/5d37105a-e80d-346e-a638-14250d5b78fc.htm">
+    <HelpTOCNode Id="e50129eb-9422-4c32-a9da-4d5f73f73bd1" Title="SystemTime Class" Url="html/a82094d5-46d9-135e-e480-048a2133f89e.htm">
+      <HelpTOCNode Title="SystemTime Constructor " Url="html/b22a6793-70a6-34e3-7eee-e3e270a1c74b.htm" />
+      <HelpTOCNode Title="GetNetworkTime Method " Url="html/7b6e0422-465a-7455-bc33-3d03fd873d99.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,0 +1,51 @@
+﻿<project schemaVersion="1.6.0.7">
+    <assemblies>
+        <assembly assemblyPath="..\..\..\Hydrobase\Ver1.5\Hydrobase\bin\Release\Hydrobase.dll" xmlCommentsPath="..\..\..\Hydrobase\Ver1.5\Hydrobase\bin\Release\Hydrobase.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\..\..\HydrobaseSDK\Ver1.5\HydrobaseSDK\bin\Release\HydrobaseSDK.dll" xmlCommentsPath="..\..\..\HydrobaseSDK\Ver1.5\HydrobaseSDK\bin\Release\HydrobaseSDK.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\..\..\WareForms\WareForms\bin\Release\LocaleHundler.dll" xmlCommentsPath="" commentsOnly="False" />
+        <assembly assemblyPath=".\bin\Release\Scrabler.dll" xmlCommentsPath=".\bin\Release\Scrabler.XML" commentsOnly="False" />
+        <assembly assemblyPath="..\..\The Dark Owl Logger\The Dark Owl Logger\bin\Release\The Dark Owl Logger.dll" xmlCommentsPath="..\..\The Dark Owl Logger\The Dark Owl Logger\bin\Release\The Dark Owl Logger.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\..\..\WareForms\WareForms\bin\Release\WareForms.dll" xmlCommentsPath="" commentsOnly="False" />
+    </assemblies>
+    <ProjectSummary />
+    <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, Namespace, TypeParameter</MissingTags>
+    <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Protected, SealedProtected</VisibleItems>
+    <HtmlHelp1xCompilerPath path="" />
+    <HtmlHelp2xCompilerPath path="" />
+    <OutputPath>.\bin\Release\Help\</OutputPath>
+    <SandcastlePath path="" />
+    <WorkingPath path="" />
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <BuildLogFile path="" />
+    <HelpFileFormat>Website</HelpFileFormat>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <FrameworkVersion>2.0.50727</FrameworkVersion>
+    <IndentHtml>False</IndentHtml>
+    <Preliminary>False</Preliminary>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <RootNamespaceTitle />
+    <HelpTitle>A Scrabler  Class Library</HelpTitle>
+    <HtmlHelpName>Documentation</HtmlHelpName>
+    <Language>en-US</Language>
+    <CopyrightHref />
+    <CopyrightText />
+    <FeedbackEMailAddress />
+    <FeedbackEMailLinkText />
+    <HeaderText />
+    <FooterText />
+    <ProjectLinkType>Local</ProjectLinkType>
+    <SdkLinkType>Msdn</SdkLinkType>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <PresentationStyle>Prototype</PresentationStyle>
+    <NamingMethod>Guid</NamingMethod>
+    <SyntaxFilters>Standard</SyntaxFilters>
+    <ShowFeedbackControl>False</ShowFeedbackControl>
+    <BinaryTOC>True</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <CollectionTocStyle>Hierarchical</CollectionTocStyle>
+    <IncludeStopWordList>True</IncludeStopWordList>
+    <PlugInNamespaces>ms.vsipcc+, ms.vsexpresscc+</PlugInNamespaces>
+    <HelpFileVersion>1.0.0.0</HelpFileVersion>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+</project>

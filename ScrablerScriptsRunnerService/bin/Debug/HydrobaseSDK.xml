@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HydrobaseSDK</name>
+    </assembly>
+    <members>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> class.
+            </summary>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.#ctor(HydrobaseSDK.PluginCollectionASP)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> class containing the elements of the specified source collection.
+            </summary>
+            <param name="value">A <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> with which to initialize the collection.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.#ctor(HydrobaseSDK.GeneralPluginSDK[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> class containing the specified array of <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> objects.
+            </summary>
+            <param name="value">An array of <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> objects with which to initialize the collection. </param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.AddRange(HydrobaseSDK.GeneralPluginSDK[])">
+            <summary>
+            Copies the elements of the specified <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> array to the end of the collection.
+            </summary>
+            <param name="value">An array of type <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> containing the objects to add to the collection.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.AddRange(HydrobaseSDK.PluginCollectionASP)">
+            <summary>
+            Adds the contents of another <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> to the end of the collection.
+            </summary>
+            <param name="value">A <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> containing the objects to add to the collection. </param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.Contains(HydrobaseSDK.GeneralPluginSDK)">
+            <summary>
+            Gets a value indicating whether the collection contains the specified <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see>.
+            </summary>
+            <param name="value">The <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> to search for in the collection.</param>
+            <returns><b>true</b> if the collection contains the specified object; otherwise, <b>false</b>.</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.CopyTo(HydrobaseSDK.GeneralPluginSDK[],System.Int32)">
+            <summary>
+            Copies the collection objects to a one-dimensional <see cref="T:System.Array">Array</see> instance beginning at the specified index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array">Array</see> that is the destination of the values copied from the collection.</param>
+            <param name="index">The index of the array at which to begin inserting.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.ToArray">
+            <summary>
+            Creates a one-dimensional <see cref="T:System.Array">Array</see> instance containing the collection items.
+            </summary>
+            <returns>Array of type GeneralPluginSDK</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.IndexOf(HydrobaseSDK.GeneralPluginSDK)">
+            <summary>
+            Gets the index in the collection of the specified <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see>, if it exists in the collection.
+            </summary>
+            <param name="value">The <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> to locate in the collection.</param>
+            <returns>The index in the collection of the specified object, if found; otherwise, -1.</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.GetEnumerator">
+            <summary>
+            Returns an enumerator that can iterate through the <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> instance.
+            </summary>
+            <returns>An <see cref="T:HydrobaseSDK.PluginCollectionASP.PluginCollectionASPEnumerator">PluginCollectionASPEnumerator</see> for the <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> instance.</returns>
+        </member>
+        <member name="P:HydrobaseSDK.PluginCollectionASP.Item(System.Int32)">
+            <summary>
+            Gets the <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> at the specified index in the collection.
+            <para>
+            In C#, this property is the indexer for the <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> class.
+            </para>
+            </summary>
+        </member>
+        <member name="T:HydrobaseSDK.PluginCollectionASP.PluginCollectionASPEnumerator">
+            <summary>
+            Supports a simple iteration over a <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see>.
+            </summary>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.PluginCollectionASPEnumerator.#ctor(HydrobaseSDK.PluginCollectionASP)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollectionASP.PluginCollectionASPEnumerator">PluginCollectionASPEnumerator</see> class referencing the specified <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> object.
+            </summary>
+            <param name="mappings">The <see cref="T:HydrobaseSDK.PluginCollectionASP">PluginCollectionASP</see> to enumerate.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.PluginCollectionASPEnumerator.MoveNext">
+            <summary>
+            Advances the enumerator to the next element of the collection.
+            </summary>
+            <returns><b>true</b> if the enumerator was successfully advanced to the next element; <b>false</b> if the enumerator has passed the end of the collection.</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollectionASP.PluginCollectionASPEnumerator.Reset">
+            <summary>
+            Sets the enumerator to its initial position, which is before the first element in the collection.
+            </summary>
+        </member>
+        <member name="P:HydrobaseSDK.PluginCollectionASP.PluginCollectionASPEnumerator.Current">
+            <summary>
+            Gets the current element in the collection.
+            </summary>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> class.
+            </summary>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.#ctor(HydrobaseSDK.PluginCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> class containing the elements of the specified source collection.
+            </summary>
+            <param name="value">A <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> with which to initialize the collection.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.#ctor(HydrobaseSDK.GeneralPluginSDK[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> class containing the specified array of <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> objects.
+            </summary>
+            <param name="value">An array of <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> objects with which to initialize the collection. </param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.AddRange(HydrobaseSDK.GeneralPluginSDK[])">
+            <summary>
+            Copies the elements of the specified <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> array to the end of the collection.
+            </summary>
+            <param name="value">An array of type <see cref="T:HydrobaseSDK.GeneralPluginSDK">GeneralPluginSDK</see> containing the objects to add to the collection.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.AddRange(HydrobaseSDK.PluginCollection)">
+            <summary>
+            Adds the contents of another <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> to the end of the collection.
+            </summary>
+            <param name="value">A <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> containing the objects to add to the collection. </param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.Contains(HydrobaseSDK.GeneralPluginSDK)">
+            <summary>
+            Gets a value indicating whether the collection contains the specified <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see>.
+            </summary>
+            <param name="value">The <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> to search for in the collection.</param>
+            <returns><b>true</b> if the collection contains the specified object; otherwise, <b>false</b>.</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.CopyTo(HydrobaseSDK.GeneralPluginSDK[],System.Int32)">
+            <summary>
+            Copies the collection objects to a one-dimensional <see cref="T:System.Array">Array</see> instance beginning at the specified index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array">Array</see> that is the destination of the values copied from the collection.</param>
+            <param name="index">The index of the array at which to begin inserting.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.ToArray">
+            <summary>
+            Creates a one-dimensional <see cref="T:System.Array">Array</see> instance containing the collection items.
+            </summary>
+            <returns>Array of type GeneralPluginSDK</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.IndexOf(HydrobaseSDK.GeneralPluginSDK)">
+            <summary>
+            Gets the index in the collection of the specified <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see>, if it exists in the collection.
+            </summary>
+            <param name="value">The <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> to locate in the collection.</param>
+            <returns>The index in the collection of the specified object, if found; otherwise, -1.</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.GetEnumerator">
+            <summary>
+            Returns an enumerator that can iterate through the <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> instance.
+            </summary>
+            <returns>An <see cref="T:HydrobaseSDK.PluginCollection.PluginCollectionEnumerator">PluginCollectionEnumerator</see> for the <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> instance.</returns>
+        </member>
+        <member name="P:HydrobaseSDK.PluginCollection.Item(System.Int32)">
+            <summary>
+            Gets the <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> at the specified index in the collection.
+            <para>
+            In C#, this property is the indexer for the <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> class.
+            </para>
+            </summary>
+        </member>
+        <member name="T:HydrobaseSDK.PluginCollection.PluginCollectionEnumerator">
+            <summary>
+            Supports a simple iteration over a <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see>.
+            </summary>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.PluginCollectionEnumerator.#ctor(HydrobaseSDK.PluginCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HydrobaseSDK.PluginCollection.PluginCollectionEnumerator">PluginCollectionEnumerator</see> class referencing the specified <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> object.
+            </summary>
+            <param name="mappings">The <see cref="T:HydrobaseSDK.PluginCollection">PluginCollection</see> to enumerate.</param>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.PluginCollectionEnumerator.MoveNext">
+            <summary>
+            Advances the enumerator to the next element of the collection.
+            </summary>
+            <returns><b>true</b> if the enumerator was successfully advanced to the next element; <b>false</b> if the enumerator has passed the end of the collection.</returns>
+        </member>
+        <member name="M:HydrobaseSDK.PluginCollection.PluginCollectionEnumerator.Reset">
+            <summary>
+            Sets the enumerator to its initial position, which is before the first element in the collection.
+            </summary>
+        </member>
+        <member name="P:HydrobaseSDK.PluginCollection.PluginCollectionEnumerator.Current">
+            <summary>
+            Gets the current element in the collection.
+            </summary>
+        </member>
+    </members>
+</doc>

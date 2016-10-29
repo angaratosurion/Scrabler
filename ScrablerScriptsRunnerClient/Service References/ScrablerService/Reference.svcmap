@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cedf9bf3-4414-42ae-89e1-9a640eee65ee" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ArrayList" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8730/ScrablerService/Service/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ScrablerService.wsdl" MetadataType="Wsdl" ID="90f6ea2a-3fac-4ded-ba80-52f06fb3f432" SourceId="1" SourceUrl="http://localhost:8730/ScrablerService/Service/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="9fbdc12b-f737-43bd-b2ed-aa8a5b330559" SourceId="1" SourceUrl="http://localhost:8730/ScrablerService/Service/mex" />
+    <MetadataFile FileName="ScrablerService.xsd" MetadataType="Schema" ID="c5600e88-43db-4ae7-84f0-71eee1dfca2c" SourceId="1" SourceUrl="http://localhost:8730/ScrablerService/Service/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="6d1f4846-2638-416c-bde3-bc372532cf0d" SourceId="1" SourceUrl="http://localhost:8730/ScrablerService/Service/mex" />
+    <MetadataFile FileName="Scrabler.xsd" MetadataType="Schema" ID="c14e8260-157b-4101-9af4-0a5306c06c52" SourceId="1" SourceUrl="http://localhost:8730/ScrablerService/Service/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

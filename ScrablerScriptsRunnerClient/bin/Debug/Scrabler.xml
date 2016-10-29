@@ -1,0 +1,1055 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Scrabler</name>
+    </assembly>
+    <members>
+        <member name="T:Scrabler.AssemblyCollection">
+            <summary>
+            This is a colleection of assebly type that the scripts will be save aftet their 
+            execution.
+             @authorKiparissis Koutsioukis(Angarato Surion)
+            </summary>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.Add(System.Reflection.Assembly,Scrabler.ScriptInfo)">
+            <summary>
+            Adds given assembly to the collection
+            </summary>
+            <param name="assembly">given assembly</param>
+            <param name="scrinf"> script's info</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Scrabler.AssemblyCollection.AddRange(System.Reflection.Assembly[],Scrabler.ScriptInfo[])" -->
+        <member name="M:Scrabler.AssemblyCollection.IndexOf(System.Reflection.Assembly)">
+            <summary>
+            returns the index of the given assembly
+            or a value lower than 0 when an error occurs or nothing happened
+            </summary>
+            <param name="assmbly">the assembly that we saerch for</param>
+            <returns>returns the index of the given assembly
+            or a value lower than 0 when an error occurs or nothing happened</returns>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.Remove(System.Reflection.Assembly)">
+            <summary>
+            Removes given assembly from colelction
+            </summary>
+            <param name="assembly">assembly that is to be removed</param>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.Contains(System.Reflection.Assembly)">
+            <summary>
+            checks if the given assembly exists 
+            returns true if exists or false if doesnt
+            </summary>
+            <param name="assembly">assembly we search for</param>
+            <returns>returns true if exists or false if doesnt</returns>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.Contains(System.String)">
+            <summary>
+            checks if exists any assmbly with the given namespace
+            returns true if exists or false if doesnt
+            </summary>
+            <param name="nameSpace">the namespace of the assembly that we search for</param>
+            <returns>returns true if exists or false if doesnt</returns>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.IndexOf(System.String)">
+            <summary>
+            Returns the index of the assembly with the given namespace
+            or a value lower than zero wehn doesnt exists 
+            </summary>
+            <param name="nameSpace">the namespace of the assembly that we search for</param>
+            <returns>Returns the index of the assembly with the given namespace
+            or a value lower than zero wehn doesnt exists</returns>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.GetItem(System.Int32)">
+            <summary>
+            Returns the assembly form the given index
+            or null if doesnt exist or an error occured
+            </summary>
+            <param name="index">index in the collection that the assembly exists</param>
+            <returns> Returns the assembly form the given index
+            or null if doesnt exist or an error occured</returns>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.GetItem(System.String)">
+            <summary>
+             Returns the assembly form the given namespace
+            or null if doesnt exist or an error occured
+            </summary>
+            <param name="Namespace">the namespace of the assembly that we search for</param>
+            <returns>Returns the assembly form the given namespace
+            or null if doesnt exist or an error occured</returns>
+        </member>
+        <member name="M:Scrabler.AssemblyCollection.ScriptInfoCollection">
+            <summary>
+            Returns the information of  loaded scripts
+            </summary>
+            <returns>Returns the information of  loaded scripts</returns>
+        </member>
+        <member name="F:Scrabler.Controls.ConsoleBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Scrabler.Controls.ConsoleBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Scrabler.Controls.ConsoleBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Scrabler.ErrorWindow.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Scrabler.ErrorWindow.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Scrabler.ErrorWindow.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Scrabler.IDE.ScriptEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Scrabler.IDE.ScriptEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Scrabler.IDE.ScriptEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Scrabler.LoadedScripts.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Scrabler.LoadedScripts.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Scrabler.LoadedScripts.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Scrabler.ScrablerPluginsLoader">
+            <summary>
+            Class which loads the plugins for scrabler
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.#ctor">
+            <summary>
+            Class which loads the plugins for scrabler
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.Create(System.Object,System.Object,System.Xml.XmlNode)">
+            <summary>
+            Iterate through all the child nodes
+            of the XMLNode that was passed in and create instances
+            of the specified Types by reading the attribite values of the nodes
+            we use a try/Catch here because some of the nodes
+            might contain an invalid reference to a ScrablerPlugin type
+            </summary>
+            <param name="parent"></param>
+            <param name="configContext"></param>
+            <param name="section">The XML section we will iterate against</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.GetScrablerPluginsLoaderVersion">
+            <summary>
+            Gets the SDK's Version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.FindAScrablerPlugin(Scrabler.ScrablerPluginCollection,System.String)">
+            <summary>
+            finds a plugin in the loaded plugins collection
+            </summary>
+            <param name="plugColl">collections whichs keeps the plugins</param>
+            <param name="ScrablerPluginName">name of the plugin which you are looking for.</param>
+            <returns>the plugin you are looking for</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.ExistScrablerPlugin(Scrabler.ScrablerPluginCollection,System.String)">
+            <summary>
+            checks if a plugin exist in the given colelction with name.
+            </summary>
+            <param name="plugColl">plugin collection</param>
+            <param name="ScrablerPluginName">name of the plugin</param>
+            <returns>true if it exists</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.ExistScrablerPluginStartsWith(Scrabler.ScrablerPluginCollection,System.String)">
+            <summary>
+            checks if a plugin exist in the given colelction with which starts with the given  name.
+            </summary>
+            <param name="plugColl">plugin collection</param>
+            <param name="ScrablerPluginName">name of the plugin</param>
+            <returns>true if it exists</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.ClearScrablerPluginsCollection(Scrabler.ScrablerPluginCollection)">
+            <summary>
+            Clears the given plugin collection
+            </summary>
+            <param name="plugcoll">plugin colelction to be cleared</param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.DeleteSelectedScrablerPlugin(Scrabler.ScrablerPluginCollection,System.String)">
+            <summary>
+            Deleted the plugin with the given name
+            </summary>
+            <param name="plugcoll">plugins colelction</param>
+            <param name="plugname">name of plugin</param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginsLoader.CopyScrablerPlugin(Scrabler.ScrablerPluginCollection,Scrabler.ScrablerPluginCollection,System.String)">
+            <summary>
+            Copies the plugin with the given name from on plugin collection to other one
+            </summary>
+            <param name="source">source plugin colelction</param>
+            <param name="target">target plugin collection</param>
+            <param name="plugname">name of plugin name</param>        
+        </member>
+        <member name="F:Scrabler.Program.Bugger">
+            <summary>
+            The main entry point for the application.
+            </summary>
+            
+        </member>
+        <member name="F:Scrabler.Program.MainForm">
+            <summary>
+            The value that has the gui of the excutiing application.
+            </summary>
+        </member>
+        <member name="M:Scrabler.Program.Bugtracking(System.Exception)">
+            <summary>
+            Handling of the exception
+            </summary>
+            <param name="e">Execption</param>
+        </member>
+        <member name="T:Scrabler.Replacer">
+            <summary>
+            Replaces Some specific definisions with given values.
+             @authorKiparissis Koutsioukis(Angarato Surion)
+            </summary>
+        </member>
+        <member name="T:Scrabler.ScrablerInstaller">
+            <summary>
+            The class that handles the installation of the scripts
+             @authorKiparissis Koutsioukis(Angarato Surion)
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerInstaller.Install(System.String,System.String)">
+            <summary>
+            this method will install the given script to the script folder
+            and copy the dll neede by the sript to the needed folder
+            </summary>
+            <param name="script_Archfilename">the full path of the script </param>
+            <param name="installfolder_scriptanddll">the path that
+            script and dll wll be installed</param>
+        </member>
+        <member name="M:Scrabler.ScrablerInstaller.CheckIfdllNeedToBeInstalled(System.String,System.String)">
+            <summary>
+            This checks if the reference has been tagged as a dll that doesnt belong
+            to the application and returns the new path
+            that the dll will have.
+            </summary>
+            <param name="ref_dll">the given reference</param>
+            <param name="dllinstalltionfolder">the folder that all script's dll 
+            will be</param>
+            <returns>returns the new path
+            that the dll will have</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerInstaller.CopyProcessReference(System.CodeDom.Compiler.CompilerParameters,System.String)">
+            <summary>
+            Copies all process's references to given folder
+            </summary>
+            <param name="cp">parameters of the given compiler</param>
+            <param name="path">path to be copied</param>
+        </member>
+        <member name="F:Scrabler.Replacer.replacemanettag">
+            <summary>
+            The tag that indicates that this const mst be replaced
+            </summary>
+        </member>
+        <member name="M:Scrabler.Replacer.findandreplaceDefinedConsts(System.String,System.String,System.String)">
+            <summary>
+            Search and replaces the defined consts with their values
+            </summary>
+            <param name="source">the source of the script</param>
+            <param name="filter"> the array with the consts</param>
+            <param name="replacewith">the array with values</param>
+            <returns> the code with the values  of the consts</returns>
+        </member>
+        <member name="M:Scrabler.Replacer.findandreplaceSymbols(System.String)">
+            <summary>
+            Search and replaces the defined symbols with their values that doesnt work in xml files
+            
+            </summary>
+            <param name="source">the source of the script</param>
+            <returns>Search and replaces the defined symbols with their values that doesnt work in xml files
+            and retrunrs the result
+            </returns>
+        </member>
+        <member name="T:Scrabler.ScrablerCore">
+            <summary>
+            The core of This library that does the most job..<br/>
+            TODO: To implement the ability to run vb.net code.
+            
+            @authorKiparissis Koutsioukis(Angarato Surion)
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.references">
+            <summary>
+            The const that has the tag that refers to the references needed
+            for the script to run.
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.execution_func">
+            <summary>
+            The const that has the tag that refers to the 
+            function that is to be executed.
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.namespacetag">
+            <summary>
+            The const that has the tag that refers to the 
+            namespace that the code in the script .
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.classtag">
+            <summary>
+            The const that has the tag that refers to the 
+            class that the code in the script .
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.Code">
+            <summary>
+            The const that has the tag that refers to the 
+            class that  code exists .
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.Author">
+            <summary>
+            The const that has the tag that refers to the 
+            author of the script
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.VersionTag">
+            <summary>
+             The const that has the tag that refers to the 
+            version of the script
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.Description">
+            <summary>
+             The const that has the tag that refers to the 
+            description of the script
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.Copyright">
+            <summary>
+             The const that has the tag that refers to the 
+            copyright holder of the script
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.LowerApplicationVersionTag">
+            <summary>
+             The const that has the tag that refers to the lowest
+            version of the application that will run on.
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.MaxApplicationVersionTag">
+            <summary>
+            The maximum version of the application that is written for.
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.Scrabler_VersionTag">
+             <summary>
+             The Versionof the Scrabler version that is able to run the script.
+             </summary>   
+             
+            
+        </member>
+        <member name="F:Scrabler.ScrablerCore.LangTag">
+            <summary>
+            the [rpgraming language that scrabler script is writen on
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.defsett">
+            <summary>
+            The core of This library that does the most job..
+            </summary>
+            
+        </member>
+        <member name="M:Scrabler.ScrablerCore.#ctor(Scrabler.enumScriptRuningMode)">
+            <summary>
+            This constractor inititalisizes Scrabler in the given mode
+            </summary>
+            <param name="runingmode">this enum changes the execution mode of the scripts </param>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.#ctor">
+            <summary>
+            Default Constractor
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.AssemblyCol">
+            <summary>
+            The Collection of all assemblies created by the executed scripts.
+            
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.replacer">
+            <summary>
+            This keeps the dataset of that the script's info are saved.
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetExeCutingApplicationVersion(System.Reflection.Assembly)">
+            <summary>
+            Gets the assembly of the executing applicaion and takes the version
+            </summary>
+            <param name="app">The assemply of the executing application</param>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetVersion">
+            <summary>
+            Returns the version of the Library
+            </summary>
+            <returns> Returns the version of the Library</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetReferences(System.Data.DataSet)">
+            <summary>
+             Returns the References of the Script
+            or null in error or nothing happened
+            Note:This works only at normal Mode
+            </summary>
+            <param name="set">the dataset that 1st datatable 
+            that has the the info and the code of the script</param>
+            <returns>Returns the References of the Script 
+            or null in error or nothing happened</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetNameSace(System.Data.DataSet)">
+            <summary>
+            Returns the Namespace of the Script
+            or null in error or nothing happened
+            Note:This works only at normal Mode
+            </summary>
+            <param name="set">the dataset that 1st datatable 
+            that has the the info and the code of the script</param>
+            <returns>Returns the Namespace of the Script
+            or null in error or nothing happened</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetClass(System.Data.DataSet)">
+            <summary>
+            Returns the Class of the Script
+            or null in error or nothing happened
+            </summary>
+            <param name="set">the dataset that 1st datatable 
+            that has the the info and the code of the script</param>
+            <returns>Returns the Class of the Script
+            or null in error or nothing happened</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetFunction(System.Data.DataSet)">
+            <summary>
+            Returns the function of the Script that will be executed
+            or null in error or nothing happened
+            Note:This works only at normal Mode
+            </summary>
+            <param name="set">the dataset that 1st datatable 
+            that has the the info and the code of the script</param>
+            <returns>Returns the function of the Script rgar will be executed
+            or null in error or nothing happened</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetLanguage(System.Data.DataSet)">
+            <summary>
+            /// Returns the language that  the Script is written
+             or null in error or nothing happened
+            Note:This works only at normal Mode
+            </summary>
+            <param name="set">the dataset that 1st datatable 
+            that has the the info and the code of the script</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetCode(System.Data.DataSet)">
+            <summary>
+            Returns the code of the Script 
+            or null in error or nothing happened
+            Note:This works only at normal Mode
+            </summary>
+            <param name="set">the dataset that 1st datatable 
+            that has the the info and the code of the script</param>
+            <returns>Returns the code of the Script 
+            or null in error or nothing happened</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.GetScriptInfo(System.Data.DataSet)">
+            <summary>
+            Returns the information of the script
+            or null in error or nothing happened
+            Note:This works only at normal Mode
+            </summary>
+            <param name="set">the dataset that 1st datatable 
+            that has the the info and the code of the script</param>
+            <returns>Returns the information of the script
+            or null in error or nothing happened</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.ReadScript(System.String,WareForms.WareForm)">
+            <summary>
+            Reads the given file and execute the script
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="filename">the name of the file that has the script</param>
+            <param name="gui">the gui of the application that will
+            execute the script
+            </param>
+            <returns>Reads the given file and execute the script
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.ReadScript(System.String)">
+            <summary>
+            Reads the given file and execute the script
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="filename">the name of the file that has the script</param>
+            <returns>Reads the given file and execute the script
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Scrabler.ScrablerCore.ReadScriptAndInstall(System.String,System.String)" -->
+        <member name="M:Scrabler.ScrablerCore.ReadScript(System.String,System.Boolean)">
+            <summary>
+            Reads the given file and execute the script
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="filename">the name of the file that has the script</param>
+            <param name="dontExecute">Put true to load the script without to execute it</param>
+            <returns>Reads the given file and execute the script
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.ReadScriptInLightMode(System.String)">
+            <summary>
+            reads and executes only Scripts written to be executed in light mode
+            </summary>
+            <param name="filename">he name of the file that has the script</param>
+            <returns>Reads the given file and execute the script
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.checkCompatibility(Scrabler.ScriptInfo)">
+            <summary>
+            checks  the script's  Compatibility and returns true when it is
+            or flase when it isnt or an error occured
+            </summary>
+            <param name="scrinf">the class tht has the info of the script</param>
+            <returns>returns true when it is
+            or flase when it isnt or an error occured</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.Eval(System.String,System.String,System.String,System.String,System.String,System.String[],Scrabler.ScriptInfo)">
+            <summary>
+            Executes the code that is saved in the sCSCode
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="sCSCode">here put the code</param>
+            <param name="scriptname">name of  the sctipt</param>
+            <param name="NameSapce">the namespace that class
+            of the script belongs</param>
+            <param name="Clas">the class of the script</param>
+            <param name="func">the func that s to be executed</param>
+            <param name="refs">the references that </param>
+            <param name="scrinf">Class that has info about script</param>
+            <returns>and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.EvalAndSave(System.String,System.String,System.String,System.String,System.String,System.String[],Scrabler.ScriptInfo,System.String)">
+            <summary>
+            Executes the code that is saved in the sCSCode
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="scriptname">name of  the sctipt</param>
+            <param name="NameSapce">the namespace that class
+            of the script belongs</param>
+            <param name="Clas">the class of the script</param>
+            <param name="func">the func that s to be executed</param>
+            <param name="refs">the references that </param>
+            <param name="scrinf">Class that has info about script</param>
+            <param name="path">path that process wil be saved </param>
+            <returns>Returns the new path of the compiled executable/process</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.Eval(System.String)">
+            <summary>
+            Put in the argument a c# without  to be in class or namespace and execute it
+            
+            </summary>
+            <param name="sCSCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.EvalWithParams(System.String,System.String,System.String,System.String,System.String,System.String[],WareForms.WareForm,Scrabler.ScriptInfo)">
+            <summary>
+            Executes the code that is saved in the sCSCode
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="sCSCode">here put the code</param>
+            <param name="scriptname">name of  the sctipt</param>
+            <param name="NameSapce">the namespace that class
+            of the script belongs</param>
+            <param name="Clas">the class of the script</param>
+            <param name="func">the func that s to be executed</param>
+            <param name="winGUI">the gui of the app that executes the scripts</param>
+             <param name="scrinf">the class tht has the info of the script</param>
+            <returns>Executes the code that is saved in the sCSCode
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.SetReferences(System.Data.DataSet,System.String,System.String)">
+            <summary>
+            This method sets the references o the script with the given name
+            if the references is marked as non of application's or .net2 frameworks
+            itputs as its path the contents of the scriptsreffolder variable
+            </summary>
+            <param name="set">the dataset that the content of the script will be saved.</param>
+            <param name="scriptsreffolder">the folder that will be putted as path for
+            the reference thatdoesnt belong to neither application and .net2 </param>
+            <param name="scriptfilename">the path of the script</param>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.SaveScript(System.String,System.String,System.String,System.String,System.String,System.String,Scrabler.ScriptInfo)">
+            <summary>
+            Save the Script with the given file name
+            </summary>
+            <param name="filename">path that srcpt will be saved</param>
+            <param name="code">the code of the scrpt</param>
+            <param name="refer">the references</param>
+             <param name="namespc"> The name space of executed code</param>
+            <param name="execfunc">function to be executed</param>
+            <param name="execclass">The name of the class that will be executed</param>
+            <param name="info">the scripts info</param>
+        </member>
+        <member name="T:Scrabler.ScrablerDefSettings">
+            <summary>
+            Scrabler default settings managment class
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerDefSettings.Readconfig">
+            <summary>
+            Read the default configuration of scrabler library
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerDefSettings.CreateConfig">
+            <summary>
+            Creates the default configuration of the scrabler library
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> class.
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.#ctor(Scrabler.ScrablerPluginCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> class containing the elements of the specified source collection.
+            </summary>
+            <param name="value">A <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> with which to initialize the collection.</param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.#ctor(Scrabler.ScrablerPluginSDK[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> class containing the specified array of <see cref="T:Scrabler.ScrablerPluginSDK">ScrablerPluginSDK</see> objects.
+            </summary>
+            <param name="value">An array of <see cref="T:Scrabler.ScrablerPluginSDK">ScrablerPluginSDK</see> objects with which to initialize the collection. </param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.AddRange(Scrabler.ScrablerPluginSDK[])">
+            <summary>
+            Copies the elements of the specified <see cref="T:Scrabler.ScrablerPluginSDK">ScrablerPluginSDK</see> array to the end of the collection.
+            </summary>
+            <param name="value">An array of type <see cref="T:Scrabler.ScrablerPluginSDK">ScrablerPluginSDK</see> containing the objects to add to the collection.</param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.AddRange(Scrabler.ScrablerPluginCollection)">
+            <summary>
+            Adds the contents of another <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> to the end of the collection.
+            </summary>
+            <param name="value">A <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> containing the objects to add to the collection. </param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.Contains(Scrabler.ScrablerPluginSDK)">
+            <summary>
+            Gets a value indicating whether the collection contains the specified <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see>.
+            </summary>
+            <param name="value">The <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> to search for in the collection.</param>
+            <returns><b>true</b> if the collection contains the specified object; otherwise, <b>false</b>.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.CopyTo(Scrabler.ScrablerPluginSDK[],System.Int32)">
+            <summary>
+            Copies the collection objects to a one-dimensional <see cref="T:System.Array">Array</see> instance beginning at the specified index.
+            </summary>
+            <param name="array">The one-dimensional <see cref="T:System.Array">Array</see> that is the destination of the values copied from the collection.</param>
+            <param name="index">The index of the array at which to begin inserting.</param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.ToArray">
+            <summary>
+            Creates a one-dimensional <see cref="T:System.Array">Array</see> instance containing the collection items.
+            </summary>
+            <returns>Array of type ScrablerPluginSDK</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.IndexOf(Scrabler.ScrablerPluginSDK)">
+            <summary>
+            Gets the index in the collection of the specified <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see>, if it exists in the collection.
+            </summary>
+            <param name="value">The <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> to locate in the collection.</param>
+            <returns>The index in the collection of the specified object, if found; otherwise, -1.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.GetEnumerator">
+            <summary>
+            Returns an enumerator that can iterate through the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> instance.
+            </summary>
+            <returns>An <see cref="T:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator">ScrablerPluginCollectionEnumerator</see> for the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> instance.</returns>
+        </member>
+        <member name="P:Scrabler.ScrablerPluginCollection.Item(System.Int32)">
+            <summary>
+            Gets the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> at the specified index in the collection.
+            <para>
+            In C#, this property is the indexer for the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> class.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator">
+            <summary>
+            Supports a simple iteration over a <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see>.
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.#ctor(Scrabler.ScrablerPluginCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator">ScrablerPluginCollectionEnumerator</see> class referencing the specified <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> object.
+            </summary>
+            <param name="mappings">The <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> to enumerate.</param>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.MoveNext">
+            <summary>
+            Advances the enumerator to the next element of the collection.
+            </summary>
+            <returns><b>true</b> if the enumerator was successfully advanced to the next element; <b>false</b> if the enumerator has passed the end of the collection.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.Reset">
+            <summary>
+            Sets the enumerator to its initial position, which is before the first element in the collection.
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.Current">
+            <summary>
+            Gets the current element in the collection.
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerV2.scriptext">
+            <summary>
+            Xml-file which includes the info for the scrabler script
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerV2.ReadScript(System.String,WareForms.WareForm)">
+            <summary>
+             Reads the xmlfile containing the information of the script  executes it
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="scriptname">the full path in which the script's directory is located</param>
+            <param name="gui">the gui of the application that will
+            execute the script</param>
+            <returns>the assembly which is the result of the executed script</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerV2.ReadScript2(System.String)">
+            <summary>
+            Reads the xmlfile containing the information of the script  executes it
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="scriptname">the full path in which the script's directory is located</param>
+            <returns>the assembly which is the result of the executed script</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerV2.Eval2(System.String[],System.String,System.String,System.String,System.String,System.String[],Scrabler.ScriptInfo)">
+            <summary>
+            Executes the code that is saved in the sCSCode
+            and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.
+            </summary>
+            <param name="sCSCode">here put the code</param>
+            <param name="scriptname">name of  the sctipt</param>
+            <param name="NameSapce">the namespace that class
+            of the script belongs</param>
+            <param name="Clas">the class of the script</param>
+            <param name="func">the func that s to be executed</param>
+            <param name="refs">the references that </param>
+            <param name="scrinf">Class that has info about script</param>
+            <returns>and returns the assembly if the script is being 
+            excuted or null if no ecript executed or an error occures.</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerV2.SaveErrorrs(System.CodeDom.Compiler.CompilerErrorCollection)">
+            <summary>
+            Saves all the compilation erros  in a file at application's installation folder
+            </summary>
+            <param name="compilererrcol"></param>
+        </member>
+        <member name="T:Scrabler.ScriptInfo">
+            <summary>
+            This class keeps the info the script
+             @authorKiparissis Koutsioukis(Angarato Surion)
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.Title">
+            <summary>
+            The title of the script
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.Author">
+            <summary>
+            The author of the script
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.Version">
+            <summary>
+            Version of the script
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.Description">
+            <summary>
+            Description of the script
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.Language">
+            <summary>
+            Programing language that script is written
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.Copyright">
+            <summary>
+            Copyright info of the script
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.LowerApplicationVersion">
+            <summary>
+            The lowest version that the script is written for.
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.MaxApplicationVersion">
+            <summary>
+            The maximum version of the application that is written for.
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.ScrablerVersion">
+            <summary>
+            The Version of the Scrabler version that is able to run the script.
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptInfo.Filename">
+            <summary>
+            The filename of the script
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScriptRepo.#ctor">
+            <summary>
+            Default constracotr
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScriptRepo.#ctor(System.String)">
+            <summary>
+            Constracts and gives the initial values for script repository to work
+            </summary>
+            <param name="mainfold">folder of script repo will be installe</param>
+        </member>
+        <member name="M:Scrabler.ScriptRepo.Init(System.String)">
+            <summary>
+            Init the script repo options
+            </summary>
+            <param name="mainfolder">folder of script repo will be installed</param>
+        </member>
+        <member name="M:Scrabler.ScriptRepo.ClearTempfolder">
+            <summary>
+            Clears the Temp directory
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScriptRepo.Executables">
+            <summary>
+            Returns the full path of the executable filles in script repository
+            </summary>
+            <returns>Returns the full path of the executable filles in script repository
+            null on fail </returns>
+        </member>
+        <member name="P:Scrabler.ScriptRepo.Temp">
+            <summary>
+            Set or returns the path of the temp folder
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptRepo.Repository">
+            <summary>
+            Set or returns the path of the script repository  folder
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptRepo.Binaryfolder">
+            <summary>
+            The folder of binariy files in repo
+            </summary>
+        </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.createNewTabSession">
+            <summary>
+            Creates a new session of console
+            </summary>
+        </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.CloseSession">
+            <summary>
+            Closes the active  session
+            </summary>
+        </member>
+        <member name="F:Scrabler.Controls.TabConsoleControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Scrabler.Tools.Helpers.Hardware.Monitor">
+            <summary>
+            PC Monitor(win32 api) helper class
+            </summary>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.Monitor.TurnOffMonitor(System.Int32)">
+            <summary>
+            Turns off the pc monitor
+            </summary>
+            <param name="hwnd"></param>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.Monitor.TurnOnMonitor(System.Int32)">
+            <summary>
+            Turns on the monitor
+            </summary>
+            <param name="hwnd"></param>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Software.SystemTime.GetNetworkTime">
+            <summary>
+            Gets conencts to the network and receives  the current time.
+            </summary>
+            <returns>Current time and date offered by the internet time servers</returns>
+        </member>
+        <member name="T:Scrabler.Tools.ProcessWatcher">
+            <summary>
+            A class made ot watch over a process
+            </summary>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.#ctor(System.Timers.Timer)">
+            <summary>
+            It creates the process watcher class and takes a timer class
+            </summary>
+            <param name="tmr">timer witch you want to use</param>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.#ctor(System.Diagnostics.Process)">
+            <summary>
+            Creates the processwatcher class for the given process to watch over 
+            </summary>
+            <param name="tproc">process to watch over</param>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.#ctor(System.Diagnostics.Process,System.Timers.Timer)">
+            <summary>
+             Creates the processwatcher class for the given process to watch over  and a timer
+            </summary>
+            <param name="tproc">process to watch over</param>
+            <param name="tmr">timer witch you want to use</param>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.Kill">
+            <summary>
+            kills the process whitch it watches
+            
+            </summary>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.Start">
+            <summary>
+            Starts the process it watches
+            </summary>
+            <returns>Starts the process it watches and returns true on succes</returns>
+        </member>
+        <member name="P:Scrabler.Tools.ProcessWatcher.BasePrioirty">
+            <summary>
+            Returns prioritty of the process
+            </summary>
+        </member>
+        <member name="P:Scrabler.Tools.ProcessWatcher.Process">
+            <summary>
+            Returns or sets the proecces
+            </summary>
+        </member>
+        <member name="P:Scrabler.Tools.ProcessWatcher.Timer">
+            <summary>
+            gets or sets the timer
+            </summary>
+        </member>
+        <member name="T:Scrabler.Tools.TaskManager">
+            <summary>
+            Manages the tasks which are controled by thr processwatcher classes
+            processes here mean compiled scripts.
+            </summary>
+        </member>
+        <member name="M:Scrabler.Tools.TaskManager.FindProcessByName(System.String)">
+            <summary>
+            Find process (compiled scripts) byit's  name and returns it
+            </summary>
+            <param name="name">name of process</param>
+            <returns>Find process by its name and returns it</returns>
+        </member>
+        <member name="M:Scrabler.Tools.TaskManager.FindProcesessByName(System.String)">
+            <summary>
+            Find all process (compiled scripts) with the  name and returns it
+            </summary>
+            <param name="name">>Find process by its name and returns it</param>
+            <returns>Find all process (compiled scripts) with the  name and returns it</returns>
+        </member>
+        <member name="M:Scrabler.Tools.TaskManager.KillByName(System.String)">
+            <summary>
+            Kill (compiled script) with the given name
+            </summary>
+            <param name="name">name of the process (compiled script)</param>
+            <returns>true if succesfully killed the  proecess(compiled script)</returns>
+        </member>
+        <member name="M:Scrabler.Tools.TaskManager.KillById(System.Int32)">
+            <summary>
+            Kill (compiled script) with the given id
+            </summary>
+            <param name="id">id of the (process (compiled script)</param>
+            <returns>true if succesfully killed the  proecess(compiled script)</returns>
+        </member>
+        <member name="M:Scrabler.Tools.TaskManager.AddProcessWatcher(Scrabler.Tools.ProcessWatcher)">
+            <summary>
+            Adds a proccesswatcher to the taskmanager list
+            </summary>
+            <param name="pw">processwatcher object</param>
+            <returns>true if it succeds</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,84 @@
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.exe
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.exe
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\Hydrobase.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\HydrobaseSDK.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\HydroBugger.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\Scrabler.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\WareForms.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\Ini.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\Scrabler.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\HydroBugger.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\Hydrobase.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\WareForms.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\HydrobaseSDK.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Release\ResolveAssemblyReference.cache
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.AddAllias.resources
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.MesageConsole.resources
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.Properties.Resources.resources
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csproj.GenerateResource.Cache
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\LocaleHundler.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Release\LocaleHundler.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.exe.config
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.exe
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Hydrobase.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\HydrobaseSDK.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Scrabler.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\The Dark Owl Logger.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ICSharpCode.TextEditor.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\NLog.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\LocaleHundler.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Scrabler.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Scrabler.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Hydrobase.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\HydrobaseSDK.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\HydrobaseSDK.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\The Dark Owl Logger.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\The Dark Owl Logger.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\WareForms.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\NLog.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\LocaleHundler.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\el-GR\Scrabler.resources.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\en\Scrabler.resources.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ResolveAssemblyReference.cache
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.AddAllias.resources
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.MesageConsole.resources
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.Properties.Resources.resources
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\GenerateResource.read.1.tlog
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\GenerateResource.write.1.tlog
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.exe
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\NLog.config
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\contact_config.hbt
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.exe.config
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.exe
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\NLog.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Scrabler.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\WareForms.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ICSharpCode.TextEditor.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\NLog.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\WareForms.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\el-GR\Scrabler.resources.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\en\Scrabler.resources.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csprojResolveAssemblyReference.cache
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.AddAllias.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.MesageConsole.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.Properties.Resources.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csproj.GenerateResource.Cache
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.exe
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ServiceTools.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Scrabler.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Scrabler.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Hydrobase.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\ScriptRunner.exe.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.exe
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.pdb

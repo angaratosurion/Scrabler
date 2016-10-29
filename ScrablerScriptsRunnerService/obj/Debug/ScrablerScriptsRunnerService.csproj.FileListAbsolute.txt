@@ -1,0 +1,27 @@
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\obj\Debug\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\ScrablerScriptsRunnerService.dll.config
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\ScrablerScriptsRunnerService.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\ScrablerScriptsRunnerService.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\Scrabler.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\WareForms.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\LocaleHundler.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\Scrabler.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\Scrabler.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\WareForms.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\LocaleHundler.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\el-GR\Scrabler.resources.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\en\Scrabler.resources.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\obj\Debug\ScrablerScriptsRunnerService.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\obj\Debug\ScrablerScriptsRunnerService.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\BugTracking_config.hbt
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerService\bin\Debug\contact_config.hbt

@@ -1,0 +1,68 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ScriptRunner.Properties.Resources.resources
+obj\Debug\ScriptRunner.csproj.GenerateResource.Cache
+bin\Debug\ScriptRunner.exe
+bin\Debug\ScriptRunner.pdb
+bin\Debug\Hydrobase.dll
+bin\Debug\HydrobaseSDK.dll
+bin\Debug\HydroBugger.dll
+bin\Debug\Scrabler.dll
+bin\Debug\WareForms.dll
+bin\Debug\TimeLimitedWindow.dll
+bin\Debug\Ini.dll
+bin\Debug\TimeLimitedWindow.pdb
+bin\Debug\HydroBugger.pdb
+bin\Debug\Hydrobase.pdb
+bin\Debug\Ini.pdb
+bin\Debug\WareForms.pdb
+bin\Debug\HydrobaseSDK.pdb
+obj\Debug\ScriptRunner.exe
+obj\Debug\ScriptRunner.pdb
+bin\Release\ScriptRunner.exe
+bin\Release\ScriptRunner.pdb
+bin\Release\Hydrobase.dll
+bin\Release\HydrobaseSDK.dll
+bin\Release\HydroBugger.dll
+bin\Release\Scrabler.dll
+bin\Release\WareForms.dll
+bin\Release\TimeLimitedWindow.dll
+bin\Release\Ini.dll
+bin\Release\TimeLimitedWindow.pdb
+bin\Release\HydroBugger.pdb
+bin\Release\Hydrobase.pdb
+bin\Release\Ini.pdb
+bin\Release\WareForms.pdb
+bin\Release\HydrobaseSDK.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ScriptRunner.Properties.Resources.resources
+obj\Release\ScriptRunner.csproj.GenerateResource.Cache
+obj\Release\ScriptRunner.exe
+obj\Release\ScriptRunner.pdb
+obj\Debug\ScriptRunner.MesageConsole.resources
+bin\Debug with window\ScriptRunner.exe
+bin\Debug with window\ScriptRunner.pdb
+bin\Debug with window\Hydrobase.dll
+bin\Debug with window\HydrobaseSDK.dll
+bin\Debug with window\HydroBugger.dll
+bin\Debug with window\Scrabler.dll
+bin\Debug with window\WareForms.dll
+bin\Debug with window\TimeLimitedWindow.dll
+bin\Debug with window\Ini.dll
+bin\Debug with window\TimeLimitedWindow.pdb
+bin\Debug with window\HydroBugger.pdb
+bin\Debug with window\Hydrobase.pdb
+bin\Debug with window\Ini.pdb
+bin\Debug with window\WareForms.pdb
+bin\Debug with window\HydrobaseSDK.pdb
+obj\Debug with window\ResolveAssemblyReference.cache
+obj\Debug with window\ScriptRunner.MesageConsole.resources
+obj\Debug with window\ScriptRunner.Properties.Resources.resources
+obj\Debug with window\ScriptRunner.csproj.GenerateResource.Cache
+obj\Debug with window\ScriptRunner.exe
+obj\Debug with window\ScriptRunner.pdb
+obj\Debug with window\ScriptRunner.AddAllias.resources
+obj\Release\ScriptRunner.AddAllias.resources
+obj\Release\ScriptRunner.MesageConsole.resources
+obj\Debug\ScriptRunner.AddAllias.resources
+bin\Release\ICSharpCode.SharpZipLib.dll
+bin\Release\Scrabler.pdb

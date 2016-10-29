@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><pynakas><eggrafi>
+<namespace>Installer</namespace><class>Actions</class>
+<function>Execute</function><code>
+
+
+
+
+
+using System.Collections.Generic;
+using System.Text;
+using System.IO;
+using System.Reflection;
+using System.Windows.Forms;
+
+
+
+namespace Installer
+{
+    public class Actions
+    {
+        const string en = "en";
+        const string gr = "gr";
+        const string configfile = "config.ini";
+        const string dbinf = "dbinfo.hbt";
+        static string[] cells ={ "DB_Name", "App_Name" };
+        hydrobaseADO ado = new hydrobaseADO();
+   DataSet set = new DataSet();
+        public string applicationfolder;
+        public void Execute()
+        {
+            string lang;
+System.Console.WriteLine(Application.ExecutablePath);
+            System.Console.WriteLine("Type the Language of the application you want to configure");
+            lang = System.Console.ReadLine();
+            string[] infoparam = new string[6];
+            
+           // infoparam[0] = BookerMain.AppFolder;
+            object[] vals;
+            this.initialiseMultyUserInterface(false, infoparam);
+            this.SetHydrobaseSDksettings();
+            this.createDirs();
+            switch (lang)
+            {
+                
+                case en:
+                    {
+
+
+                        
+                        File.Copy(Path.GetDirectoryName(Application.ExecutablePath) + "\\" + configfile,Path.GetDirectoryName(Application.ExecutablePath )+ "\\" + configfile+"bak");
+						File.Delete(Path.GetDirectoryName(Application.ExecutablePath) + "\\" + configfile);
+                        File.Copy(Path.GetDirectoryName(Application.ExecutablePath )+ "\\" + en + "-" + configfile, Path.GetDirectoryName(Application.ExecutablePath) + "\\" + configfile);
+                        
+
+
+                        break;
+
+                    }
+					
+
+
+
+            }
+			ado.AttachDataBaseinDataSet(set,Path.GetDirectoryName(Application.ExecutablePath) +"\\"+dbinf);
+					   
+                       vals = set.Tables[0].Rows[0].ItemArray;
+                       Directory.CreateDirectory(HydrobaseSDK.SDKBase.UserBasesPath + "\\" + Convert.ToString(vals[0]));
+        }
+        public void SetHydrobaseSDksettings()
+        {
+            try
+            {
+                //HydrobaseSDK.SDKBase.DataBasePath = this.applicationfolder + "\\" + BaseClass.DataFolder + "\\" + bookdb;
+                //HydrobaseSDK.SDKBase.DataBasesName = bookdb;
+                HydrobaseSDK.SDKBase.UserBackupFolder = this.applicationfolder + "\\" + Maintenance_Backup.fakbackup;
+                // HydrobaseSDK.SDKBase.UserMainPath = this.applicationfolder;
+                //HydrobaseSDK.SDKBase.UserPassword = passphrase;
+                HydrobaseSDK.SDKBase.UserReportFolder = this.applicationfolder + "\\" + BaseClass.ReportFolder;
+                HydrobaseSDK.SDKBase.UserBasesPath = this.applicationfolder + "\\" + BaseClass.DataFolder;
+
+
+
+
+            }
+            catch (Exception e)
+            {
+                System.Console.WriteLine(e.ToString());
+
+            }
+
+
+        }
+        public void createDirs()
+        {
+
+
+            // Console.WriteLine("Hydrobase File system Creator Version : " +());
+            Console.WriteLine("Creating FileSystem ....");
+
+
+            Console.WriteLine("Creating FileSystem ....");
+            MultyUser.CreateHydrobaseFileSystem(Environment.UserName);
+            if (Directory.Exists(MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.DataFolder) == false)
+            {
+
+                Directory.CreateDirectory(MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.DataFolder);
+            }
+            this.applicationfolder = MultyUser.GetUsersMainFolder(Environment.UserName);
+
+
+
+        }
+        public bool initialiseMultyUserInterface(bool AspEnabled, params string[] tparam)
+        {
+
+            hydrobaseADO Hbado = new hydrobaseADO();
+            string UserName, tmp, DatabaseFolder = null, UsersMainfold = null, password;
+            string[] Times = new string[8];
+            bool ap = false;
+
+            //DataSet UserdDb= new DataSet();
+            if (AspEnabled == false)
+            {
+
+                if (tparam.Length > 0)
+                {
+                    UserName = Environment.UserName;
+
+                    //HydrobaseSDK.SDKBase.UsersTable = new DataSet(BaseClass.recordtag);
+
+
+
+                    if ((Directory.Exists(MultyUser.GetUsersMainFolder(Environment.UserName)) == false) || (Directory.Exists(MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.DataFolder) == false))
+                    {
+
+                        MultyUser.CreateHydrobaseFileSystem(Environment.UserName);
+                        Hbado.CreateFolder(MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.DataFolder);
+
+
+                        /*foreach (string file in Directory.GetFiles(Application.ExecutablePath.Substring(0, Application.ExecutablePath.LastIndexOf("."))))
+                        {
+
+                            if (file.EndsWith(HydroBugger.HydroBugger.configfile) == true)
+                            {
+
+                                File.Delete(file);
+
+                            }
+
+                        }*/
+                        ap = true;
+
+                    }
+
+                    HydrobaseSDK.SDKBase.UserMainPath = MultyUser.GetUsersMainFolder(Environment.UserName);
+                    HydrobaseSDK.SDKBase.DataBasePath = DatabaseFolder;
+                    HydrobaseSDK.SDKBase.UserBackupFolder = MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + Maintenance_Backup.BackupFolder;
+                    HydrobaseSDK.SDKBase.UserReportFolder = MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.ReportFolder;
+                    HydrobaseSDK.SDKBase.DataBasesName = tparam[4];
+                    HydrobaseSDK.SDKBase.UserPassword = tparam[5];
+                    HydrobaseSDK.SDKBase.UserBasesPath = HydrobaseSDK.SDKBase.UserMainPath + "\\" + BaseClass.DataFolder;
+                    SDKBase.UsersTempDirectory = SDKBase.UserMainPath + "\\" + BaseClass.tmpFolder;
+                    //  tForm.applicationfolder = HydrobaseSDK.SDKBase.UserMainPath;
+                    // tForm.Tag = HydrobaseSDK.SDKBase.UserMainPath;
+                    SDKBase.SystemFolder = MultyUser.GetSystemFolder(Environment.UserName);
+                    SDKBase.SystemFolder = MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + MultyUser.SystemFolder;
+                    //SDKBase.ApplicationPreferencesDir = MultyUser.GetApplicationOptionsDir(Environment.UserName, tForm.ProductName);
+                }
+            }
+
+            else
+            {
+
+
+
+
+                if (tparam.Length > 0)
+                {
+                    UserName = Environment.UserName;
+
+                    //HydrobaseSDK.SDKBase.UsersTable = new DataSet(BaseClass.recordtag);
+
+
+
+                    if ((Directory.Exists(MultyUser.GetUsersMainFolder(Environment.UserName)) == false) || (Directory.Exists(MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.DataFolder) == false))
+                    {
+
+                        MultyUser.CreateHydrobaseFileSystem(Environment.UserName);
+                        Hbado.CreateFolder(MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.DataFolder);
+                        ap = true;
+
+                    }
+
+                    HydrobaseSDK.SDKBase.UserMainPath = MultyUser.GetUsersMainFolder(Environment.UserName);
+                    HydrobaseSDK.SDKBase.DataBasePath = DatabaseFolder;
+                    HydrobaseSDK.SDKBase.UserBackupFolder = MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + Maintenance_Backup.BackupFolder;
+                    HydrobaseSDK.SDKBase.UserReportFolder = MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + BaseClass.ReportFolder;
+                    HydrobaseSDK.SDKBase.DataBasesName = tparam[4];
+                    HydrobaseSDK.SDKBase.UserPassword = tparam[5];
+                    HydrobaseSDK.SDKBase.UserBasesPath = HydrobaseSDK.SDKBase.UserMainPath + "\\" + BaseClass.DataFolder;
+                    SDKBase.UsersTempDirectory = SDKBase.UserMainPath + "\\" + BaseClass.tmpFolder;
+                    //tForm.applicationfolder = HydrobaseSDK.SDKBase.UserMainPath;
+                    //tForm.Tag = HydrobaseSDK.SDKBase.UserMainPath;
+                    SDKBase.SystemFolder = MultyUser.GetSystemFolder(Environment.UserName);
+                    SDKBase.SystemFolder = MultyUser.GetUsersMainFolder(Environment.UserName) + "\\" + MultyUser.SystemFolder;
+                    //SDKBase.ApplicationPreferencesDir = MultyUser.GetApplicationOptionsDir(Environment.UserName, tForm.ProductName);
+                }
+
+            }
+            return ap;
+
+
+
+        }
+
+    }
+}
+           
+        
+    
+
+
+</code><references>system.windows.forms.dll|system.data.dll|system.drawing.dll|system.xml.dll|Hydrobase.dll|HydrobaseSDK.dll</references>
+
+<author>Angarato surion</author>
+<version>1.0.0.0</version>
+<description>A Script that configures your application</description>
+<copyright>2007 Angarato surion</copyright>
+<lower_application_Version>0.0.1.0</lower_application_Version>
+<max__application_Version>3.9.9.9</max__application_Version>
+<scrabler_Version>0.3.0.0</scrabler_Version>
+<title>Installer</title>
+
+
+
+
+
+
+
+</eggrafi></pynakas><!--Frogy Base(Hydrobase Data Enviroment) - 0.3.6.0-->

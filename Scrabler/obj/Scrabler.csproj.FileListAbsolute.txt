@@ -1,0 +1,21 @@
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\GNU Lesser General Public License.doc
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\Scrabler.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\Scrabler.pdb
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\Hydrobase.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\HydrobaseSDK.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\HydroBugger.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\WareForms.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\TimeLimitedWindow.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\Ini.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\TimeLimitedWindow.pdb
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\WareForms.pdb
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\HydroBugger.pdb
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\Hydrobase.pdb
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\Ini.pdb
+D:\My Programms\dotNet\Scrabler\Scrabler\bin\Release\HydrobaseSDK.pdb
+D:\My Programms\dotNet\Scrabler\Scrabler\obj\Release\ResolveAssemblyReference.cache
+D:\My Programms\dotNet\Scrabler\Scrabler\obj\Release\Scrabler.ErrorWindow.resources
+D:\My Programms\dotNet\Scrabler\Scrabler\obj\Release\Scrabler.csproj.GenerateResource.Cache
+D:\My Programms\dotNet\Scrabler\Scrabler\obj\Release\Scrabler.dll
+D:\My Programms\dotNet\Scrabler\Scrabler\obj\Release\Scrabler.pdb

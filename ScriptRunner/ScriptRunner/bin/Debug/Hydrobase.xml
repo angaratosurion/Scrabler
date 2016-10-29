@@ -1,0 +1,1029 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hydrobase</name>
+    </assembly>
+    <members>
+        <member name="T:Hydrobase.BaseClass">
+            <summary>
+              \author  Paris Koutsioukis (Angarato Surion)
+             \brief this Class includes some very base operations most of them aren;t very usefull outside of Hydrobase.  
+             </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.tableDefinitionsExt">
+            <summary>
+            The extension of table's definition file
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.tmpFolder">
+            <summary>
+            Const contains the temp folder
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.emptycellChar">
+            <summary>
+            Const contains the default value of an empty cell
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.tabletag">
+            <summary>
+            The xml Root that defines that this file is table  
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.recordtag">
+            <summary>
+            The xml element that defines that the child nodes are rows of table  
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.TagPimKey">
+            <summary>
+            The string value of the tag to inform that this is a primary key
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.FileTagPrimKey">
+            <summary>
+            This conts contains the string in the table's file that deines the primary.   
+            </summary>
+            
+        </member>
+        <member name="F:Hydrobase.BaseClass.CapTagPrimKey">
+            <summary>
+            The char that will replace  FileTagPrimKey in the caption of the datagrid
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.resultsFile">
+             <summary>
+            this conts defines how a results file from a serch will end
+             </summary>       
+        </member>
+        <member name="F:Hydrobase.BaseClass.default_fileextension">
+            <summary>
+            The default File Extension of a hydrobase table
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.default_upgrdbextesion">
+            <summary>
+            The default File Extension of a xml file used to update the 
+            xmlfile structure of the table. for example to add new cells
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.default_reportfileextension">
+            <summary>
+            The default File Extension of a report file 
+            
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.DataFolder">
+            <summary>
+            The name of directory that contains all Databases
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.ReportFolder">
+            <summary>
+            The name of directory that contains all Reports
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.SharedFolderName">
+            <summary>
+            The name of directory that contains all Databases that are shared
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.ConfigFile">
+            <summary>
+            The name of the file that contais the config of hydrobase library
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.defualt_encryptedtableextensionwithSha384">
+            <summary>
+            The default File Extension of a table encrypted using sha384 hash algorithm
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.defualt_encryptedtableextensionwithSha1">
+            <summary>
+            The default File Extension of a table encrypted using sha1 hash algorithm
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.SystemFolder">
+            <summary>
+            The name of directory that contains all Application's options
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.FileInfoTag">
+            <summary>
+            The name of tag that defines the info of table
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.FileVersion">
+            <summary>
+            The name of tag that defines the version of table
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.BuildIDTag">
+            <summary>
+            The name of tag that defines the build id of table
+            </summary>
+        </member>
+        <member name="F:Hydrobase.BaseClass.TableVersionIndo">
+            <summary>
+            The default File Extension of a file that contains  table's info 
+            </summary>
+        </member>
+        <member name="M:Hydrobase.BaseClass.errorhandling(System.Exception)">
+            <summary>
+            The fuction that handles Excepions
+            </summary>
+            <param name="e">Exception to be handled</param>
+        </member>
+        <member name="M:Hydrobase.BaseClass.GetHydrobaseLibraryversion">
+            <summary>
+            Returns the Version of the Hydrobase
+            </summary>
+            <returns>Returns the Version of the Hydrobase</returns>
+        </member>
+        <member name="T:Hydrobase.defaultinternaleventhandlers">
+            <summary>
+            \author  Paris Koutsioukis(Angarato Surion)
+            \brief
+            this static class is the class tht contains all the default event handlers.
+            </summary>
+        </member>
+        <member name="M:Hydrobase.defaultinternaleventhandlers.newRecordadded(System.Object,System.Data.DataTableNewRowEventArgs)">
+            <summary>
+            This event handler for handling the tablenewrow event
+            </summary>
+            <param name="sender">object</param>
+            <param name="ev">DataTableNewRowEventArgs</param>
+        </member>
+        <member name="M:Hydrobase.defaultinternaleventhandlers.datagridviewDataErr(System.Object,System.Windows.Forms.DataGridViewDataErrorEventArgs)">
+            <summary>
+            This event handles the data eror ocurs in datagridview
+            </summary>
+            <param name="sender">object</param>
+            <param name="ev">DataGridViewDataErrorEventArgs</param>
+        </member>
+        <member name="M:Hydrobase.defaultinternaleventhandlers.dataTableRowChanged(System.Object,System.Data.DataRowChangeEventArgs)">
+            <summary>
+            This event handler handles the datarowchanged event , ad when finds an empty 
+            cell it put the char "-" as value.
+            </summary>
+            <param name="sender">object</param>
+            <param name="ev">DataRowChangeEventArgs</param>
+        </member>
+        <member name="T:Hydrobase.Cryptography">
+            <summary>
+             \author  Paris Koutsioukis (Angarato Surion)
+             \brief
+            This Class it's responsible for the encryption and the decryption of the Hydrobase tables. 
+            </summary>
+        </member>
+        <member name="T:Hydrobase.hydrobaseADO">
+            <summary>
+             \author  Paris Koutsioukis(Angarato Surion)
+             \brief
+            This Class it's the "Heart" of the hydrobase Library .
+             It loads the table file, it edit it and it save it.
+            </summary>
+        </member>
+        <member name="T:Hydrobase.Maintenance_Backup">
+            <summary>
+             \author  Paris Koutsioukis (Angarato Surion)
+            \brief
+            This class handles the everything about File System handling 
+            ( Creates and removes folders also copies files) and bakup.
+            </summary>
+        </member>
+        <member name="T:Hydrobase.MultyUser">
+            <summary>
+             \author  Paris Koutsioukis (Angarato Surion)
+             \brief
+             This class adds the abilty to the multy user applications to be created.
+             </summary>
+        </member>
+        <member name="M:Hydrobase.MultyUser.GetRootFolderContainer">
+            <summary>
+            Gets The Container Folder of Hydrobages RootFolder
+            </summary>
+            <returns>returns the path Container Folder of Hydrobages 
+            RootFolder or null in error or not specified </returns>
+        </member>
+        <member name="M:Hydrobase.MultyUser.GetUsersMainFolder(System.String)">
+            <summary>
+            Returns the main directory of the main folder of the given user.
+            </summary>
+            <param name="UserName"> The name of the user</param>
+            <returns>Returns the main directory of the main folder of the given user.</returns>
+        </member>
+        <member name="M:Hydrobase.MultyUser.AddNewUser(System.String)">
+            <summary>
+            Creates the folder for the given user.
+            </summary>
+            <param name="username"> the name of the user</param>
+        </member>
+        <member name="M:Hydrobase.MultyUser.CreateHydrobaseFileSystem(System.String)">
+            <summary>
+            Creates the root folder ( that is called hydrobase)  and the user's also
+            </summary>
+            <param name="username"> the name of the user</param>
+        </member>
+        <member name="M:Hydrobase.MultyUser.GetDataBasesNames(System.String)">
+            <summary>
+            Returns the names of the databases of the given user in an array of string
+            
+            </summary>
+            <param name="UserName">name of user</param>
+            <returns>Returns the names of the databases of the
+            given user in an array of string</returns>
+        </member>
+        <member name="M:Hydrobase.MultyUser.GetTables(System.String,System.String)">
+            <summary>
+            Returns a string array with the name of  the tables,
+            tha belong to the given username and database
+            </summary>
+            <param name="UserName">the name of the user that has the the given data base</param>
+            <param name="dbname">database's name that has the tables</param>
+            <returns>Returns a string array with the name of  the tables,
+            tha belong to the given username and database</returns>
+        </member>
+        <member name="M:Hydrobase.MultyUser.GetSystemFolder(System.String)">
+            <summary>
+            Returns the system folder of he given user.
+            <b><u>Note:</u></b> system folder is the folder that every app it's
+            supposed to save it's config files in directory that has her name.
+            </summary>
+            <param name="UserName">the name of the user</param>
+            <returns>Returns the system folder of he given user.</returns>
+        </member>
+        <member name="M:Hydrobase.MultyUser.GetApplicationOptionsDir(System.String,System.String)">
+            <summary>
+            Returns the option's directoryof the given application for the given user. 
+            </summary>
+            <param name="UserName">name of the user</param>
+            <param name="AppName">name of the application</param>
+            <returns>Returns the option's directoryof the given application for the given user. </returns>
+        </member>
+        <member name="F:Hydrobase.Maintenance_Backup.fakbackup">
+            the constant that includes the name of the backup's folder
+        </member>
+        <member name="M:Hydrobase.Maintenance_Backup.CreateFolder(System.String)">
+            <summary>
+            Creates the given folder with given name.
+            <b>Note:</b> it considers the name of the new directory as the last 
+            directory in the given path
+            </summary>
+            <param name="path"> the path of the directory that will create</param>
+        </member>
+        <member name="M:Hydrobase.Maintenance_Backup.CopyFile(System.String,System.String)">
+            <summary>
+            Copies a file from it's begining position to a new one.
+            </summary>
+            <param name="arxikh">the begining position of the file</param>
+            <param name="telikh">the target position of the file</param>
+        </member>
+        <member name="M:Hydrobase.Maintenance_Backup.CreateBackupofDB(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates a Backup of the given database
+            </summary>
+            <param name="OriginalFolder">the originalfolder that the database exists</param>
+            <param name="Extension">the extension of the files that will be copied</param>
+            <param name="TargetFolder">the folder that will be saved .</param>
+            <param name="dbname">the name of the database</param>
+            <returns>Returns the path of the backup</returns>
+        </member>
+        <member name="M:Hydrobase.Maintenance_Backup.RecoverBackupStpB(System.String,System.String)">
+            <summary>
+            This method starts the 2nd part (and final step)of the backup process
+            it recovers the databse back to it's original position
+            </summary>
+            <param name="tBackupFolder">path of the backup folder</param>
+            <param name="DBFolder">path of the originals database oflder</param>
+            <returns>1 if succefully finished , 0 if nothing happened 
+            and -1 if an exception had been thrown.</returns>
+        </member>
+        <member name="M:Hydrobase.Maintenance_Backup.RecoverBackupStpA(System.String,System.String,System.String)">
+            <summary>
+            This method starts the 1st step of the recovery process
+            it's shows a message box with the list of the existed backups
+            </summary>
+            <param name="tAppFolder">path of the backup folder</param>
+            <param name="DBFolder">path of the database</param>
+            <param name="dbname">name of database</param>
+            <returns>path of the backup </returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.MoveCelltoAnotherTable(System.Data.DataTable,System.Data.DataTable,System.String)">
+            <summary>
+            This method moves the specified cell(or collumn) from one table to another table.
+            </summary>
+            <param name="Source"> the table that the method will receive the cell(or collumn).</param>
+            <param name="Target">the table that the method will put the specified cell(or collumn)</param>
+            <param name="ColumnName">the name of the cell (or collumn) that will move.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.MovePositionBetweenTwoCollumns(System.Data.DataTable,System.String,System.String)">
+            <summary>
+            This Method exchanges the position of two cells (or collumns).
+            </summary>
+            <param name="table">The table that this action will take place</param>
+            <param name="cellname1">the name of the first cell(or collumn)</param>
+            <param name="cellname2">the name of the second cell (or collumn)</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SendtoDataGrid(System.Windows.Forms.DataGridView,System.Data.DataSet,System.String,System.Int32,System.Boolean)">
+            <summary>
+            This method reads a given file name and puts it's contents in to a datatable and next connects 
+            them in to a datagridview.
+            </summary>
+            <param name="tDataGrd">the datagridview that the file's contens will be shown </param>
+            <param name="dtsDbTable">the dataset that the table will be puted.</param>
+            <param name="path">the path of file that will be loaded. </param>
+            <param name="TableIndex">the index of the table in the table collection of the given dataset</param>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+            <returns>1 if succeds and 0 if did n't done anything
+            or -1 if an exception happened.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SendDataTabletoDataGrid(System.Windows.Forms.DataGridView,System.Data.DataTable,System.Boolean)">
+            <summary>
+            Connects Data Table to DataGridView
+            </summary>
+            <param name="tDataGrd">DataGridView that values will be  shown.</param>
+            <param name="dtsDbTable">data table for connection with datagridview</param>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+            <returns>1 if succeds and 0 if did n't done anything
+            or -1 if an exception happened.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Hydrobase.hydrobaseADO.SendtoDataGrid2(System.Windows.Forms.DataGridView,System.Data.DataSet,System.String,System.Int32)" -->
+        <member name="M:Hydrobase.hydrobaseADO.SendtoDataGrid(System.Windows.Forms.DataGridView,System.Data.DataSet,System.String,System.Int32)">
+            <summary>
+            This method reads a given file name and puts it's contents in to a datatable and next connects 
+            them in to a datagridview.
+            </summary>
+            <param name="tDataGrd">the datagridview that the file's contens will be shown </param>
+            <param name="dtsDbTable">the dataset that the table will be puted.</param>
+            <param name="path">the path of file that will be loaded. </param>
+            <param name="TableIndex">the index of the table in the table collection of the given dataset</param>
+            <returns>1 if succeds and 0 if did n't done anything
+            or -1 if an exception happened.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SendDataTabletoDataGrid(System.Windows.Forms.DataGridView,System.Data.DataTable)">
+            <summary>
+            Connects Data Table to DataGridView
+            </summary>
+            <param name="tDataGrd">DataGridView that values will be  shown.</param>
+            <param name="dtsDbTable">data table for connection with datagridview</param>
+            <returns>1 if succeds and 0 if did n't done anything
+            or -1 if an exception happened.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Hydrobase.hydrobaseADO.SendtoDataGrid2(System.Windows.Forms.DataGridView,System.Data.DataSet,System.String,System.Int32,System.Boolean)" -->
+        <member name="M:Hydrobase.hydrobaseADO.SaveTable(System.Data.DataSet,System.String,System.Int32,System.String)">
+            <returns>0 if did n't done anything
+            or -1 if an exception happened</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.Search(System.Data.DataSet,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Data.DataSet,System.Int32)">
+            <summary>
+            This method search  in the table for anything is equal to the given value and it attatch 
+            it to a given datagridview object.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="Grid">the datagridview object that will the results will be shown</param>
+            <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+            
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.Search(System.Data.DataSet,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Data.DataSet,System.Int32,System.Boolean)">
+            <summary>
+            This method search  in the table for anything is equal to the given value and it attatch 
+            it to a given datagridview object.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="Grid">the datagridview object that will the results will be shown</param>
+            <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+            
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SeatchEndsWith(System.Data.DataSet,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Data.DataSet,System.Int32)">
+            <summary>
+            This method search  in the table for anything that ends with  the given value and it attatch 
+            it to a given datagridview object.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="Grid">the datagridview object that will the results will be shown</param>
+            <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Hydrobase.hydrobaseADO.SeatchEndsWith(System.Data.DataSet,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Data.DataSet,System.Int32,System.Boolean)" -->
+        <member name="M:Hydrobase.hydrobaseADO.SeatchStartsWith(System.Data.DataSet,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Data.DataSet,System.Int32)">
+            <summary>
+            This method search  in the table for anything that starts with  the given value and it attatch 
+            it to a given datagridview object.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="Grid">the datagridview object that will the results will be shown</param>
+            <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SeatchStartsWith(System.Data.DataSet,System.String,System.String,System.String,System.Windows.Forms.DataGridView,System.Data.DataSet,System.Int32,System.Boolean)">
+             <summary>
+             This method search  in the table for anything that starts with  the given value and it attatch 
+             it to a given datagridview object.
+             </summary>
+             <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+             <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+             <param name="value">the value that will search for.</param>
+             <param name="tablename">the name of the table that the search will take place.</param>
+             <param name="Grid">the datagridview object that will the results will be shown</param>
+             <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+             <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.Search2(System.Data.DataSet,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            This method search  in the table for anything is equal to the given value and it attatch 
+            it to a given datagridview object.
+            <b>Notes:</b> here this method return the reults in a DataRowCollection.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.Search2(System.Data.DataSet,System.String,System.String,System.String,System.Int32,System.Boolean)">
+             <summary>
+             This method search  in the table for anything is equal to the given value and it attatch 
+             it to a given datagridview object.
+             <b>Notes:</b> here this method return the reults in a DataRowCollection.
+             </summary>
+             <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+             <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+             <param name="value">the value that will search for.</param>
+             <param name="tablename">the name of the table that the search will take place.</param>
+             <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+             <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SeatchEndsWith2(System.Data.DataSet,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            This method search  in the table for anything is ends with the given value and it attatch 
+            it to a given datagridview object.
+            <b>Notes:</b> here this method return the reults in a DataRowCollection.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SeatchEndsWith2(System.Data.DataSet,System.String,System.String,System.String,System.Int32,System.Boolean)">
+             <summary>
+             This method search  in the table for anything is ends with the given value and it attatch 
+             it to a given datagridview object.
+             <b>Notes:</b> here this method return the reults in a DataRowCollection.
+             </summary>
+             <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+             <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+             <param name="value">the value that will search for.</param>
+             <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+             <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+             <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SeatchStartsWith2(System.Data.DataSet,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            This method search  in the table for anything is starts with the given value and it attatch 
+            it to a given datagridview object.
+            <b>Notes:</b> here this method return the reults in a DataRowCollection. 
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SeatchStartsWith2(System.Data.DataSet,System.String,System.String,System.String,System.Int32,System.Boolean)">
+             <summary>
+             This method search  in the table for anything is starts with the given value and it attatch 
+             it to a given datagridview object.
+             <b>Notes:</b> here this method return the reults in a DataRowCollection. 
+             </summary>
+             <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+             <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+             <param name="value">the value that will search for.</param>
+             <param name="tablename">the name of the table that the search will take place.</param>
+             <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+             <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.RemoveTableFromDataGrid(System.Windows.Forms.DataGridView)">
+            <summary>
+            This method disconnects the dataset from the datagridview.
+            </summary>
+            <param name="grid">the datagridview that the dataset will be disconnected.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.TableCreation(System.String,System.String[],System.String)">
+            <param name="applicationandversion">info about the application (the name and the version)</param>
+            <returns>0 if nothing happens, 1 if succeds or -1 if an exception is thrown.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.CloseDataBase(System.Data.DataSet)">
+            <summary>
+            Closes the table. Basicaly it clears and disposes the given dataset.
+            
+            </summary>
+            <param name="tmpDataset">the dataset that is to be disposed or cleared.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.AttachDataBaseinDataSet(System.Data.DataSet,System.String,System.Boolean)">
+            <summary>
+            Loads the given file to the given dataset.
+            </summary>
+            <param name="tDataset">the dataset thaat will contain the tables' data</param>
+            <param name="path">the path of the file.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.AttachDataBaseinDataSet(System.Data.DataSet,System.String)">
+            <summary>
+            Loads the given file to the given dataset.
+            </summary>
+            <param name="tDataset">the dataset thaat will contain the tables' data</param>
+            <param name="path">the path of the file.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.AttachDataBaseinDataSet(System.Data.DataSet,System.IO.Stream,System.String)">
+            <summary>
+            Loads the given file to the given dataset.
+            </summary>
+            <param name="tDataset">the dataset thaat will contain the tables' data</param>
+            <param name="stream">the contents that existed in the stream.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.AttachDataBaseinDataSet(System.Data.DataSet,System.IO.Stream,System.String,System.Boolean)">
+            <summary>
+            Loads the given file to the given dataset.
+            </summary>
+            <param name="casesensitive">True makes all cell's of table to be casesensitive</param>
+            <param name="tDataset">the dataset thaat will contain the tables' data</param>
+            <param name="stream">the contents that existed in the stream.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.UpgradeDataBase(System.Data.DataTable,System.Data.DataTable)">
+            <summary>
+            Upgrades the table file format.
+            for example if you  made another xml file with your new cells in it, just use this method to put
+            them in the old table.
+            <b>Note:</b> It can be used as away to import the contents of another table or xml file.
+            </summary>
+            <param name="Source"> the datatable that contains the new cells of the table</param>
+            <param name="target">the datatable that the changes will take place.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.FindApplicationInfo(System.String,System.Int32)">
+            <summary>
+            Searchs the info of the application that previusly accesed this table.
+            
+            <b>Note:</b>Usualy the info i written in the ed of the file.
+            </summary>
+            <param name="path">the path of the file to be searched</param>
+            <param name="pos">put 1 for searching in the start of the file or 2 for searching in the end.</param>
+            <returns>the application's information that is been written in the file or null if nothing happens or an exception is thrown.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.DataBaseCreation(System.String,System.String)">
+            <summary>
+            Creates the database (folder) that will include the table
+            
+            
+            <b>Wairning:</b> the complete path of the databae it will be path_untilDatabse +\+ DataBaseName
+            <b>Note:</b> in the path_untilDatabse you put the path of the folder that will contain the databse.
+            
+            </summary>
+            <param name="DataBaseName">the name of the database that will be created</param>
+            <param name="path_untilDatabase">the folder that will contain the database</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.GetTimeAndDateTableLastUpdated(System.String)">
+            <summary>
+            Gets the time and date of table's last update.
+            </summary>
+            <param name="path">the path of the table</param>
+            <returns>the time and date of table's last update. 
+            the first(or zero) element is the date and the second is the time.
+            if an exception is thrown it returns null.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.GetTableVersion(System.String)">
+            <summary>
+            Get's (reads) the version of the table from the given filename. 
+            </summary>
+            <param name="path">the path of the file that contains the 
+            info about the vrsion of the table
+             <b>Note:</b> In path the name of the file must be the same with the
+            table's file. Their difference will be in their file extension</param>
+            <returns>Get's (reads) the version of the table from the given filename. </returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SetTableVersion(System.String,System.String,System.String)">
+            <summary>
+            This set's the info about the version of the given file name and save 
+            it's to a new file with a diferent file extension. 
+            </summary>
+            <param name="path">the path of the file that will  contain the 
+            info about the vrsion of the table
+            <b>Note:</b> In path the name of the file must be the same with the
+            table's file. Their difference will be in their file extension</param>
+            <param name="version">a string that will  indicate the new version 
+            of the table . example something like 1.0.0.0</param>
+            <param name="buildid">a string that willl indicate the new build id 
+            or code of the table's version.  example something like 11130 or word 
+            like silver cat </param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.MarkPrimColumns(System.Data.DataColumn[],System.Windows.Forms.DataGridView)">
+            <summary>
+            Marks the prim data columns
+            </summary>
+            <param name="prim">the data columns that are primary</param>
+            <param name="Grid">the datagridview that data will be shown</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SaveTable(System.Data.DataSet,System.String,System.Int32,System.String,System.String,Hydrobase.enumSortType)">
+            <summary>
+            This method saves the contetns of the given table to a file.<br>
+            </br>also it puts in a comment info about the application (the name and the version).
+            </summary>
+            <param name="tDtsData">the dataset that contains the table</param>
+            <param name="path">the filename (with the path included) that the contents of the table will be saved.</param>
+            <param name="Tableindex">the index of the table in the table collection of the given dataset</param>
+            <param name="applicationandversion">info about the application (the name and the version).</param>
+            <param name="sortCollumn">the Collumn that the file will be sorted with.</param>
+            <param name="SortType">put here the way that you want to sort the values descending or not</param>
+            <returns>0 if did n't done anything
+            or -1 if an exception happened</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.SaveTimeDateinfo(System.String)">
+            <summary>
+            This method updates the  las acces and last write <br></br>
+            atributes  of the file. 
+            </summary>
+            <param name="filename">the path of the file</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.GetPrimaryIndexes(System.Data.DataTable)">
+            <summary>
+            Returns an int array with the poisitons of primary keys in the given datatable 
+            or null if the datatable has no primary keys or when an error occurs. 
+            </summary>
+            <param name="table">the table that wil lsearch for primary keys</param>
+            <returns>Returns an int array with the poisitons of primary keys in the given datatable 
+            or null if the datatable has no primary keys or when an error occurs. </returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.ConnectEventstoDataTable(System.Data.DataTable)">
+            <summary>
+            Sets the event handlers of the given datatable
+            </summary>
+            <param name="table">the datatable that will handle it's  events</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseADO.ConnectEventstoDataGrid(System.Windows.Forms.DataGridView)">
+            <summary>
+            Sets the event handlers of the given datagridview
+            </summary>
+            <param name="grid">the datagridview</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Hydrobase.Cryptography.rijndael_KeyCreation(System.String,Hydrobase.Cryptography.HashingAlogrithm)" -->
+        <member name="M:Hydrobase.Cryptography.rijndael_Encrypt(System.String)">
+            <summary>
+            this method encrypts the given value.
+            </summary>
+            <param name="value">a string value that will be encrypted</param>
+            <returns>the given value encrypted</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Hydrobase.Cryptography.rijndael_SaveEncryptedFile(System.String,System.String,System.String,Hydrobase.Cryptography.HashingAlogrithm)" -->
+        <!-- Badly formed XML comment ignored for member "M:Hydrobase.Cryptography.rijndael_Decrypt(System.String)" -->
+        <member name="M:Hydrobase.Cryptography.rijndael_SaveDecryptedFile(System.String,System.String,System.String,Hydrobase.Cryptography.HashingAlogrithm)">
+            <summary>
+            This method save the contents of the give encrypted file decrypted to another file.
+            </summary>
+            <param name="DEncrFileName">the name of file that will contain the decrypted values. </param>
+            <param name="OrigFileName"> name of the file that is to be decrypted</param>
+            <param name="passphrase">a string that will be used as passphase</param>
+            <param name="alogrithm">the HashingAlogrithm that will be used for the creation of the key .
+            it's the type of enum HashingAlogrithm</param>
+        </member>
+        <member name="M:Hydrobase.Cryptography.rijndael_SaveEncryptedDataTable(System.Data.DataSet,System.String,System.String,System.Int32,System.Windows.Forms.DataGridView,Hydrobase.Cryptography.HashingAlogrithm)">
+            <summary>
+            This method encrypts only the contents of the cell and not the table (file) structure.
+            
+            <b>Note:</b>I personaly  sugges you to use this method for encryption.
+            </summary>
+            <param name="Dataset">DataSet that contains the table thatwill be encrypted</param>
+            <param name="EncrFileName">the name of the file that will contain the ecnrypted table.</param>
+            <param name="passphrase">string that will be used as pass phrase</param>
+            <param name="tableindex">the index of the datatable that it's cells will be encrypted</param>
+            <param name="grid">the name of the grid that are connected with the table.</param>
+            <param name="algorithm">the HashingAlogrithm that will be used for the creation of the key .
+            it's the type of enum HashingAlogrithm</param>
+        </member>
+        <member name="M:Hydrobase.Cryptography.rijndael_SaveDecryptedDataTable(System.Data.DataSet,System.String,System.String,System.Int32,System.Windows.Forms.DataGridView,Hydrobase.Cryptography.HashingAlogrithm)">
+            <summary>
+            This method decrypts only the contents of the cell and not the table(file)
+            structure
+            <b>Note:</b>I personaly  sugges you to use this method for decryption.
+            </summary>
+            <param name="Dataset">Dataset that it's contents will be decryted</param>
+            <param name="DEncrFileName">the name of the file that will contain the decrypted contains</param>
+            <param name="passphrase">string that will be used as pass phrase</param>
+            <param name="tableindex">the index of the datatable that it's cells will be decrypted</param>
+            <param name="grid">the name of the grid that are connected with the table</param>
+            <param name="algorithm">the HashingAlogrithm that will be used for the creation of the key .
+            it's the type of enum HashingAlogrithm</param>
+        </member>
+        <member name="T:Hydrobase.Cryptography.HashingAlogrithm">
+            <summary>
+            the ashing algortm that you want to use
+            </summary>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.MoveCelltoAnotherTable(System.Data.DataTable,System.Data.DataTable,System.String)">
+            <summary>
+            This method moves the specified cell(or collumn) from one table to another table.
+            </summary>
+            <param name="Source"> the table that the method will receive the cell(or collumn).</param>
+            <param name="Target">the table that the method will put the specified cell(or collumn)</param>
+            <param name="ColumnName">the name of the cell (or collumn) that will move.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.MovePositionBetweenTwoCollumns(System.Data.DataTable,System.String,System.String)">
+            <summary>
+            This Method exchanges the position of two cells (or collumns).
+            </summary>
+            <param name="table">The table that this action will take place</param>
+            <param name="cellname1">the name of the first cell(or collumn)</param>
+            <param name="cellname2">the name of the second cell (or collumn)</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.SendtoDataGrid(System.Web.UI.WebControls.GridView,System.Data.DataSet,System.String,System.Int32)">
+            <summary>
+            This method reads a given file name and puts it's contents in to a datatable and next connects 
+            them in to a GridView.
+            </summary>
+            <param name="tDataGrd">the GridView that the file's contens will be shown </param>
+            <param name="dtsDbTable">the dataset that the table will be puted.</param>
+            <param name="path">the path of file that will be loaded. </param>
+            <param name="TableIndex">the index of the table in the table collection of the given dataset</param>
+            <returns>1 if succeds and 0 if did n't done anything
+            or -1 if an exception happened.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Hydrobase.hydrobaseASP.SendtoDataGrid2(System.Web.UI.WebControls.GridView,System.Data.DataSet,System.String,System.Int32)" -->
+        <member name="M:Hydrobase.hydrobaseASP.SaveTable(System.Data.DataSet,System.String,System.Int32,System.String)">
+            <summary>
+            This method saves the contetns of the given table to a file.<br>
+            </br>also it puts in a comment info about the application (the name and the version).
+            </summary>
+            <param name="tDtsData">the dataset that contains the table</param>
+            <param name="path">the filename (with the path included) that the contents of the table will be saved.</param>
+            <param name="Tableindex">the index of the table in the table collection of the given dataset</param>
+            <param name="applicationandversion">info about the application (the name and the version).</param>
+            <returns>0 if did n't done anything
+            or -1 if an exception happened</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.Search(System.Data.DataSet,System.String,System.String,System.String,System.Web.UI.WebControls.GridView,System.Data.DataSet,System.Int32)">
+            <summary>
+            This method search  in the table for anything is equal to the given value and it attatch 
+            it to a given GridView object.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="Grid">the GridView object that will the results will be shown</param>
+            <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.SeatchEndsWith(System.Data.DataSet,System.String,System.String,System.String,System.Web.UI.WebControls.GridView,System.Data.DataSet,System.Int32)">
+            <summary>
+            This method search  in the table for anything that ends with  the given value and it attatch 
+            it to a given GridView object.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="Grid">the GridView object that will the results will be shown</param>
+            <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.SeatchStartsWith(System.Data.DataSet,System.String,System.String,System.String,System.Web.UI.WebControls.GridView,System.Data.DataSet,System.Int32)">
+            <summary>
+            This method search  in the table for anything that starts with  the given value and it attatch 
+            it to a given GridView object.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="Grid">the GridView object that will the results will be shown</param>
+            <param name="tTargetDataSet">the dataset that the results will be putted.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset </param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.Search2(System.Data.DataSet,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            This method search  in the table for anything is equal to the given value and it attatch 
+            it to a given GridView object.
+            <b>Notes:</b> here this method return the reults in a DataRowCollection.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.SeatchEndsWith2(System.Data.DataSet,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            This method search  in the table for anything is ends with the given value and it attatch 
+            it to a given GridView object.
+            <b>Notes:</b> here this method return the reults in a DataRowCollection.
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.SeatchStartsWith2(System.Data.DataSet,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            This method search  in the table for anything is starts with the given value and it attatch 
+            it to a given GridView object.
+            <b>Notes:</b> here this method return the reults in a DataRowCollection. 
+            </summary>
+            <param name="tSourceData">The dataset that has the the table that the search will take place</param>
+            <param name="cellname">the name of the cell (or collumn) that the search will take place.</param>
+            <param name="value">the value that will search for.</param>
+            <param name="tablename">the name of the table that the search will take place.</param>
+            <param name="tableindex">the index of the table in the table collection of the given "target" dataset</param>
+            <returns>the results of the search in a DataRowCollection or null if fails or nothing happens.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.RemoveTableFromDataGrid(System.Web.UI.WebControls.GridView)">
+            <summary>
+            This method disconnects the dataset from the GridView.
+            </summary>
+            <param name="grid">the GridView that the dataset will be disconnected.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.TableCreation(System.String,System.String[],System.String)">
+            <summary>
+            This method creates the table .
+            </summary>
+            <param name="filename">The filename (and the name of table) that will have the table.</param>
+            <param name="cellname">the string array thathas the names of the cells.
+            <b>Wairning!:</b> Do not use any hexademical character or any kind of character that isn't allowed in a xml tag.</param>
+            <param name="applicationandversion">info about the application (the name and the version)</param>
+            <returns>0 if nothing happens, 1 if succeds or -1 if an exception is thrown.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.CloseDataBase(System.Data.DataSet)">
+            <summary>
+            Closes the table. Basicaly it clears and disposes the given dataset.
+            
+            </summary>
+            <param name="tmpDataset">the dataset that is to be disposed or cleared.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.AttachDataBaseinDataSet(System.Data.DataSet,System.String)">
+            <summary>
+            Loads the given file to the given dataset.
+            </summary>
+            <param name="tDataset">the dataset thaat will contain the tables' data</param>
+            <param name="path">the path of the file.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.UpgradeDataBase(System.Data.DataTable,System.Data.DataTable)">
+            <summary>
+            Upgrades the table file format.
+            for example if you  made another xml file with your new cells in it, just use this method to put
+            them in the old table.
+            <b>Note:</b> It can be used as away to import the contents of another table or xml file.
+            </summary>
+            <param name="Source"> the datatable that contains the new cells of the table</param>
+            <param name="target">the datatable that the changes will take place.</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.FindApplicationInfo(System.String,System.Int32)">
+            <summary>
+            Searchs the info of the application that previusly accesed this table.
+            
+            <b>Note:</b>Usualy the info i written in the ed of the file.
+            </summary>
+            <param name="path">the path of the file to be searched</param>
+            <param name="pos">put 1 for searching in the start of the file or 2 for searching in the end.</param>
+            <returns>the application's information that is been written in the file or null if nothing happens or an exception is thrown.</returns>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.DataBaseCreation(System.String,System.String)">
+            <summary>
+            Creates the database (folder) that will include the table
+            
+            
+            <b>Wairning:</b> the complete path of the databae it will be path_untilDatabse +\+ DataBaseName
+            <b>Note:</b> in the path_untilDatabse you put the path of the folder that will contain the databse.
+            
+            </summary>
+            <param name="DataBaseName">the name of the database that will be created</param>
+            <param name="path_untilDatabase">the folder that will contain the database</param>
+        </member>
+        <member name="M:Hydrobase.hydrobaseASP.GetTimeAndDateTableLastUpdated(System.String)">
+            <summary>
+            Gets the time and date of table's last update.
+            </summary>
+            <param name="path">the path of the table</param>
+            <returns>the time and date of table's last update. 
+            the first(or zero) element is the date and the second is the time.
+            if an exception is thrown it returns null.</returns>
+        </member>
+        <member name="T:Hydrobase.SelectBackupDialog">
+            <summary>
+            The Gui that is helping you to select a backup to restore
+            </summary>
+        </member>
+        <member name="F:Hydrobase.SelectBackupDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Hydrobase.SelectBackupDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Hydrobase.SelectBackupDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Hydrobase.SelectBackupDialog.DtaBasefolder">
+            <summary>
+            Keeps the folder of the DataBase
+            </summary>
+        </member>
+        <member name="F:Hydrobase.SelectBackupDialog.recovered">
+            <summary>
+            Keeps the returning value of RecoverBackupStpB fnction
+            </summary>
+        </member>
+        <member name="F:Hydrobase.SelectBackupDialog.dbname">
+            <summary>
+            The name of the database that it's backup you want to restore
+            </summary>
+        </member>
+        <member name="T:Hydrobase.DataSetCollection">
+            <summary>
+            This  collection of datasets
+            </summary>
+            
+        </member>
+        <member name="M:Hydrobase.DataSetCollection.Add(System.Data.DataSet)">
+            <summary>
+            this adds the given dataset to the collection
+            </summary>
+            <param name="dataset">the dataset that you want to add</param>
+        </member>
+        <member name="M:Hydrobase.DataSetCollection.SelectDataSet(System.String)">
+            <summary>
+            Returns the Existed dataSet with thegiven name
+            </summary>
+            <param name="datasetname">the name of the dataset</param>
+            <returns>the Existed dataSet with thegiven name or null if doesnt exist 
+            or an error occured</returns>
+        </member>
+        <member name="M:Hydrobase.DataSetCollection.SelectDataSet(System.Int32)">
+            <summary>
+            Returns the Existed dataSet with thegiven index
+            </summary>
+            <param name="index">the index of the dataset</param>
+            <returns>the Existed dataSet with thegiven index or null if doesnt exist 
+            or an error occured</returns>
+        </member>
+        <member name="M:Hydrobase.DataSetCollection.IndexOf(System.Data.DataSet)">
+            <summary>
+            Returns the index of the given dataset from the collection
+            </summary>
+            <param name="dataset">the dataset that you are searching for.</param>
+            <returns>index of the given dataset from the collection, 
+            -1 if didn't find it or -2 if an exception occured. </returns>
+        </member>
+        <member name="M:Hydrobase.DataSetCollection.IndexOf(System.String)">
+            <summary>
+            Returns the index of the dataset with the given name from the collection
+            </summary>
+            <param name="datasetname">the name of the dataset that you are looking for</param>
+            <returns>index of the  dataset with the given name from the collection, 
+            -1 if didn't find it or -2 if an exception occured.</returns>
+        </member>
+        <member name="M:Hydrobase.DataSetCollection.Remove(System.Data.DataSet)">
+            <summary>
+            Removes the given dataset from the collection
+            </summary>
+            <param name="set">the dataset that you want to remove.</param>
+        </member>
+        <member name="M:Hydrobase.DataSetCollection.Contains(System.Data.DataSet)">
+            <summary>
+            Checks if the given dataset exists in the collection
+            </summary>
+            <param name="set">the dataset that you are searching for.</param>
+            <returns>true if the dataset has been found or false 
+            if didn't or an exception occured. </returns>
+        </member>
+    </members>
+</doc>

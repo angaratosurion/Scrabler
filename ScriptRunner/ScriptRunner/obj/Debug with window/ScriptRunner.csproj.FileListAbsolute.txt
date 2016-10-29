@@ -1,0 +1,8 @@
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug with window\ScriptRunner.exe.config
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug with window\ScriptRunner.exe
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug with window\ScriptRunner.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug with window\ScriptRunner.csprojResolveAssemblyReference.cache
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug with window\ScriptRunner.AddAllias.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug with window\ScriptRunner.MesageConsole.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug with window\ScriptRunner.Properties.Resources.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug with window\ScriptRunner.csproj.GenerateResource.Cache

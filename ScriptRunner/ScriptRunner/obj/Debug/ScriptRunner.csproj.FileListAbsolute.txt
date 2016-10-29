@@ -1,0 +1,149 @@
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.exe
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydroBugger.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\WareForms.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Ini.dll
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydroBugger.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\WareForms.pdb
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ResolveAssemblyReference.cache
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.AddAllias.resources
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.MesageConsole.resources
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.Properties.Resources.resources
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.csproj.GenerateResource.Cache
+D:\My Programms\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe.config
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe.config
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.exe
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\WareForms.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Ini.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.xml
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\WareForms.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.xml
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ResolveAssemblyReference.cache
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.AddAllias.resources
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.MesageConsole.resources
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.Properties.Resources.resources
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.csproj.GenerateResource.Cache
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.pdb
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\el-GR\Scrabler.resources.dll
+D:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\en\Scrabler.resources.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe.config
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.exe
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\WareForms.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.xml
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\WareForms.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.pdb
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.xml
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\el-GR\Scrabler.resources.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\en\Scrabler.resources.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.AddAllias.resources
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.MesageConsole.resources
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.Properties.Resources.resources
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.csproj.GenerateResource.Cache
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.TextEditor.dll
+F:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.xml
+Y:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe.config
+Y:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.exe
+Y:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.pdb
+G:\My Programs\dotNet\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe.config
+G:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.exe
+G:\My Programs\dotNet\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe.config
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.TextEditor.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\NLog.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\WareForms.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\NLog.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\LocaleHundler.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\el-GR\Scrabler.resources.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\en\Scrabler.resources.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ResolveAssemblyReference.cache
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.AddAllias.resources
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.MesageConsole.resources
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.Properties.Resources.resources
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\GenerateResource.read.1.tlog
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\GenerateResource.write.1.tlog
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.exe
+G:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.csprojResolveAssemblyReference.cache
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.AddAllias.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.MesageConsole.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.Properties.Resources.resources
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.csproj.GenerateResource.Cache
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.exe
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Debug\ScriptRunner.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe.config
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.exe
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ScriptRunner.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.TextEditor.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\NLog.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Scrabler.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\HydrobaseSDK.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\The Dark Owl Logger.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\WareForms.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\NLog.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\el-GR\Scrabler.resources.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\en\Scrabler.resources.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\WareForms.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Debug\contact_config.hbt

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://ScrablerService" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ScrablerService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://ScrablerService/Imports">
+      <xsd:import namespace="http://ScrablerService" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Scrabler" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IScrablerService_GetServiceVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceVersion" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_GetServiceVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_createScriptsDirectory_InputMessage">
+    <wsdl:part name="parameters" element="tns:createScriptsDirectory" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_createScriptsDirectory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:createScriptsDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_Autoexecutescripts_InputMessage">
+    <wsdl:part name="parameters" element="tns:Autoexecutescripts" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_Autoexecutescripts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutoexecutescriptsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_Executescript_InputMessage">
+    <wsdl:part name="parameters" element="tns:Executescript" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_Executescript_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecutescriptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_GetLoadedScripts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoadedScripts" />
+  </wsdl:message>
+  <wsdl:message name="IScrablerService_GetLoadedScripts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoadedScriptsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IScrablerService">
+    <wsdl:operation name="GetServiceVersion">
+      <wsdl:input wsaw:Action="http://ScrablerService/IScrablerService/GetServiceVersion" message="tns:IScrablerService_GetServiceVersion_InputMessage" />
+      <wsdl:output wsaw:Action="http://ScrablerService/IScrablerService/GetServiceVersionResponse" message="tns:IScrablerService_GetServiceVersion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="createScriptsDirectory">
+      <wsdl:input wsaw:Action="http://ScrablerService/IScrablerService/createScriptsDirectory" message="tns:IScrablerService_createScriptsDirectory_InputMessage" />
+      <wsdl:output wsaw:Action="http://ScrablerService/IScrablerService/createScriptsDirectoryResponse" message="tns:IScrablerService_createScriptsDirectory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Autoexecutescripts">
+      <wsdl:input wsaw:Action="http://ScrablerService/IScrablerService/Autoexecutescripts" message="tns:IScrablerService_Autoexecutescripts_InputMessage" />
+      <wsdl:output wsaw:Action="http://ScrablerService/IScrablerService/AutoexecutescriptsResponse" message="tns:IScrablerService_Autoexecutescripts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Executescript">
+      <wsdl:input wsaw:Action="http://ScrablerService/IScrablerService/Executescript" message="tns:IScrablerService_Executescript_InputMessage" />
+      <wsdl:output wsaw:Action="http://ScrablerService/IScrablerService/ExecutescriptResponse" message="tns:IScrablerService_Executescript_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLoadedScripts">
+      <wsdl:input wsaw:Action="http://ScrablerService/IScrablerService/GetLoadedScripts" message="tns:IScrablerService_GetLoadedScripts_InputMessage" />
+      <wsdl:output wsaw:Action="http://ScrablerService/IScrablerService/GetLoadedScriptsResponse" message="tns:IScrablerService_GetLoadedScripts_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

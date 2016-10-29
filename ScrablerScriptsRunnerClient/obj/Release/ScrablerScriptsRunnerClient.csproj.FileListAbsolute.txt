@@ -1,0 +1,55 @@
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\ScrablerScriptsRunnerClient.exe
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\ScrablerScriptsRunnerClient.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Release\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.Properties.Resources.resources
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.csproj.GenerateResource.Cache
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.exe
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\ScrablerScriptsRunnerClient.exe.config
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\BugTracking_config.hbt
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\contact_config.hbt
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\Scrabler.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\The Dark Owl Logger.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\WareForms.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\LocaleHundler.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\HydrobaseSDK.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\Hydrobase.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\Scrabler.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\Scrabler.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\WareForms.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\LocaleHundler.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\The Dark Owl Logger.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\HydrobaseSDK.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\HydrobaseSDK.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\Hydrobase.pdb
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\Hydrobase.xml
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\el-GR\Scrabler.resources.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\bin\Release\en\Scrabler.resources.dll
+F:\My Programs\dotNet\ScrablerScriptsRunnerService\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.Form1.resources
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\ScrablerScriptsRunnerClient.exe.config
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.exe
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\BugTracking_config.hbt
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\contact_config.hbt
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\ScrablerScriptsRunnerClient.exe
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\ScrablerScriptsRunnerClient.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Scrabler.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\ICSharpCode.TextEditor.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\HydrobaseSDK.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Hydrobase.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Scrabler.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Scrabler.xml
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\HydrobaseSDK.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\HydrobaseSDK.xml
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Hydrobase.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\el-GR\Scrabler.resources.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\en\Scrabler.resources.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.Form1.resources
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.Properties.Resources.resources
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunnerClient.csproj.GenerateResource.Cache
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\NLog.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\NLog.xml

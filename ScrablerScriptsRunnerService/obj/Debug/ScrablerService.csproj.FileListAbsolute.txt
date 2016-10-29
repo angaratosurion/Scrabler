@@ -1,0 +1,83 @@
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\BugTracking_config.hbt
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\contact_config.hbt
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.dll.config
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ICSharpCode.TextEditor.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\NLog.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\LocaleHundler.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\NLog.xml
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.xml
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\WareForms.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.xml
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.xml
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\LocaleHundler.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.pdb
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.xml
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\el-GR\Scrabler.resources.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\en\Scrabler.resources.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ScrablerService.dll
+F:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ScrablerService.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\contact_config.hbt
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.dll.config
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ICSharpCode.TextEditor.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\WareForms.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\NLog.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\WareForms.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\NLog.xml
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\el-GR\Scrabler.resources.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\en\Scrabler.resources.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ScrablerService.dll
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ScrablerService.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\BugTracking_config.hbt
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\contact_config.hbt
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.dll.config
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ScrablerService.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\WareForms.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ICSharpCode.TextEditor.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\NLog.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\LocaleHundler.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Scrabler.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\Hydrobase.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\HydrobaseSDK.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\The Dark Owl Logger.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\WareForms.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\NLog.xml
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\LocaleHundler.pdb
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\el-GR\Scrabler.resources.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Debug\en\Scrabler.resources.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ResolveAssemblyReference.cache
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ScrablerService.dll
+G:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ScrablerService.pdb
+Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Debug\ScrablerService.csprojResolveAssemblyReference.cache

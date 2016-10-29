@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>The Dark Owl Logger</name>
+    </assembly>
+    <members>
+        <member name="F:TheDarkOwlLogger.ErrorLogForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TheDarkOwlLogger.ErrorLogForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TheDarkOwlLogger.ErrorLogForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TheDarkOwlLogger.XmlLogForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlLogForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlLogForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlErrorLog.CreateErrLog(System.String)">
+            <summary>
+            Creates the ErrorLogFile to given path
+            </summary>
+            <param name="tfilename"></param>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlErrorLog.ReadErrorLog(System.String)">
+            <summary>
+            Read The Error Log and put's it in the Error Data Set
+            </summary>
+            <param name="filename">the path that error log 
+            is saved with the filename</param>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlErrorLog.AddErrorLogRecord(System.Object[])">
+            <summary>
+            Adds an Error To errorlog dataset
+            </summary>
+            <param name="vals">vals of exception</param>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlErrorLog.SaveErrorLog(System.String)">
+            <summary>
+            Saves The Error Log to a log file based on xml format
+            </summary>
+            <param name="filename">the path  included the name that error log will be saved</param>
+        </member>
+        <member name="M:TheDarkOwlLogger.TheDarkOwlLogger.ReportBugtoMail(System.String,System.String)">
+            <summary>
+            This method Send the error log to configured ssender
+            </summary>
+            <param name="ApplicationName">name of the app</param>
+            <param name="fileName">path of the file to be sent</param>
+            <returns></returns>
+        </member>
+        <member name="P:TheDarkOwlLogger.TheDarkOwlLogger.Senders_name">
+            <summary>
+            Gets or Set's The name of the Sender
+            </summary>
+        </member>
+        <member name="P:TheDarkOwlLogger.TheDarkOwlLogger.mailserver">
+            <summary>
+            Gets or SetsThe mail server tht will conecnt to send the bugtrace .
+            </summary>
+        </member>
+        <member name="P:TheDarkOwlLogger.TheDarkOwlLogger.port">
+            <summary>
+            Gets or Sets The  port that is being usesed by the  mail server tht will conecnt to send the bugtrace .
+            </summary>
+        </member>
+        <member name="P:TheDarkOwlLogger.TheDarkOwlLogger.password">
+            <summary>
+            Gets or Sets your accounts password 
+            </summary>
+        </member>
+        <member name="P:TheDarkOwlLogger.TheDarkOwlLogger.username">
+            <summary>
+            Gets or sets your username
+            </summary>
+        </member>
+        <member name="T:TheDarkOwlLogger.XmlLog">
+            <summary>
+            This lass Creates, Loads and saves the Log in xml Format
+            </summary>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlLog.CreateErrLog(System.String,System.String[])">
+            <summary>
+            Creates the LogFile to given path
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlLog.ReadLog(System.String)">
+            <summary>
+            Read The  Log and put's it in the  Data Set
+            </summary>
+            <param name="filename">the path that  log 
+            is saved with the filename</param>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlLog.AddLogRecord(System.Object[])">
+            <summary>
+            Adds an  To log dataset
+            </summary>
+            <param name="vals">vals of exception</param>
+        </member>
+        <member name="M:TheDarkOwlLogger.XmlLog.SaveLog(System.String,System.String)">
+            <summary>
+            Saves The  Log to a log file based on xml format
+            </summary>
+            <param name="filename">the path  included the name that  log will be saved</param>
+        </member>
+        <member name="P:TheDarkOwlLogger.XmlLog.SortedByColumnName">
+            <summary>
+            returns or sets the name of the column that log will be sorted with
+            
+            </summary>
+        </member>
+        <member name="P:TheDarkOwlLogger.XmlLog.LogSet">
+            <summary>
+            Get or Set the DataSet that will contain the datatable with the log.
+            </summary>
+        </member>
+        <member name="T:TheDarkOwlLogger.ActionType">
+            <summary>
+            Type of the action that is logging 
+            </summary>
+        </member>
+    </members>
+</doc>
