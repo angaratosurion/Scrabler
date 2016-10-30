@@ -2,11 +2,12 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "ScrablerRunnerService"
-#define MyAppVersion "0.8.2.3"
+#define MyAppVersion "0.9.1.0"
 #define MyAppPublisher "Paris koutsioukis"
 #define MyAppURL "http://pariskoutsioukis.net/blog/"
 #define MyAppExeName "ScrablerRunnerService.exe"
-
+#define MyCodeRepo "https://github.com/angaratosurion/Scrabler/"
+#define MyCodeRepoTitle "Scrabler On GitHub"
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
@@ -68,6 +69,8 @@ Source: "Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerRunnerService\bin\Re
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{group}\{cm:ProgramOnTheWeb,{#MyAppName}}"; Filename: "{#MyAppURL}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
+;MyCodeRepo
+Name: "{group}\{cm:ProgramOnTheWeb,{#MyCodeRepoTitle}}"; Filename: "{#MyCodeRepo}"
 Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: quicklaunchicon
 

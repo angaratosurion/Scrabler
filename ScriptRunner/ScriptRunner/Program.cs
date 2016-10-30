@@ -95,21 +95,34 @@ namespace ScriptRunner
             opt.CreateOptions();
             opt.LoadAlliaces ();
             //opt.LoadAlliaces();
-            foreach (ICommand cmd in commands)
+            if (args.Length>1 )
             {
-
-                if ((args[0].Equals(cmd.Argument())) || (args[0].Contains (cmd.Argument())))
+                foreach (ICommand cmd in commands)
                 {
-                    cmd.Action(args);
-                    break;
 
+                    if ((args[0].Equals(cmd.Argument())) || (args[0].Contains(cmd.Argument())))
+                    {
+                        cmd.Action(args);
+                        break;
+
+                    }
                 }
-            }
-            System.Console.ReadLine();
-            
-            
+                System.Console.ReadLine();
 
-         Application.Run();
+
+                Application.Run();
+            }
+            else
+            {
+                HelpCmd helpcmd = new HelpCmd();
+                helpcmd.Action(null);
+                System.Console.ReadLine();
+                Application.Exit();
+                
+
+            }
+
+         
            
             
         }

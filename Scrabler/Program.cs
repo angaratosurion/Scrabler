@@ -13,8 +13,10 @@ namespace Scrabler
         /// The main entry point for the application.
         /// </summary>
         /// 
-        internal static Logger logman = NLog.LogManager.GetCurrentClassLogger();
-        
+       // internal static Logger logman = NLog.LogManager.GetCurrentClassLogger();
+        internal static Logger logman = NLog.LogManager.GetLogger("scraber");
+
+        //scraber
         //public 
         /// <summary>
         /// The value that has the gui of the excutiing application.

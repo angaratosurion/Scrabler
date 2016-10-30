@@ -21,27 +21,27 @@ using HydrobaseSDK;
 
 using System.Configuration;
 using Scrabler.IDE;
-
+using NLog;
 
 namespace Scrabler
 {
-   public  class ScrablerV2:ScrablerCore
+    public class ScrablerV2 : ScrablerCore
     {
-       Replacer replacer = new Replacer();
-       hydrobaseADO ado = new hydrobaseADO();
-       /// <summary>
-       /// Xml-file which includes the info for the scrabler script
-       /// </summary>
-       public const string scriptext = ".scf2"; 
-       /// <summary>
-       ///  Reads the xmlfile containing the information of the script  executes it
-       /// and returns the assembly if the script is being 
-       /// excuted or null if no ecript executed or an error occures.
-       /// </summary>
-       /// <param name="scriptname">the full path in which the script's directory is located</param>
-       /// <param name="gui">the gui of the application that will
-       /// execute the script</param>
-       /// <returns>the assembly which is the result of the executed script</returns>
+        Replacer replacer = new Replacer();
+        hydrobaseADO ado = new hydrobaseADO();
+        /// <summary>
+        /// Xml-file which includes the info for the scrabler script
+        /// </summary>
+        public const string scriptext = ".scf2";
+        /// <summary>
+        ///  Reads the xmlfile containing the information of the script  executes it
+        /// and returns the assembly if the script is being 
+        /// excuted or null if no ecript executed or an error occures.
+        /// </summary>
+        /// <param name="scriptname">the full path in which the script's directory is located</param>
+        /// <param name="gui">the gui of the application that will
+        /// execute the script</param>
+        /// <returns>the assembly which is the result of the executed script</returns>
         public object ReadScript(string scriptname, WareForm gui)
         {
 
@@ -53,7 +53,7 @@ namespace Scrabler
                 if ((scriptname != null) && (gui != null))
                 {
                     string code, clas, func, names, tfilename;
-                    tfilename = scriptname + scriptext; 
+                    tfilename = scriptname + scriptext;
                     string[] refs;
                     ado.AttachDataBaseinDataSet(set, tfilename);
                     refs = this.GetReferences(set);
@@ -107,7 +107,7 @@ namespace Scrabler
 
 
         }
-        public object EvalWithParams(string [] sCSCode, string scriptname, string NameSapce, string Clas, string func, string[] refs, WareForm winGUI, ScriptInfo scrinf)
+        public object EvalWithParams(string[] sCSCode, string scriptname, string NameSapce, string Clas, string func, string[] refs, WareForm winGUI, ScriptInfo scrinf)
         {
 
 
@@ -140,23 +140,23 @@ namespace Scrabler
                         cp.GenerateInMemory = true;
                         StringBuilder sb = new StringBuilder("");
 
-                       /* sb.Append("using System;\n");
-                        sb.Append("using System.Xml;\n");
-                        sb.Append("using System.Data;\n");
-                        sb.Append("using System.Data.SqlClient;\n");
-                        //  sb.Append("using System.Windows.objects;\n");
-                        sb.Append("using System.Drawing;\n");
-                        sb.Append("using Hydrobase;\n");
-                        sb.Append("using HydrobaseSDK;\n");
+                        /* sb.Append("using System;\n");
+                         sb.Append("using System.Xml;\n");
+                         sb.Append("using System.Data;\n");
+                         sb.Append("using System.Data.SqlClient;\n");
+                         //  sb.Append("using System.Windows.objects;\n");
+                         sb.Append("using System.Drawing;\n");
+                         sb.Append("using Hydrobase;\n");
+                         sb.Append("using HydrobaseSDK;\n");
 
-                        //sb.Append("using Frogy_Base_Hydrobase_Data_Enviroment;\n");
-                        sb.Append("using WareForms;\n");
+                         //sb.Append("using Frogy_Base_Hydrobase_Data_Enviroment;\n");
+                         sb.Append("using WareForms;\n");
 
-                        /* sb.Append("namespace CSCodeEvaler{ \n");
-                         sb.Append("public class CSCodeEvaler{ \n");
-                         sb.Append("public object EvalCode(){\n");
-                         //sb.Append("return " + sCSCode + "; \n");
-                        sb.Append(sCSCode + "; \n"); */
+                         /* sb.Append("namespace CSCodeEvaler{ \n");
+                          sb.Append("public class CSCodeEvaler{ \n");
+                          sb.Append("public object EvalCode(){\n");
+                          //sb.Append("return " + sCSCode + "; \n");
+                         sb.Append(sCSCode + "; \n"); */
                         /*sb.Append("} \n");
                         sb.Append("} \n");
                         sb.Append("}\n");*/
@@ -164,18 +164,18 @@ namespace Scrabler
                         //sb.Replace(func + "(WareForm gui", func + "( WareForm " + winGUI);
 
 
-                     //   CompilerResults cr = icc.CompileAssemblyFromSource(cp, sb.ToString());
+                        //   CompilerResults cr = icc.CompileAssemblyFromSource(cp, sb.ToString());
                         CompilerResults cr = icc.CompileAssemblyFromFileBatch(cp, sCSCode);
 
                         if (cr.Errors.Count > 0)
                         {
-                          //  string tmp = sb.ToString().Replace("\n", Environment.NewLine);
+                            //  string tmp = sb.ToString().Replace("\n", Environment.NewLine);
                             ErrorWindow errwin = new ErrorWindow();
                             // MessageBox.Show("ERROR in " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText + cr.Errors[0].ToString() +"\n" + sb.ToString(), "Error evaluating cs code" , MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                             errwin.listErrors.Text = "ERROR in line " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText;
 
-                           // errwin.txtCode.Text = cr.
+                            // errwin.txtCode.Text = cr.
                             errwin.Show();
 
                             return null;
@@ -207,7 +207,7 @@ namespace Scrabler
                         cp.ReferencedAssemblies.Add("system.drawing.dll");
                         cp.ReferencedAssemblies.Add(Application.ExecutablePath);
                         cp.ReferencedAssemblies.Add(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase).Replace(@"file:\", "") + "\\Hydrobase.dll");
-                       // cp.ReferencedAssemblies.Add(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase).Replace(@"file:\", "") + "\\" + "HydrobaseSDK.dll");
+                        // cp.ReferencedAssemblies.Add(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase).Replace(@"file:\", "") + "\\" + "HydrobaseSDK.dll");
                         cp.ReferencedAssemblies.Add(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase).Replace(@"file:\", "") + "\\" + "WareForms.dll");
                         cp.ReferencedAssemblies.Add(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase).Replace(@"file:\", "") + "\\" + "Scrabler.dll");
                         cp.ReferencedAssemblies.AddRange(refs);
@@ -215,26 +215,26 @@ namespace Scrabler
 
                         cp.CompilerOptions = "/t:library";
                         cp.GenerateInMemory = true;
-                       /* StringBuilder sb = new StringBuilder("");
-                        sb.Append("Imports System\n");
-                        sb.Append("Imports System.Xml\n");
-                        sb.Append("Imports System.Data\n");
-                        sb.Append("Imports System.Data.SqlClient\n");
+                        /* StringBuilder sb = new StringBuilder("");
+                         sb.Append("Imports System\n");
+                         sb.Append("Imports System.Xml\n");
+                         sb.Append("Imports System.Data\n");
+                         sb.Append("Imports System.Data.SqlClient\n");
 
-                        sb.Append("Imports System.Drawing\n");
-                        sb.Append("Imports Hydrobase\n");
-                        sb.Append("Imports HydrobaseSDK\n");
+                         sb.Append("Imports System.Drawing\n");
+                         sb.Append("Imports Hydrobase\n");
+                         sb.Append("Imports HydrobaseSDK\n");
 
-                        sb.Append("Imports WareForms\n");
+                         sb.Append("Imports WareForms\n");
 
 
-                        sb.Append(sCSCode + " \n");*/
+                         sb.Append(sCSCode + " \n");*/
 
-                        CompilerResults cr = icc.CompileAssemblyFromFileBatch(cp,sCSCode);
+                        CompilerResults cr = icc.CompileAssemblyFromFileBatch(cp, sCSCode);
                         if (cr.Errors.Count > 0)
                         {
                             // MessageBox.Show("ERROR in " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText + cr.Errors[0].ToString() +"\n" + sb.ToString(), "Error evaluating cs code" , MessageBoxButtons.OK, MessageBoxIcon.Error);
-                           // string tmp = sb.ToString().Replace("\n", Environment.NewLine);
+                            // string tmp = sb.ToString().Replace("\n", Environment.NewLine);
                             ErrorWindow errwin = new ErrorWindow();
                             errwin.listErrors.Text = "ERROR in line " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText;
 
@@ -274,17 +274,17 @@ namespace Scrabler
             }
 
         }
-       /// <summary>
+        /// <summary>
         /// Reads the xmlfile containing the information of the script  executes it
         /// and returns the assembly if the script is being 
         /// excuted or null if no ecript executed or an error occures.
-       /// </summary>
+        /// </summary>
         /// <param name="scriptname">the full path in which the script's directory is located</param>
         /// <returns>the assembly which is the result of the executed script</returns>
-       public object ReadScript2(string scriptname)
+        public object ReadScript2(string scriptname)
         {
 
-         try
+            try
             {
                 int i = 0;
                 object ap = null;
@@ -293,7 +293,7 @@ namespace Scrabler
                 if (scriptname != null)
                 {
 
-                    string code, clas, func, names, lang,tfilename;
+                    string code, clas, func, names, lang, tfilename;
                     if (Path.GetExtension(scriptname) == null)
                     {
                         tfilename = Path.Combine(scriptname, scriptext);
@@ -302,12 +302,12 @@ namespace Scrabler
                     {
                         tfilename = scriptname;
                     }
-                
+
                     string[] refs;
-                  //  MessageBox.Show(tfilename);
-                    
+                    //  MessageBox.Show(tfilename);
+
                     ado.AttachDataBaseinDataSet(set, tfilename);
-             //    MessageBox.Show(set.Tables[0].TableName);
+                    //    MessageBox.Show(set.Tables[0].TableName);
                     refs = this.GetReferences(set);
                     names = this.GetNameSace(set);
                     code = this.GetCode(set);
@@ -315,25 +315,25 @@ namespace Scrabler
                     func = this.GetFunction(set);
                     lang = this.GetLanguage(set);
 
-                /*    if ((definedConstants != null) && (definedValues != null) && (definedConstants.Length == definedValues.Length))
-                    {
-                        for (i = 0; i < definedConstants.Length; i++)
+                    /*    if ((definedConstants != null) && (definedValues != null) && (definedConstants.Length == definedValues.Length))
                         {
-                            code = replacer.findandreplaceDefinedConsts(code, definedConstants[i], definedValues[i]);
+                            for (i = 0; i < definedConstants.Length; i++)
+                            {
+                                code = replacer.findandreplaceDefinedConsts(code, definedConstants[i], definedValues[i]);
+
+                                code = replacer.findandreplaceSymbols(code);
+                            }
+
+
+                        }
+                        else
+                        {
 
                             code = replacer.findandreplaceSymbols(code);
-                        }
 
+                        } */
 
-                    }
-                    else
-                    {
-
-                        code = replacer.findandreplaceSymbols(code);
-
-                    } */
-
-                   // MessageBox.Show(code);
+                    // MessageBox.Show(code);
 
                     ScriptsSet = set;
                     ScriptInfo scrinfo = this.GetScriptInfo(set);
@@ -357,40 +357,40 @@ namespace Scrabler
 
 
             }
-         catch (Exception e)
-         {
-             //MessageBox.Show(e.ToString());
-             Program.Bugtracking(e);
+            catch (Exception e)
+            {
+                //MessageBox.Show(e.ToString());
+                Program.Bugtracking(e);
 
-             return null;
-         }
+                return null;
+            }
 
 
 
         }
-       /// <summary>
-       /// Executes the code that is saved in the sCSCode
-       /// and returns the assembly if the script is being 
-       /// excuted or null if no ecript executed or an error occures.
-       /// </summary>
-       /// <param name="sCSCode">here put the code</param>
-       /// <param name="scriptname">name of  the sctipt</param>
-       /// <param name="NameSapce">the namespace that class
-       /// of the script belongs</param>
-       /// <param name="Clas">the class of the script</param>
-       /// <param name="func">the func that s to be executed</param>
-       /// <param name="refs">the references that </param>
-       /// <param name="scrinf">Class that has info about script</param>
-       /// <returns>and returns the assembly if the script is being 
-       /// excuted or null if no ecript executed or an error occures.</returns>
-        public object Eval2(string  [] sCSCode, string scriptname, string NameSapce, string Clas, string func, string[] refs, ScriptInfo scrinf)
+        /// <summary>
+        /// Executes the code that is saved in the sCSCode
+        /// and returns the assembly if the script is being 
+        /// excuted or null if no ecript executed or an error occures.
+        /// </summary>
+        /// <param name="sCSCode">here put the code</param>
+        /// <param name="scriptname">name of  the sctipt</param>
+        /// <param name="NameSapce">the namespace that class
+        /// of the script belongs</param>
+        /// <param name="Clas">the class of the script</param>
+        /// <param name="func">the func that s to be executed</param>
+        /// <param name="refs">the references that </param>
+        /// <param name="scrinf">Class that has info about script</param>
+        /// <returns>and returns the assembly if the script is being 
+        /// excuted or null if no ecript executed or an error occures.</returns>
+        public object Eval2(string[] sCSCode, string scriptname, string NameSapce, string Clas, string func, string[] refs, ScriptInfo scrinf)
         {
             try
             {
 
                 //string e = File.ReadAllText(sCSCode[0]);
                 //   MessageBox.Show(e);
-               
+
 
                 if ((sCSCode != null) && (scriptname != null) && (NameSapce != null) && (Clas != null) && (func != null)
                     && (refs != null) && (refs.Length > 0)
@@ -418,37 +418,37 @@ namespace Scrabler
 
 
                         cp.CompilerOptions = "/t:library";
-                      
+
                         cp.GenerateInMemory = true;
-                       /* StringBuilder sb = new StringBuilder("");
-                        sb.Append("using System;\n");
-                        sb.Append("using System.Xml;\n");
-                        sb.Append("using System.Data;\n");
-                        sb.Append("using System.Data.SqlClient;\n");
+                        /* StringBuilder sb = new StringBuilder("");
+                         sb.Append("using System;\n");
+                         sb.Append("using System.Xml;\n");
+                         sb.Append("using System.Data;\n");
+                         sb.Append("using System.Data.SqlClient;\n");
 
-                        sb.Append("using System.Drawing;\n");
-                        sb.Append("using Hydrobase;\n");
-                        sb.Append("using HydrobaseSDK;\n");
+                         sb.Append("using System.Drawing;\n");
+                         sb.Append("using Hydrobase;\n");
+                         sb.Append("using HydrobaseSDK;\n");
 
-                        sb.Append("using WareForms;\n");
+                         sb.Append("using WareForms;\n");
 
 
-                      //  sb.Append(sCSCode + "; \n");*/
-                       // MessageBox.Show("hhh" );
+                       //  sb.Append(sCSCode + "; \n");*/
+                        // MessageBox.Show("hhh" );
 
                         /*foreach (string st in sCSCode)
                         {
                             MessageBox.Show("hhh1" +st );
                         }*/
-                       // MessageBox.Show(sCSCode[0]);
+                        // MessageBox.Show(sCSCode[0]);
                         CompilerResults cr = icc.CompileAssemblyFromFileBatch(cp, sCSCode);
                         if (cr.Errors.Count > 0)
                         {
                             // MessageBox.Show("ERROR in " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText + cr.Errors[0].ToString() +"\n" + sb.ToString(), "Error evaluating cs code" , MessageBoxButtons.OK, MessageBoxIcon.Error);
-                           // cr.Errors[0].
-                           // string tmp = sb.ToString().Replace("\n", Environment.NewLine);
-                           // // errwin.txtCode.Text = tmp;
-                            
+                            // cr.Errors[0].
+                            // string tmp = sb.ToString().Replace("\n", Environment.NewLine);
+                            // // errwin.txtCode.Text = tmp;
+
                             ErrorWindow errwin = new ErrorWindow();
 
 
@@ -462,7 +462,7 @@ namespace Scrabler
 
                         System.Reflection.Assembly a = cr.CompiledAssembly;
 
-                     
+
                         object o = a.CreateInstance(NameSapce + "." + Clas);
 
                         AssemblyCol.Add(a, scrinf);
@@ -499,32 +499,32 @@ namespace Scrabler
                         cp.CompilerOptions = "/t:library";
                         cp.GenerateInMemory = true;
                         StringBuilder sb = new StringBuilder("");
-                      /*  sb.Append("Imports System\n");
-                        sb.Append("Imports System.Xml\n");
-                        sb.Append("Imports System.Data\n");
-                        sb.Append("Imports System.Data.SqlClient\n");
+                        /*  sb.Append("Imports System\n");
+                          sb.Append("Imports System.Xml\n");
+                          sb.Append("Imports System.Data\n");
+                          sb.Append("Imports System.Data.SqlClient\n");
 
-                        sb.Append("Imports System.Drawing\n");
-                        sb.Append("Imports Hydrobase\n");
-                        sb.Append("Imports HydrobaseSDK\n");
+                          sb.Append("Imports System.Drawing\n");
+                          sb.Append("Imports Hydrobase\n");
+                          sb.Append("Imports HydrobaseSDK\n");
 
-                        sb.Append("Imports WareForms\n");
+                          sb.Append("Imports WareForms\n");
 
 
-                        sb.Append(sCSCode + " \n");*/
+                          sb.Append(sCSCode + " \n");*/
 
-                        CompilerResults cr = icc.CompileAssemblyFromFileBatch(cp,sCSCode);
+                        CompilerResults cr = icc.CompileAssemblyFromFileBatch(cp, sCSCode);
                         if (cr.Errors.Count > 0)
                         {
                             // MessageBox.Show("ERROR in " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText + cr.Errors[0].ToString() +"\n" + sb.ToString(), "Error evaluating cs code" , MessageBoxButtons.OK, MessageBoxIcon.Error);
-                           // string tmp = sb.ToString().Replace("\n", Environment.NewLine);
+                            // string tmp = sb.ToString().Replace("\n", Environment.NewLine);
                             //errwin.txtCode.Text = tmp;
-                           /* ErrorWindow errwin = new ErrorWindow();
-                            errwin.listErrors.Text = "ERROR in line " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText;
+                            /* ErrorWindow errwin = new ErrorWindow();
+                             errwin.listErrors.Text = "ERROR in line " + cr.Errors[0].Line + ": " + cr.Errors[0].ErrorText;
 
-                            errwin.Show();
-                            this.SaveErrorrs(cr.Errors);
-                            */
+                             errwin.Show();
+                             this.SaveErrorrs(cr.Errors);
+                             */
                             return null;
                         }
 
@@ -556,12 +556,12 @@ namespace Scrabler
             }
 
         }
-      
-       /// <summary>
-       /// Saves all the compilation erros  in a file at application's installation folder
-       /// </summary>
-       /// <param name="compilererrcol"></param>
-       public void SaveErrorrs(CompilerErrorCollection compilererrcol)
+
+        /// <summary>
+        /// Saves all the compilation erros  in a file at application's installation folder
+        /// </summary>
+        /// <param name="compilererrcol"></param>
+        public void SaveErrorrs(CompilerErrorCollection compilererrcol)
         {
 
             try

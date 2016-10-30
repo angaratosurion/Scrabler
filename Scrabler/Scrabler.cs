@@ -21,7 +21,7 @@ using HydrobaseSDK;
 
 using System.Configuration;
 using Scrabler.IDE;
-
+using NLog;
 
 namespace Scrabler
 {
@@ -2064,6 +2064,28 @@ namespace Scrabler
             }
 
         }
+        /// <summary>
+        /// Allows you to log your exceptions in an xml file
+        /// </summary>
+        /// <param name="ex">Exception</param>
+        public static void ErrorLogScript(Exception ex)
+        {
+            Logger Logman = LogManager.GetLogger("screrrlog");
+            Logman.TraceException(ex.Message, ex);
+
+
+        }
+        public static void LogMessage(string message)
+        {
+            if (message != null)
+            {
+                Logger Logman = LogManager.GetLogger("scrlog");
+                Logman.Info(message);
+            }
+
+
         }
     }
+}
+    
 
