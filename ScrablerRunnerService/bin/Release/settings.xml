@@ -3,5 +3,7 @@
   <eggrafi>
     <username>windows 7</username>
     <password></password>
+    <!--values in bytes default value is 100MB(or 104857600bytes)-->
+    <maxMemoryPerApp>104857600</maxMemoryPerApp>
   </eggrafi>
 </pynakas>

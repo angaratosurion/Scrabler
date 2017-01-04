@@ -2,12 +2,13 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "ScrablerRunnerService"
-#define MyAppVersion "0.9.1.0"
+#define MyAppVersion "1.0.0.0"
 #define MyAppPublisher "Paris koutsioukis"
 #define MyAppURL "http://pariskoutsioukis.net/blog/"
 #define MyAppExeName "ScrablerRunnerService.exe"
 #define MyCodeRepo "https://github.com/angaratosurion/Scrabler/"
 #define MyCodeRepoTitle "Scrabler On GitHub"
+
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
@@ -22,8 +23,8 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-LicenseFile=Y:\My Programs\dotNet\Open Source\Scrabler\Scrabler\licence.txt
-OutputDir=Y:\My Programs\dotNet\Open Source\Scrabler\Inno Setup\scrablerWindowsServiceSetup\Output
+LicenseFile=..\..\Scrabler\licence.txt
+OutputDir=..\..\Inno Setup\scrablerWindowsServiceSetup\Output
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-setup
 Compression=lzma/ultra64
 SolidCompression=yes
@@ -61,9 +62,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerRunnerService\bin\Release\ScrablerRunnerService.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "Y:\My Programs\dotNet\Open Source\Scrabler\ScrablerRunnerService\bin\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\..\ScrablerRunnerService\bin\Release\ScrablerRunnerService.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\..\ScrablerRunnerService\bin\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+Source: "..\..\ScrablerRunnerService\bin\Release\settings.xml"; DestDir: "{app}"
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"

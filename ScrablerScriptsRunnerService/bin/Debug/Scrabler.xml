@@ -100,6 +100,33 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.createNewTabSession">
+            <summary>
+            Creates a new session of console
+            </summary>
+        </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.CloseSession">
+            <summary>
+            Closes the active  session
+            </summary>
+        </member>
+        <member name="F:Scrabler.Controls.TabConsoleControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Scrabler.Controls.TabConsoleControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:Scrabler.ErrorWindow.components">
             <summary>
             Required designer variable.
@@ -225,7 +252,7 @@
             <param name="target">target plugin collection</param>
             <param name="plugname">name of plugin name</param>        
         </member>
-        <member name="F:Scrabler.Program.Bugger">
+        <member name="F:Scrabler.Program.logman">
             <summary>
             The main entry point for the application.
             </summary>
@@ -247,40 +274,6 @@
             Replaces Some specific definisions with given values.
              @authorKiparissis Koutsioukis(Angarato Surion)
             </summary>
-        </member>
-        <member name="T:Scrabler.ScrablerInstaller">
-            <summary>
-            The class that handles the installation of the scripts
-             @authorKiparissis Koutsioukis(Angarato Surion)
-            </summary>
-        </member>
-        <member name="M:Scrabler.ScrablerInstaller.Install(System.String,System.String)">
-            <summary>
-            this method will install the given script to the script folder
-            and copy the dll neede by the sript to the needed folder
-            </summary>
-            <param name="script_Archfilename">the full path of the script </param>
-            <param name="installfolder_scriptanddll">the path that
-            script and dll wll be installed</param>
-        </member>
-        <member name="M:Scrabler.ScrablerInstaller.CheckIfdllNeedToBeInstalled(System.String,System.String)">
-            <summary>
-            This checks if the reference has been tagged as a dll that doesnt belong
-            to the application and returns the new path
-            that the dll will have.
-            </summary>
-            <param name="ref_dll">the given reference</param>
-            <param name="dllinstalltionfolder">the folder that all script's dll 
-            will be</param>
-            <returns>returns the new path
-            that the dll will have</returns>
-        </member>
-        <member name="M:Scrabler.ScrablerInstaller.CopyProcessReference(System.CodeDom.Compiler.CompilerParameters,System.String)">
-            <summary>
-            Copies all process's references to given folder
-            </summary>
-            <param name="cp">parameters of the given compiler</param>
-            <param name="path">path to be copied</param>
         </member>
         <member name="F:Scrabler.Replacer.replacemanettag">
             <summary>
@@ -312,6 +305,29 @@
             TODO: To implement the ability to run vb.net code.
             
             @authorKiparissis Koutsioukis(Angarato Surion)
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.defsett">
+            <summary>
+            The core of This library that does the most job..
+            </summary>
+            
+        </member>
+        <member name="M:Scrabler.ScrablerCore.#ctor(Scrabler.enumScriptRuningMode)">
+            <summary>
+            This constractor inititalisizes Scrabler in the given mode
+            </summary>
+            <param name="runingmode">this enum changes the execution mode of the scripts </param>
+        </member>
+        <member name="M:Scrabler.ScrablerCore.#ctor">
+            <summary>
+            Default Constractor
+            </summary>
+        </member>
+        <member name="F:Scrabler.ScrablerCore.AssemblyCol">
+            <summary>
+            The Collection of all assemblies created by the executed scripts.
+            
             </summary>
         </member>
         <member name="F:Scrabler.ScrablerCore.references">
@@ -389,29 +405,6 @@
         <member name="F:Scrabler.ScrablerCore.LangTag">
             <summary>
             the [rpgraming language that scrabler script is writen on
-            </summary>
-        </member>
-        <member name="F:Scrabler.ScrablerCore.defsett">
-            <summary>
-            The core of This library that does the most job..
-            </summary>
-            
-        </member>
-        <member name="M:Scrabler.ScrablerCore.#ctor(Scrabler.enumScriptRuningMode)">
-            <summary>
-            This constractor inititalisizes Scrabler in the given mode
-            </summary>
-            <param name="runingmode">this enum changes the execution mode of the scripts </param>
-        </member>
-        <member name="M:Scrabler.ScrablerCore.#ctor">
-            <summary>
-            Default Constractor
-            </summary>
-        </member>
-        <member name="F:Scrabler.ScrablerCore.AssemblyCol">
-            <summary>
-            The Collection of all assemblies created by the executed scripts.
-            
             </summary>
         </member>
         <member name="F:Scrabler.ScrablerCore.replacer">
@@ -644,6 +637,12 @@
             <param name="execclass">The name of the class that will be executed</param>
             <param name="info">the scripts info</param>
         </member>
+        <member name="M:Scrabler.ScrablerCore.ErrorLogScript(System.Exception)">
+            <summary>
+            Allows you to log your exceptions in an xml file
+            </summary>
+            <param name="ex">Exception</param>
+        </member>
         <member name="T:Scrabler.ScrablerDefSettings">
             <summary>
             Scrabler default settings managment class
@@ -658,6 +657,40 @@
             <summary>
             Creates the default configuration of the scrabler library
             </summary>
+        </member>
+        <member name="T:Scrabler.ScrablerInstaller">
+            <summary>
+            The class that handles the installation of the scripts
+             @authorKiparissis Koutsioukis(Angarato Surion)
+            </summary>
+        </member>
+        <member name="M:Scrabler.ScrablerInstaller.Install(System.String,System.String)">
+            <summary>
+            this method will install the given script to the script folder
+            and copy the dll neede by the sript to the needed folder
+            </summary>
+            <param name="script_Archfilename">the full path of the script </param>
+            <param name="installfolder_scriptanddll">the path that
+            script and dll wll be installed</param>
+        </member>
+        <member name="M:Scrabler.ScrablerInstaller.CheckIfdllNeedToBeInstalled(System.String,System.String)">
+            <summary>
+            This checks if the reference has been tagged as a dll that doesnt belong
+            to the application and returns the new path
+            that the dll will have.
+            </summary>
+            <param name="ref_dll">the given reference</param>
+            <param name="dllinstalltionfolder">the folder that all script's dll 
+            will be</param>
+            <returns>returns the new path
+            that the dll will have</returns>
+        </member>
+        <member name="M:Scrabler.ScrablerInstaller.CopyProcessReference(System.CodeDom.Compiler.CompilerParameters,System.String)">
+            <summary>
+            Copies all process's references to given folder
+            </summary>
+            <param name="cp">parameters of the given compiler</param>
+            <param name="path">path to be copied</param>
         </member>
         <member name="M:Scrabler.ScrablerPluginCollection.#ctor">
             <summary>
@@ -675,6 +708,14 @@
             Initializes a new instance of the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> class containing the specified array of <see cref="T:Scrabler.ScrablerPluginSDK">ScrablerPluginSDK</see> objects.
             </summary>
             <param name="value">An array of <see cref="T:Scrabler.ScrablerPluginSDK">ScrablerPluginSDK</see> objects with which to initialize the collection. </param>
+        </member>
+        <member name="P:Scrabler.ScrablerPluginCollection.Item(System.Int32)">
+            <summary>
+            Gets the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> at the specified index in the collection.
+            <para>
+            In C#, this property is the indexer for the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> class.
+            </para>
+            </summary>
         </member>
         <member name="M:Scrabler.ScrablerPluginCollection.AddRange(Scrabler.ScrablerPluginSDK[])">
             <summary>
@@ -721,14 +762,6 @@
             </summary>
             <returns>An <see cref="T:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator">ScrablerPluginCollectionEnumerator</see> for the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> instance.</returns>
         </member>
-        <member name="P:Scrabler.ScrablerPluginCollection.Item(System.Int32)">
-            <summary>
-            Gets the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> at the specified index in the collection.
-            <para>
-            In C#, this property is the indexer for the <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> class.
-            </para>
-            </summary>
-        </member>
         <member name="T:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator">
             <summary>
             Supports a simple iteration over a <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see>.
@@ -740,6 +773,11 @@
             </summary>
             <param name="mappings">The <see cref="T:Scrabler.ScrablerPluginCollection">ScrablerPluginCollection</see> to enumerate.</param>
         </member>
+        <member name="P:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.Current">
+            <summary>
+            Gets the current element in the collection.
+            </summary>
+        </member>
         <member name="M:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.MoveNext">
             <summary>
             Advances the enumerator to the next element of the collection.
@@ -749,11 +787,6 @@
         <member name="M:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.Reset">
             <summary>
             Sets the enumerator to its initial position, which is before the first element in the collection.
-            </summary>
-        </member>
-        <member name="P:Scrabler.ScrablerPluginCollection.ScrablerPluginCollectionEnumerator.Current">
-            <summary>
-            Gets the current element in the collection.
             </summary>
         </member>
         <member name="F:Scrabler.ScrablerV2.scriptext">
@@ -871,6 +904,16 @@
             </summary>
             <param name="mainfold">folder of script repo will be installe</param>
         </member>
+        <member name="P:Scrabler.ScriptRepo.Temp">
+            <summary>
+            Set or returns the path of the temp folder
+            </summary>
+        </member>
+        <member name="P:Scrabler.ScriptRepo.Repository">
+            <summary>
+            Set or returns the path of the script repository  folder
+            </summary>
+        </member>
         <member name="M:Scrabler.ScriptRepo.Init(System.String)">
             <summary>
             Init the script repo options
@@ -882,54 +925,17 @@
             Clears the Temp directory
             </summary>
         </member>
+        <member name="P:Scrabler.ScriptRepo.Binaryfolder">
+            <summary>
+            The folder of binariy files in repo
+            </summary>
+        </member>
         <member name="M:Scrabler.ScriptRepo.Executables">
             <summary>
             Returns the full path of the executable filles in script repository
             </summary>
             <returns>Returns the full path of the executable filles in script repository
             null on fail </returns>
-        </member>
-        <member name="P:Scrabler.ScriptRepo.Temp">
-            <summary>
-            Set or returns the path of the temp folder
-            </summary>
-        </member>
-        <member name="P:Scrabler.ScriptRepo.Repository">
-            <summary>
-            Set or returns the path of the script repository  folder
-            </summary>
-        </member>
-        <member name="P:Scrabler.ScriptRepo.Binaryfolder">
-            <summary>
-            The folder of binariy files in repo
-            </summary>
-        </member>
-        <member name="M:Scrabler.Controls.TabConsoleControl.createNewTabSession">
-            <summary>
-            Creates a new session of console
-            </summary>
-        </member>
-        <member name="M:Scrabler.Controls.TabConsoleControl.CloseSession">
-            <summary>
-            Closes the active  session
-            </summary>
-        </member>
-        <member name="F:Scrabler.Controls.TabConsoleControl.components">
-            <summary> 
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:Scrabler.Controls.TabConsoleControl.Dispose(System.Boolean)">
-            <summary> 
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:Scrabler.Controls.TabConsoleControl.InitializeComponent">
-            <summary> 
-            Required method for Designer support - do not modify 
-            the contents of this method with the code editor.
-            </summary>
         </member>
         <member name="T:Scrabler.Tools.Helpers.Hardware.Monitor">
             <summary>
@@ -995,6 +1001,12 @@
             </summary>
             <returns>Starts the process it watches and returns true on succes</returns>
         </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.ReStart">
+            <summary>
+            Restarts the watched process
+            </summary>
+            <returns></returns>
+        </member>
         <member name="P:Scrabler.Tools.ProcessWatcher.BasePrioirty">
             <summary>
             Returns prioritty of the process
@@ -1005,10 +1017,23 @@
             Returns or sets the proecces
             </summary>
         </member>
+        <member name="P:Scrabler.Tools.ProcessWatcher.MaxAllowedBytes">
+            <summary>
+            Maxiumum allowd memory on Ram in bytes
+            if  the script is bigger than that it's being restarted
+            </summary>
+        </member>
         <member name="P:Scrabler.Tools.ProcessWatcher.Timer">
             <summary>
             gets or sets the timer
             </summary>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.ElapsedEvent(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            The elapsed event handler of the timer
+            </summary>
+            <param name="sender"></param>
+            <param name="ev"></param>
         </member>
         <member name="T:Scrabler.Tools.TaskManager">
             <summary>

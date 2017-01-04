@@ -90,6 +90,7 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScri
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Hydrobase.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\NLog.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Scrabler.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\System.Management.Automation.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\WareForms.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\ICSharpCode.TextEditor.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\ICSharpCode.SharpZipLib.dll
@@ -106,4 +107,3 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScri
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.csproj.GenerateResource.Cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.exe
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.pdb
-G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\System.Management.Automation.dll

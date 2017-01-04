@@ -18,6 +18,7 @@ using System.Reflection;
 using Scrabler;
 using Hydrobase;
 using ScriptRunner;
+using Scrabler.Tools;
 
 namespace ScrablerRunnerService
 {
@@ -26,10 +27,12 @@ namespace ScrablerRunnerService
        // ScrablerService.ScrablerServiceClient clnt=null;
         DataSet set = new DataSet();
         string username, password;
+        double maxmemoryperapp;
         hydrobaseADO ado = new hydrobaseADO();
         ScrablerCore scarabler = new ScrablerCore();
         Scrabler.ScrablerV2 scr2 = new ScrablerV2();
         List<Process> aproc = new List<Process>();
+        List<ProcessWatcher> procwatcher = new List<ProcessWatcher>();
         public void createScriptsDirectory()
         {
 
@@ -141,6 +144,9 @@ namespace ScrablerRunnerService
 
                           pr.Start();
                           this.aproc.Add(pr);
+                        ProcessWatcher prwtch = new ProcessWatcher(pr);
+                        this.procwatcher.Add(prwtch);
+                            
                       //  }
 
                         }
@@ -187,6 +193,7 @@ namespace ScrablerRunnerService
                 object[] vals = set.Tables[0].Rows[0].ItemArray;
                 username = Convert.ToString(vals[0]);
                 password = Convert.ToString(vals[1]);
+                maxmemoryperapp = Convert.ToDouble(vals[2]);
                // MessageBox.Show(password);
                 this.createScriptsDirectory();
                 this.Autoexecutescripts();

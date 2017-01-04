@@ -78,6 +78,7 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScri
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\Hydrobase.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\NLog.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\Scrabler.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\System.Management.Automation.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\WareForms.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\ICSharpCode.TextEditor.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\ICSharpCode.SharpZipLib.dll
@@ -91,4 +92,3 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScri
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Release\ScrablerService.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Release\ScrablerService.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Release\ScrablerService.pdb
-G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\System.Management.Automation.dll

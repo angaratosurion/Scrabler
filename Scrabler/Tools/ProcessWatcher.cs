@@ -32,6 +32,7 @@ namespace Scrabler.Tools
 
                    
                     timer = tmr;
+                    this.setOnTimeEvent();
                 }
 
 
@@ -53,8 +54,8 @@ namespace Scrabler.Tools
             try
             {
 
-                
 
+                this.setOnTimeEvent();
 
             }
             catch (Exception ex)
@@ -83,6 +84,7 @@ namespace Scrabler.Tools
                     proc = tproc;
                    
                     timer = new Timer(1000);
+                    this.setOnTimeEvent();
 
                 }
 
@@ -114,6 +116,7 @@ namespace Scrabler.Tools
 
                     proc = tproc;
                     timer = tmr;
+                    this.setOnTimeEvent();
                 }
 
 
@@ -185,6 +188,41 @@ namespace Scrabler.Tools
 
         }
         /// <summary>
+        /// Restarts the watched process
+        /// </summary>
+        /// <returns></returns>
+        public bool ReStart()
+        {
+
+
+            try
+            {
+
+                if (proc != null)
+                {
+
+                    ProcessStartInfo inf = proc.StartInfo;
+                    this.Kill();
+                    proc.Dispose();
+                    proc = new Process();
+                    proc.StartInfo = inf;
+                   
+
+                    return proc.Start();
+                }
+                return false;
+
+
+            }
+            catch (Exception ex)
+            {
+
+                Program.Bugtracking(ex);
+                return false;
+            }
+
+        }
+        /// <summary>
         /// Returns prioritty of the process
         /// </summary>
         public  int  BasePrioirty
@@ -202,6 +240,11 @@ namespace Scrabler.Tools
             set { proc = value; }
         }
         /// <summary>
+        /// Maxiumum allowd memory on Ram in bytes
+        /// if  the script is bigger than that it's being restarted
+        /// </summary>
+        public double MaxAllowedBytes{ get; set; }
+        /// <summary>
         /// gets or sets the timer
         /// </summary>
         public Timer Timer
@@ -210,6 +253,47 @@ namespace Scrabler.Tools
             set { timer = value; }
         }
         
+        public void setOnTimeEvent()
+        {
+            try
+            {
+                if ( timer !=null)
+                {
+                    timer.Elapsed += new ElapsedEventHandler(this.ElapsedEvent);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                Program.Bugtracking(ex);
+            }
+        }
+        /// <summary>
+        /// The elapsed event handler of the timer
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="ev"></param>
+        private void ElapsedEvent(object sender,ElapsedEventArgs ev)
+        {
+            try
+            {
+                if (proc != null)
+                {
+                     if (this.MaxAllowedBytes>0 && proc.WorkingSet64>this.MaxAllowedBytes)
+                    {
+                        this.ReStart();
+                    }
+                    
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Program.Bugtracking(ex);
+            }
+        }
        
     }
 }

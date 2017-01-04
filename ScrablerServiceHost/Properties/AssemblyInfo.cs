@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyProduct("ScrablerServiceHost")]
-[assembly: AssemblyCopyright("Copyright © Paris Koutsioukis 2010")]
+[assembly: AssemblyCopyright("Copyright © Paris Koutsioukis 2010-2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -1001,6 +1001,12 @@
             </summary>
             <returns>Starts the process it watches and returns true on succes</returns>
         </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.ReStart">
+            <summary>
+            Restarts the watched process
+            </summary>
+            <returns></returns>
+        </member>
         <member name="P:Scrabler.Tools.ProcessWatcher.BasePrioirty">
             <summary>
             Returns prioritty of the process
@@ -1011,10 +1017,23 @@
             Returns or sets the proecces
             </summary>
         </member>
+        <member name="P:Scrabler.Tools.ProcessWatcher.MaxAllowedBytes">
+            <summary>
+            Maxiumum allowd memory on Ram in bytes
+            if  the script is bigger than that it's being restarted
+            </summary>
+        </member>
         <member name="P:Scrabler.Tools.ProcessWatcher.Timer">
             <summary>
             gets or sets the timer
             </summary>
+        </member>
+        <member name="M:Scrabler.Tools.ProcessWatcher.ElapsedEvent(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            The elapsed event handler of the timer
+            </summary>
+            <param name="sender"></param>
+            <param name="ev"></param>
         </member>
         <member name="T:Scrabler.Tools.TaskManager">
             <summary>
