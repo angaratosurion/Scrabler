@@ -140,6 +140,7 @@
     </Compile>
     <Compile Include="Tools\Helpers\Hardware\HardwareHelperLib.cs" />
     <Compile Include="Tools\Helpers\Hardware\Monitor.cs" />
+    <Compile Include="Tools\Helpers\Hardware\Performance.cs" />
     <Compile Include="Tools\Helpers\Software\SystemTime.cs" />
     <Compile Include="Tools\Maths\Matrix.cs" />
     <Compile Include="Tools\ProcessWatcher.cs" />

@@ -5,6 +5,7 @@ using System.Text;
 using Scrabler;
 using System.Diagnostics;
 using System.Timers;
+using Scrabler.Tools.Helpers.Hardware;
 
 namespace Scrabler.Tools
 {
@@ -281,8 +282,11 @@ namespace Scrabler.Tools
             {
                 if (proc != null)
                 {
-                     if (this.MaxAllowedBytes>0 && proc.WorkingSet64>this.MaxAllowedBytes)
+                    Performance perf = new Performance();
+                    double memusage = perf.GetMemory(proc);
+                     if (this.MaxAllowedBytes>0 && memusage >this.MaxAllowedBytes)
                     {
+                       // Console.WriteLine("Memory  usage of {0}:{1}", proc.ProcessName, memusage);
                         this.ReStart();
                     }
                     

@@ -954,6 +954,18 @@
             </summary>
             <param name="hwnd"></param>
         </member>
+        <member name="T:Scrabler.Tools.Helpers.Hardware.Performance">
+            <summary>
+             Retrieves info about the performance of the process/script
+            </summary>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.Performance.GetMemory(System.Diagnostics.Process)">
+            <summary>
+            Returns the memory usage of the process
+            </summary>
+            <param name="proc">the process  of the memory usage</param>
+            <returns>Returns the memory usage of the process</returns>
+        </member>
         <member name="M:Scrabler.Tools.Helpers.Software.SystemTime.GetNetworkTime">
             <summary>
             Gets conencts to the network and receives  the current time.

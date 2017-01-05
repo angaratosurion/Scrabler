@@ -145,6 +145,7 @@ namespace ScrablerRunnerService
                           pr.Start();
                           this.aproc.Add(pr);
                         ProcessWatcher prwtch = new ProcessWatcher(pr);
+                        prwtch.MaxAllowedBytes = maxmemoryperapp;
                         this.procwatcher.Add(prwtch);
                             
                       //  }
