@@ -3,7 +3,7 @@
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
     <title>Scrabler.Tools.Helpers.Hardware Namespace</title>
     <link rel="stylesheet" type="text/css" href="../styles/presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/script_prototype.js"> </script>
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/StyleUtilities.js"> </script>
@@ -23,10 +23,12 @@
       <MSHelp:Attr Name="TopicType" Value="apiref" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="Locale" Value="en-us" />
-      <MSHelp:Attr Name="Abstract" Value="[Missing &lt;summary&gt; documentation for &quot;N:Scrabler.Tools.Helpers.Hardware&quot;]" />
+      <MSHelp:Attr Name="Abstract" Value="summaryN:Scrabler.Tools.Helpers.Hardware" />
     </xml>
   </head>
   <body>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
     <div id="control">
       <span class="productTitle">Scrabler  Class Library</span>
       <br />
@@ -51,35 +53,6 @@
       </div>
       <div class="section">
         <div class="sectionTitle" onclick="toggleSection(this.parentNode)">
-          <img src="../icons/collapse_all.gif" /> Declaration Syntax</div>
-        <div class="sectionContent">
-          <div id="syntaxSection">
-            <table class="filter">
-              <tr class="tabs" id="syntaxTabs">
-                <td class="tab" x-lang="CSharp" onclick="toggleClass('syntaxTabs','x-lang','CSharp','activeTab','tab'); toggleStyle('syntaxBlocks','x-lang','CSharp','display','block','none');">C#</td>
-                <td class="tab" x-lang="VisualBasic" onclick="toggleClass('syntaxTabs','x-lang','VisualBasic','activeTab','tab'); toggleStyle('syntaxBlocks','x-lang','VisualBasic','display','block','none');">Visual Basic</td>
-                <td class="tab" x-lang="ManagedCPlusPlus" onclick="toggleClass('syntaxTabs','x-lang','ManagedCPlusPlus','activeTab','tab'); toggleStyle('syntaxBlocks','x-lang','ManagedCPlusPlus','display','block','none');">Visual C++</td>
-              </tr>
-            </table>
-            <div id="syntaxBlocks">
-              <div class="code" x-lang="CSharp">
-                <pre xml:space="preserve">
-<span class="keyword">namespace</span> <span class="identifier">Scrabler.Tools.Helpers.Hardware</span></pre>
-              </div>
-              <div class="code" x-lang="VisualBasic">
-                <pre xml:space="preserve">
-<span class="keyword">Namespace</span> <span class="identifier">Scrabler.Tools.Helpers.Hardware</span></pre>
-              </div>
-              <div class="code" x-lang="ManagedCPlusPlus">
-                <pre xml:space="preserve">
-<span class="keyword">namespace</span> <span class="identifier">Scrabler.Tools.Helpers.Hardware</span></pre>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="sectionTitle" onclick="toggleSection(this.parentNode)">
           <img src="../icons/collapse_all.gif" /> Types</div>
         <div class="sectionContent">
           <div id="typeSection">
@@ -87,6 +60,7 @@
               <tr class="tabs" id="typeFilter">
                 <td class="tab" value="all" onclick="toggleClass('typeFilter','value','all','activeTab','tab'); processSubgroup('all', 'type'); processList('typeList','filterElement', 'type');">All Types</td>
                 <td class="tab" value="class" onclick="toggleClass('typeFilter','value','class','activeTab','tab'); processSubgroup('class', 'type'); processList('typeList','filterElement','type');">Classes</td>
+                <td class="tab" value="structure" onclick="toggleClass('typeFilter','value','structure','activeTab','tab'); processSubgroup('structure', 'type'); processList('typeList','filterElement','type');">Structures</td>
               </tr>
             </table>
             <table id="typeList" class="members">
@@ -101,6 +75,45 @@
                 </td>
                 <td>
                   <b>
+                    <a href="6eae12ff-2e09-3ede-489c-d5c4ff5c7108.htm">Native<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>DEV_BROADCAST_DEVICEINTERFACE</a>
+                  </b>
+                </td>
+                <td>
+                  <br />
+                </td>
+              </tr>
+              <tr data="structure; public">
+                <td>
+                  <img src="../icons/pubstructure.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="00a9eb3a-71e0-eee5-dba0-b5368a343f7d.htm">Native<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>DEV_BROADCAST_HANDLE</a>
+                  </b>
+                </td>
+                <td>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="b22c5fa3-cf99-b98d-7e25-baeb1914d038.htm">HH_Lib</a>
+                  </b>
+                </td>
+                <td>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
                     <a href="732c7d5c-c8c0-329e-ba29-fa598b3f3c2e.htm">Monitor</a>
                   </b>
                 </td>
@@ -108,6 +121,87 @@
                   <div class="summary">
             PC Monitor(win32 api) helper class
             </div>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="4a9cdbc1-a29d-a198-e9c8-366cd0d5ed6f.htm">Native</a>
+                  </b>
+                </td>
+                <td>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="b8483cd4-67d0-d6d3-ac04-19e057e496f2.htm">Performance</a>
+                  </b>
+                </td>
+                <td>
+                  <div class="summary">
+             Retrieves info about the performance of the process/script
+            </div>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="3a0b79e8-86da-06c4-b546-babef1af6782.htm">Native<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SP_CLASSINSTALL_HEADER</a>
+                  </b>
+                </td>
+                <td>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="d83d8535-3009-1add-4fb6-1dde88c68e45.htm">Native<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SP_DEVINFO_DATA</a>
+                  </b>
+                </td>
+                <td>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="3e68be6e-78e4-e579-2105-8905f5ec4646.htm">Native<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SP_DEVINSTALL_PARAMS</a>
+                  </b>
+                </td>
+                <td>
+                  <br />
+                </td>
+              </tr>
+              <tr data="class; public">
+                <td>
+                  <img src="../icons/pubclass.gif" />
+                </td>
+                <td>
+                  <b>
+                    <a href="522a48d1-e0ee-0407-3d6e-f0af8f30fcd0.htm">Native<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SP_PROPCHANGE_PARAMS</a>
+                  </b>
+                </td>
+                <td>
                   <br />
                 </td>
               </tr>

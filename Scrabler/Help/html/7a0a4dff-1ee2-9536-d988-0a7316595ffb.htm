@@ -3,7 +3,7 @@
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
     <title>FindProcesessByName Method (name)</title>
     <link rel="stylesheet" type="text/css" href="../styles/presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/script_prototype.js"> </script>
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/StyleUtilities.js"> </script>
@@ -33,6 +33,8 @@
     </xml>
   </head>
   <body>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
     <div id="control">
       <span class="productTitle">Scrabler  Class Library</span>
       <br />
@@ -70,21 +72,21 @@
             <div id="syntaxBlocks">
               <div class="code" x-lang="CSharp">
                 <pre xml:space="preserve">
-<span class="keyword">public</span> <a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a>&lt;<a href="64798bf6-d348-4dd9-531f-7951a6d93dc1.htm">ProcessWatcher</a>&gt; <span class="identifier">FindProcesessByName</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">name</span>
+<span class="keyword">public</span> <span class="identifier">List</span>&lt;<span class="identifier">ProcessWatcher</span>&gt; <span class="identifier">FindProcesessByName</span>(
+	<span class="identifier">string</span> <span class="parameter">name</span>
 )</pre>
               </div>
               <div class="code" x-lang="VisualBasic">
                 <pre xml:space="preserve">
-<span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">FindProcesessByName</span> ( _
-	<span class="parameter">name</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a> _
-) <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a>(<span class="keyword">Of</span> <a href="64798bf6-d348-4dd9-531f-7951a6d93dc1.htm">ProcessWatcher</a>)</pre>
+<span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">FindProcesessByName</span> ( 
+	<span class="parameter">name</span> <span class="keyword">As</span> <span class="identifier">String</span>
+) <span class="keyword">As</span> <span class="identifier">List</span>(<span class="keyword">Of</span> <span class="identifier">ProcessWatcher</span>)</pre>
               </div>
               <div class="code" x-lang="ManagedCPlusPlus">
                 <pre xml:space="preserve">
 <span class="keyword">public</span>:
-<a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a>&lt;<a href="64798bf6-d348-4dd9-531f-7951a6d93dc1.htm">ProcessWatcher</a>^&gt;^ <span class="identifier">FindProcesessByName</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">name</span>
+<span class="identifier">List</span>&lt;<span class="identifier">ProcessWatcher</span>^&gt;^ <span class="identifier">FindProcesessByName</span>(
+	<span class="identifier">String</span>^ <span class="parameter">name</span>
 )</pre>
               </div>
             </div>
@@ -107,10 +109,27 @@
       <div class="section">
         <div class="sectionTitle" onclick="toggleSection(this.parentNode)">
           <img src="../icons/collapse_all.gif" /> Return Value</div>
-        <div class="sectionContent">Find all process (compiled scripts) with the  name and returns it</div>
+        <div class="sectionContent">
+          <a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a>
+          <span class="languageSpecificText">
+            <span class="cs">&lt;</span>
+            <span class="vb">(Of </span>
+            <span class="cpp">&lt;</span>
+            <span class="nu">(</span>
+            <span class="fs">&lt;'</span>
+          </span>
+          <a href="64798bf6-d348-4dd9-531f-7951a6d93dc1.htm">ProcessWatcher</a>
+          <span class="languageSpecificText">
+            <span class="cs">&gt;</span>
+            <span class="vb">)</span>
+            <span class="cpp">&gt;</span>
+            <span class="nu">)</span>
+            <span class="fs">&gt;</span>
+          </span>
+          <br />Find all process (compiled scripts) with the  name and returns it</div>
       </div>
-      <p>
-        <div id="footer"></div>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler) Version: 0.7.1.0 (0.7.1.0)</p>
+      <div id="footer"></div>
+      <p>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler.dll) Version: 1.0.0.3 (1.0.0.3)</p>
     </div>
   </body>
 </html>

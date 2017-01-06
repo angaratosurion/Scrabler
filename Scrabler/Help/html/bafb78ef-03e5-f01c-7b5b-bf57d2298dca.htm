@@ -1,9 +1,9 @@
 ﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
   <head>
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
-    <title>ReadScript2 Method (dirname)</title>
+    <title>ReadScript2 Method (scriptname)</title>
     <link rel="stylesheet" type="text/css" href="../styles/presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/script_prototype.js"> </script>
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/StyleUtilities.js"> </script>
@@ -33,10 +33,12 @@
     </xml>
   </head>
   <body>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
     <div id="control">
       <span class="productTitle">Scrabler  Class Library</span>
       <br />
-      <span class="topicTitle">ReadScript2 Method (dirname)</span>
+      <span class="topicTitle">ReadScript2 Method (scriptname)</span>
       <br />
       <div id="toolbar">
         <span id="chickenFeet">
@@ -72,21 +74,21 @@
             <div id="syntaxBlocks">
               <div class="code" x-lang="CSharp">
                 <pre xml:space="preserve">
-<span class="keyword">public</span> <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> <span class="identifier">ReadScript2</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">dirname</span>
+<span class="keyword">public</span> <span class="identifier">Object</span> <span class="identifier">ReadScript2</span>(
+	<span class="identifier">string</span> <span class="parameter">scriptname</span>
 )</pre>
               </div>
               <div class="code" x-lang="VisualBasic">
                 <pre xml:space="preserve">
-<span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">ReadScript2</span> ( _
-	<span class="parameter">dirname</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a> _
-) <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a></pre>
+<span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">ReadScript2</span> ( 
+	<span class="parameter">scriptname</span> <span class="keyword">As</span> <span class="identifier">String</span>
+) <span class="keyword">As</span> <span class="identifier">Object</span></pre>
               </div>
               <div class="code" x-lang="ManagedCPlusPlus">
                 <pre xml:space="preserve">
 <span class="keyword">public</span>:
-<a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>^ <span class="identifier">ReadScript2</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">dirname</span>
+<span class="identifier">Object</span>^ <span class="identifier">ReadScript2</span>(
+	<span class="identifier">String</span>^ <span class="parameter">scriptname</span>
 )</pre>
               </div>
             </div>
@@ -98,9 +100,9 @@
           <div class="sectionTitle" onclick="toggleSection(this.parentNode)">
             <img src="../icons/collapse_all.gif" /> Parameters</div>
           <div class="sectionContent">
-            <dl paramName="dirname">
+            <dl paramName="scriptname">
               <dt>
-                <span class="parameter">dirname</span> (<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>)</dt>
+                <span class="parameter">scriptname</span> (<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>)</dt>
               <dd>the full path in which the script's directory is located</dd>
             </dl>
           </div>
@@ -109,10 +111,12 @@
       <div class="section">
         <div class="sectionTitle" onclick="toggleSection(this.parentNode)">
           <img src="../icons/collapse_all.gif" /> Return Value</div>
-        <div class="sectionContent">the assembly which is the result of the executed script</div>
+        <div class="sectionContent">
+          <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>
+          <br />the assembly which is the result of the executed script</div>
       </div>
-      <p>
-        <div id="footer"></div>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler) Version: 0.7.1.0 (0.7.1.0)</p>
+      <div id="footer"></div>
+      <p>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler.dll) Version: 1.0.0.3 (1.0.0.3)</p>
     </div>
   </body>
 </html>

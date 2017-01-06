@@ -1,49 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
-
-  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/2ec8866e-55a0-49ef-6c98-d9b871d5b5e5.htm" />
-  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/6461ba5e-a5db-332d-ad7a-58d1fee23a56.htm" />
-  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/a96bf1a4-48e1-9e59-764e-ee91574d2117.htm" />
-  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/d67fb0c8-fbcb-c9cb-754e-c77562fb9dfb.htm" />
-  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/fd0a66c2-6ae1-ce12-243c-0f4f618a4343.htm" />
-  <HelpKINode Title="Add method" Url="html/9e25dbd1-ce6f-47b6-905d-3c44db50332e.htm" />
-  <HelpKINode Title="Add method" Url="html/e8418554-4850-1d23-2449-97ca5f9c67a8.htm" />
+  <HelpKINode Title="AccessibilityNotifyClients method">
+    <HelpKINode Title="AccessibilityNotifyClients Method " Url="html/fd0a66c2-6ae1-ce12-243c-0f4f618a4343.htm" />
+    <HelpKINode Title="AccessibilityNotifyClients Method " Url="html/d67fb0c8-fbcb-c9cb-754e-c77562fb9dfb.htm" />
+    <HelpKINode Title="AccessibilityNotifyClients Method " Url="html/a96bf1a4-48e1-9e59-764e-ee91574d2117.htm" />
+    <HelpKINode Title="AccessibilityNotifyClients Method " Url="html/6461ba5e-a5db-332d-ad7a-58d1fee23a56.htm" />
+    <HelpKINode Title="AccessibilityNotifyClients Method " Url="html/2ec8866e-55a0-49ef-6c98-d9b871d5b5e5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="Add Method (assembly, scrinf)" Url="html/e8418554-4850-1d23-2449-97ca5f9c67a8.htm" />
+    <HelpKINode Title="Add Method (value)" Url="html/9e25dbd1-ce6f-47b6-905d-3c44db50332e.htm" />
+  </HelpKINode>
   <HelpKINode Title="AddProcessWatcher method" Url="html/d5694c9f-4e98-edae-a56d-0f8f75b7fc3e.htm" />
-  <HelpKINode Title="AddRange method" Url="html/2e252b5e-470a-9cbc-a36c-413e5ac8d2ea.htm" />
-  <HelpKINode Title="AddRange method" Url="html/3b9802df-995b-4877-41a5-3aa688c10456.htm" />
-  <HelpKINode Title="AddRange method" Url="html/533b29fe-a1ef-89c0-a495-9c412c92cbe0.htm" />
-  <HelpKINode Title="AddRange method" Url="html/96ec391c-cc0b-3c5c-19fa-7ba9961a7579.htm" />
+  <HelpKINode Title="AddRange method">
+    <HelpKINode Title="AddRange Method " Url="html/3b9802df-995b-4877-41a5-3aa688c10456.htm" />
+    <HelpKINode Title="AddRange Method (assembly, scriptinf)" Url="html/2e252b5e-470a-9cbc-a36c-413e5ac8d2ea.htm" />
+    <HelpKINode Title="AddRange Method (value)" Url="html/533b29fe-a1ef-89c0-a495-9c412c92cbe0.htm" />
+    <HelpKINode Title="AddRange Method (value)" Url="html/96ec391c-cc0b-3c5c-19fa-7ba9961a7579.htm" />
+  </HelpKINode>
   <HelpKINode Title="AppFolder field" Url="html/0156ed84-df17-edbe-254c-8b63def8f88e.htm" />
   <HelpKINode Title="AssemblyCol field" Url="html/6fe27431-1a6d-1f5e-4cc4-54cd408e2c03.htm" />
   <HelpKINode Title="AssemblyCollection class" Url="html/7c517f9f-f025-6c48-a3c0-f42acaa9e4fc.htm" />
   <HelpKINode Title="AssemblyCollection constructor" Url="html/5ea7544b-bbe7-8bf9-5015-38d30fad17a5.htm" />
   <HelpKINode Title="AssemblyCollection.Add method" Url="html/e8418554-4850-1d23-2449-97ca5f9c67a8.htm" />
   <HelpKINode Title="AssemblyCollection.AddRange method" Url="html/2e252b5e-470a-9cbc-a36c-413e5ac8d2ea.htm" />
-  <HelpKINode Title="AssemblyCollection.Contains method" Url="html/4088b7b6-f1ca-4c81-0215-2cc79689e704.htm" />
-  <HelpKINode Title="AssemblyCollection.Contains method" Url="html/5c1672fd-11b1-55d3-3256-2fb492c7dfdb.htm" />
-  <HelpKINode Title="AssemblyCollection.Contains method" Url="html/5d51cfef-d474-54ef-3601-b8a970b683da.htm" />
-  <HelpKINode Title="AssemblyCollection.GetItem method" Url="html/2fd3a71f-cc7b-452a-c5bd-eb0497ff0878.htm" />
-  <HelpKINode Title="AssemblyCollection.GetItem method" Url="html/98a43764-563c-b59b-7d02-29dd9edb137c.htm" />
-  <HelpKINode Title="AssemblyCollection.GetItem method" Url="html/b37c878b-a991-0770-fc49-4c178af8b207.htm" />
-  <HelpKINode Title="AssemblyCollection.IndexOf method" Url="html/7c7acf1f-13e1-4228-379d-effcab809519.htm" />
-  <HelpKINode Title="AssemblyCollection.IndexOf method" Url="html/9cc68660-2036-eaf3-60e0-2c1d83acc447.htm" />
-  <HelpKINode Title="AssemblyCollection.IndexOf method" Url="html/bc4c3d24-8469-3b49-dfeb-80222ad82104.htm" />
+  <HelpKINode Title="AssemblyCollection.Contains method">
+    <HelpKINode Title="Contains Method " Url="html/5d51cfef-d474-54ef-3601-b8a970b683da.htm" />
+    <HelpKINode Title="Contains Method (assembly)" Url="html/4088b7b6-f1ca-4c81-0215-2cc79689e704.htm" />
+    <HelpKINode Title="Contains Method (nameSpace)" Url="html/5c1672fd-11b1-55d3-3256-2fb492c7dfdb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblyCollection.GetItem method">
+    <HelpKINode Title="GetItem Method " Url="html/98a43764-563c-b59b-7d02-29dd9edb137c.htm" />
+    <HelpKINode Title="GetItem Method (index)" Url="html/b37c878b-a991-0770-fc49-4c178af8b207.htm" />
+    <HelpKINode Title="GetItem Method (Namespace)" Url="html/2fd3a71f-cc7b-452a-c5bd-eb0497ff0878.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblyCollection.IndexOf method">
+    <HelpKINode Title="IndexOf Method " Url="html/9cc68660-2036-eaf3-60e0-2c1d83acc447.htm" />
+    <HelpKINode Title="IndexOf Method (assmbly)" Url="html/7c7acf1f-13e1-4228-379d-effcab809519.htm" />
+    <HelpKINode Title="IndexOf Method (nameSpace)" Url="html/bc4c3d24-8469-3b49-dfeb-80222ad82104.htm" />
+  </HelpKINode>
   <HelpKINode Title="AssemblyCollection.Remove method" Url="html/6917c439-cefa-d0e5-0b02-75bbf5288fc0.htm" />
   <HelpKINode Title="AssemblyCollection.ScriptInfoCollection method" Url="html/26441f4a-389e-151e-87b0-f5c0d6c6a0d5.htm" />
   <HelpKINode Title="Author field" Url="html/a70fdc70-6bc6-5a18-e2cb-ed0c972875ff.htm" />
   <HelpKINode Title="Author property" Url="html/867a2bf5-c0b7-ca90-0678-9966c7fe9892.htm" />
   <HelpKINode Title="BasePrioirty property" Url="html/ce44315e-a138-e8e1-8d68-f6a1a38486fb.htm" />
-  <HelpKINode Title="BeginInvoke method" Url="html/0c3066fc-2fe4-576d-b956-8c8acb335923.htm" />
-  <HelpKINode Title="BeginInvoke method" Url="html/59b05f2a-ca25-96c2-9150-cf80c5e99449.htm" />
-  <HelpKINode Title="BeginInvoke method" Url="html/9470e5d1-563e-1335-f54d-bb06dfa1539f.htm" />
-  <HelpKINode Title="BeginInvoke method" Url="html/a805ac42-49ec-bd8c-30a1-51e7d189641a.htm" />
-  <HelpKINode Title="BeginInvoke method" Url="html/c04ed21b-c135-7e2f-17e1-1085068f1639.htm" />
+  <HelpKINode Title="BeginInvoke method">
+    <HelpKINode Title="BeginInvoke Method " Url="html/c04ed21b-c135-7e2f-17e1-1085068f1639.htm" />
+    <HelpKINode Title="BeginInvoke Method " Url="html/9470e5d1-563e-1335-f54d-bb06dfa1539f.htm" />
+    <HelpKINode Title="BeginInvoke Method " Url="html/a805ac42-49ec-bd8c-30a1-51e7d189641a.htm" />
+    <HelpKINode Title="BeginInvoke Method " Url="html/59b05f2a-ca25-96c2-9150-cf80c5e99449.htm" />
+    <HelpKINode Title="BeginInvoke Method " Url="html/0c3066fc-2fe4-576d-b956-8c8acb335923.htm" />
+  </HelpKINode>
   <HelpKINode Title="Binaryfolder property" Url="html/d2ac4ab1-c344-bcf7-6938-d024b1672f6e.htm" />
-  <HelpKINode Title="Bugger field" Url="html/76aba697-88bc-a4a2-5aab-577c590f98ac.htm" />
   <HelpKINode Title="Bugtracking method" Url="html/e6ded5f2-f73e-a57d-8ea9-af2af67a1aec.htm" />
   <HelpKINode Title="c field" Url="html/b4b05f20-5e84-49cf-2843-e446e4b0c03d.htm" />
+  <HelpKINode Title="cbSize field">
+    <HelpKINode Title="cbSize Field" Url="html/63c6ed4d-24d6-d30c-823f-d798d9e4d79b.htm" />
+    <HelpKINode Title="cbSize Field" Url="html/4ef3e056-3441-d8f2-82c8-641f076e50e7.htm" />
+    <HelpKINode Title="cbSize Field" Url="html/b54ae0a0-c49c-d9ba-0a75-5a8fd8c91832.htm" />
+  </HelpKINode>
   <HelpKINode Title="checkCompatibility method" Url="html/b15465cc-2cf3-2c9a-9354-f86c55302737.htm" />
   <HelpKINode Title="CheckIfdllNeedToBeInstalled method" Url="html/d2d9c56e-3d00-a92f-31b0-2578860975b4.htm" />
+  <HelpKINode Title="classGuid field" Url="html/13015e4e-68e6-a2ef-9609-02ab2c0a4cc1.htm" />
+  <HelpKINode Title="ClassInstallHeader field" Url="html/5be79d52-04f6-9160-74a1-74c8539d8187.htm" />
+  <HelpKINode Title="ClassInstallReserved field" Url="html/e6dcd510-732f-8b82-059b-d7aaee84962e.htm" />
   <HelpKINode Title="classtag field" Url="html/003c0475-0a84-a58b-577b-a1460a96499d.htm" />
   <HelpKINode Title="ClearScrablerPluginsCollection method" Url="html/9c888249-d57d-3e67-e0f8-b12cd462d4d7.htm" />
   <HelpKINode Title="ClearTempfolder method" Url="html/834c3fed-3e21-6662-0bec-aef0de1c41d1.htm" />
@@ -53,8 +73,10 @@
   <HelpKINode Title="ConsoleBox constructor" Url="html/ae74ab50-4e7a-83cb-2dc4-e37c7acb4e48.htm" />
   <HelpKINode Title="ConsoleBox.AccessibilityNotifyClients method" Url="html/a96bf1a4-48e1-9e59-764e-ee91574d2117.htm" />
   <HelpKINode Title="ConsoleBox.BeginInvoke method" Url="html/0c3066fc-2fe4-576d-b956-8c8acb335923.htm" />
-  <HelpKINode Title="ConsoleBox.Dispose method" Url="html/1c7e41c3-c367-ea21-4cdd-6b9afa6ca5da.htm" />
-  <HelpKINode Title="ConsoleBox.Dispose method" Url="html/e868ae1d-3729-088d-bdc3-dbffa409a5f6.htm" />
+  <HelpKINode Title="ConsoleBox.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/e868ae1d-3729-088d-bdc3-dbffa409a5f6.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/1c7e41c3-c367-ea21-4cdd-6b9afa6ca5da.htm" />
+  </HelpKINode>
   <HelpKINode Title="ConsoleBox.GetChildAtPoint method" Url="html/2d91efc8-d4b1-2363-4628-2b0ad6815215.htm" />
   <HelpKINode Title="ConsoleBox.Invalidate method" Url="html/a00713ae-cc9e-4518-28bf-03a8c6a450e5.htm" />
   <HelpKINode Title="ConsoleBox.Invoke method" Url="html/7363c86a-23ec-a6fe-ff56-100b901c50a8.htm" />
@@ -70,10 +92,12 @@
   <HelpKINode Title="ConsoleBox.UpdateBounds method" Url="html/98660d17-da48-9ee7-6df9-0ff868303013.htm" />
   <HelpKINode Title="ConsoleBox.Validate method" Url="html/5b9ece6c-7895-61d0-598e-4ec48e678d2d.htm" />
   <HelpKINode Title="ConsoleBox.ValidateChildren method" Url="html/a70fc238-f2a4-b281-aebc-4a1b750719a6.htm" />
-  <HelpKINode Title="Contains method" Url="html/147e2b1d-70c0-bd48-9105-817658e1a80c.htm" />
-  <HelpKINode Title="Contains method" Url="html/4088b7b6-f1ca-4c81-0215-2cc79689e704.htm" />
-  <HelpKINode Title="Contains method" Url="html/5c1672fd-11b1-55d3-3256-2fb492c7dfdb.htm" />
-  <HelpKINode Title="Contains method" Url="html/5d51cfef-d474-54ef-3601-b8a970b683da.htm" />
+  <HelpKINode Title="Contains method">
+    <HelpKINode Title="Contains Method " Url="html/5d51cfef-d474-54ef-3601-b8a970b683da.htm" />
+    <HelpKINode Title="Contains Method (assembly)" Url="html/4088b7b6-f1ca-4c81-0215-2cc79689e704.htm" />
+    <HelpKINode Title="Contains Method (nameSpace)" Url="html/5c1672fd-11b1-55d3-3256-2fb492c7dfdb.htm" />
+    <HelpKINode Title="Contains Method (value)" Url="html/147e2b1d-70c0-bd48-9105-817658e1a80c.htm" />
+  </HelpKINode>
   <HelpKINode Title="CopyProcessReference method" Url="html/47996ab7-4bed-a599-630b-e86e300bead3.htm" />
   <HelpKINode Title="Copyright field" Url="html/33b83bc2-a56f-9715-a8fe-09d55aae5fa8.htm" />
   <HelpKINode Title="Copyright property" Url="html/c5ce8b71-67e6-9fbb-953c-71e53553ad40.htm" />
@@ -84,33 +108,67 @@
   <HelpKINode Title="CreateConfig method" Url="html/b2f03a54-fbfd-3bb1-38c5-9e1acac091f5.htm" />
   <HelpKINode Title="createNewTabSession method" Url="html/de5d3043-deca-c45e-0be4-d3d8274e91b2.htm" />
   <HelpKINode Title="Current property" Url="html/71ca1859-9267-53fc-6ddd-6149fec9fc0b.htm" />
+  <HelpKINode Title="CutLooseHardwareNotifications method" Url="html/bde235b9-c107-21db-9cfe-2b147f35cd0f.htm" />
   <HelpKINode Title="dataScriptsInfo field" Url="html/b8056f0f-86c6-a004-d203-7f43d9975ceb.htm" />
+  <HelpKINode Title="dbcc_devicetype field" Url="html/547c27e4-a002-1721-b6e0-f38dfcd081e9.htm" />
+  <HelpKINode Title="dbcc_reserved field" Url="html/b05ad5a1-1522-5c79-04e8-b5ca596bb028.htm" />
+  <HelpKINode Title="dbcc_size field" Url="html/269d0f9b-b4e3-1cab-aea3-c1cd5fc86c88.htm" />
+  <HelpKINode Title="dbch_data field" Url="html/5d214593-30ee-cee9-6b8d-4c014ff07786.htm" />
+  <HelpKINode Title="dbch_data1 field" Url="html/b377fcbe-2b9d-72d6-190d-256a4b76acb2.htm" />
+  <HelpKINode Title="dbch_devicetype field" Url="html/9e9c864f-ec88-9339-daca-e153a61df533.htm" />
+  <HelpKINode Title="dbch_eventguid field" Url="html/068b55ac-62f7-ca77-812a-eaf7cfcf9813.htm" />
+  <HelpKINode Title="dbch_handle field" Url="html/8081a9c8-d610-0af4-1812-2477144a20c8.htm" />
+  <HelpKINode Title="dbch_hdevnotify field" Url="html/43bd1549-80b0-e136-eea5-00753c1ac81a.htm" />
+  <HelpKINode Title="dbch_nameoffset field" Url="html/c55fc0aa-f8a5-b3de-1839-e4d77221c056.htm" />
+  <HelpKINode Title="dbch_reserved field" Url="html/35d783ff-b187-fd4e-47ac-b465de6f32a6.htm" />
+  <HelpKINode Title="dbch_size field" Url="html/f6e2fa5c-22fe-b74f-123e-1b5e986c8812.htm" />
+  <HelpKINode Title="DBT_DEVNODES_CHANGED field" Url="html/fd3ac42d-7e27-a560-0c30-8808f6c51aef.htm" />
+  <HelpKINode Title="DBT_DEVTYP_DEVICEINTERFACE field" Url="html/43337258-0264-6b6d-1927-0350ed02e55e.htm" />
   <HelpKINode Title="definedConstants field" Url="html/51bbb538-782f-f253-82a1-ef93d2bc7202.htm" />
   <HelpKINode Title="definedValues field" Url="html/cc09cfb5-bb2e-ee44-000d-2403414ff5fd.htm" />
   <HelpKINode Title="DeleteSelectedScrablerPlugin method" Url="html/649514c8-d6d3-a59f-30dc-d4b0e70bb3fa.htm" />
   <HelpKINode Title="Description field" Url="html/6fa38638-f78e-2e6b-9954-4e671ad29ec2.htm" />
   <HelpKINode Title="Description property" Url="html/13176859-96ec-750f-bc1b-832fcdd0fa00.htm" />
-  <HelpKINode Title="Dispose method" Url="html/0f8945ca-4050-7336-5b53-68796d6e404b.htm" />
-  <HelpKINode Title="Dispose method" Url="html/1c7e41c3-c367-ea21-4cdd-6b9afa6ca5da.htm" />
-  <HelpKINode Title="Dispose method" Url="html/246d6865-e9db-7d02-e789-097b980f31c1.htm" />
-  <HelpKINode Title="Dispose method" Url="html/5bb04d61-e247-648e-1303-971c7f3f4437.htm" />
-  <HelpKINode Title="Dispose method" Url="html/7e22b25d-faa9-8d09-2ea4-afde2cea4e11.htm" />
-  <HelpKINode Title="Dispose method" Url="html/a86ed163-e261-0618-2b6c-b4eca041a4f0.htm" />
-  <HelpKINode Title="Dispose method" Url="html/c24e61d0-9a8f-4c12-5573-3fe08c0685c6.htm" />
-  <HelpKINode Title="Dispose method" Url="html/c753435b-1986-f424-8ba6-f2fe204c7f55.htm" />
-  <HelpKINode Title="Dispose method" Url="html/e868ae1d-3729-088d-bdc3-dbffa409a5f6.htm" />
-  <HelpKINode Title="Dispose method" Url="html/eb49a606-40d1-3ba4-b287-92508fd022c7.htm" />
-  <HelpKINode Title="Dispose method" Url="html/f789440d-cc85-9f60-c1a9-0be72e9c0b44.htm" />
+  <HelpKINode Title="DEVICE_NOTIFY_ALL_INTERFACE_CLASSES field" Url="html/83d7d04c-ba4d-3823-fb11-3224d1f06865.htm" />
+  <HelpKINode Title="DEVICE_NOTIFY_SERVICE_HANDLE field" Url="html/c31a813d-a779-6002-5b56-077e12704077.htm" />
+  <HelpKINode Title="DEVICE_NOTIFY_WINDOW_HANDLE field" Url="html/abefb435-34ed-b7d5-5ac9-c98228e7d167.htm" />
+  <HelpKINode Title="devInst field" Url="html/6ba04768-613d-e4ef-2bee-720d701432d1.htm" />
+  <HelpKINode Title="DICS_DISABLE field" Url="html/c2bba270-a6ce-13a7-ef7c-167e2eb4ed54.htm" />
+  <HelpKINode Title="DICS_ENABLE field" Url="html/64ba1073-a55f-6925-585d-67ebca8d30c2.htm" />
+  <HelpKINode Title="DICS_FLAG_CONFIGSPECIFIC field" Url="html/a596579f-ecec-40ac-8aac-92b875151b4d.htm" />
+  <HelpKINode Title="DICS_FLAG_GLOBAL field" Url="html/9d3c7eac-d37e-7e94-b395-a2353246484b.htm" />
+  <HelpKINode Title="DIF_PROPERTYCHANGE field" Url="html/c4508a18-ac84-63d5-e027-394fd822645a.htm" />
+  <HelpKINode Title="DIGCF_ALLCLASSES field" Url="html/fe09b9c7-158c-07cb-a754-656ae36f52aa.htm" />
+  <HelpKINode Title="DIGCF_PRESENT field" Url="html/098e90b2-37ed-9ce4-b0f5-2580df62162c.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/a86ed163-e261-0618-2b6c-b4eca041a4f0.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/0f8945ca-4050-7336-5b53-68796d6e404b.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/7e22b25d-faa9-8d09-2ea4-afde2cea4e11.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/c753435b-1986-f424-8ba6-f2fe204c7f55.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/e868ae1d-3729-088d-bdc3-dbffa409a5f6.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/eb49a606-40d1-3ba4-b287-92508fd022c7.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/f789440d-cc85-9f60-c1a9-0be72e9c0b44.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/c24e61d0-9a8f-4c12-5573-3fe08c0685c6.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/246d6865-e9db-7d02-e789-097b980f31c1.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/1c7e41c3-c367-ea21-4cdd-6b9afa6ca5da.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/5bb04d61-e247-648e-1303-971c7f3f4437.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DriverPath field" Url="html/666c2958-aae7-2352-4be9-758c0c6b5d13.htm" />
   <HelpKINode Title="enumScriptRuningMode enumeration" Url="html/99649d34-3134-962d-8235-8f4d43a2a820.htm" />
+  <HelpKINode Title="ErrorLogScript method" Url="html/d458cfe8-d025-a763-dfec-02d407801ec4.htm" />
   <HelpKINode Title="ErrorWindow class" Url="html/398f0d10-d869-f5d1-d7c6-860fa5b44352.htm" />
-  <HelpKINode Title="ErrorWindow constructor" Url="html/4f58c551-f308-0355-a528-4ea3d02a77da.htm" />
-  <HelpKINode Title="ErrorWindow constructor" Url="html/50bbc1b7-7e57-7a7b-6b25-ee9a9c9dde48.htm" />
-  <HelpKINode Title="ErrorWindow constructor" Url="html/557fe2ce-37a3-3f62-2492-b946971206ca.htm" />
-  <HelpKINode Title="ErrorWindow constructor" Url="html/a2b43e07-0ead-3412-d8e4-6481cb9a19a9.htm" />
+  <HelpKINode Title="ErrorWindow constructor">
+    <HelpKINode Title="ErrorWindow Constructor " Url="html/a2b43e07-0ead-3412-d8e4-6481cb9a19a9.htm" />
+    <HelpKINode Title="ErrorWindow Constructor " Url="html/4f58c551-f308-0355-a528-4ea3d02a77da.htm" />
+    <HelpKINode Title="ErrorWindow Constructor (cerrcol, tcode)" Url="html/50bbc1b7-7e57-7a7b-6b25-ee9a9c9dde48.htm" />
+    <HelpKINode Title="ErrorWindow Constructor (cerrcol, tcode, tsaveerrorrep)" Url="html/557fe2ce-37a3-3f62-2492-b946971206ca.htm" />
+  </HelpKINode>
   <HelpKINode Title="ErrorWindow.AccessibilityNotifyClients method" Url="html/fd0a66c2-6ae1-ce12-243c-0f4f618a4343.htm" />
   <HelpKINode Title="ErrorWindow.BeginInvoke method" Url="html/9470e5d1-563e-1335-f54d-bb06dfa1539f.htm" />
-  <HelpKINode Title="ErrorWindow.Dispose method" Url="html/246d6865-e9db-7d02-e789-097b980f31c1.htm" />
-  <HelpKINode Title="ErrorWindow.Dispose method" Url="html/c753435b-1986-f424-8ba6-f2fe204c7f55.htm" />
+  <HelpKINode Title="ErrorWindow.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/c753435b-1986-f424-8ba6-f2fe204c7f55.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/246d6865-e9db-7d02-e789-097b980f31c1.htm" />
+  </HelpKINode>
   <HelpKINode Title="ErrorWindow.GetChildAtPoint method" Url="html/11f6ec01-6a5a-dcdb-16f9-b5b19205a4f3.htm" />
   <HelpKINode Title="ErrorWindow.Invalidate method" Url="html/dee58106-b92a-d140-b505-ce95fbd50745.htm" />
   <HelpKINode Title="ErrorWindow.Invoke method" Url="html/36a2638f-f7d7-ce7a-efc6-316586f922a9.htm" />
@@ -129,42 +187,55 @@
   <HelpKINode Title="ErrorWindow.UpdateBounds method" Url="html/f1949cb1-d4bc-351c-96cf-5e028898a515.htm" />
   <HelpKINode Title="ErrorWindow.Validate method" Url="html/51b03622-a596-e299-be29-aa35a0e41388.htm" />
   <HelpKINode Title="ErrorWindow.ValidateChildren method" Url="html/9ff90faf-87bc-7e29-065d-ad64abfe76de.htm" />
-  <HelpKINode Title="Eval method" Url="html/163f0bb6-36aa-7cf3-90d5-c5c0edc37f9d.htm" />
-  <HelpKINode Title="Eval method" Url="html/2c406ba3-1834-cee3-1964-61e5d7c4cb54.htm" />
-  <HelpKINode Title="Eval method" Url="html/36c62d45-b90a-49bb-6376-a35425df1ff3.htm" />
-  <HelpKINode Title="Eval method" Url="html/50472772-8d4f-3fcb-a039-aad1050ebf20.htm" />
-  <HelpKINode Title="Eval method" Url="html/c2c586f3-e365-3696-a1b2-e73244c32437.htm" />
-  <HelpKINode Title="Eval method" Url="html/fef050aa-1f6c-5855-a7ac-fdf1a6ba1836.htm" />
+  <HelpKINode Title="Eval method">
+    <HelpKINode Title="Eval Method " Url="html/fef050aa-1f6c-5855-a7ac-fdf1a6ba1836.htm" />
+    <HelpKINode Title="Eval Method " Url="html/c2c586f3-e365-3696-a1b2-e73244c32437.htm" />
+    <HelpKINode Title="Eval Method " Url="html/2c406ba3-1834-cee3-1964-61e5d7c4cb54.htm" />
+    <HelpKINode Title="Eval Method " Url="html/50472772-8d4f-3fcb-a039-aad1050ebf20.htm" />
+    <HelpKINode Title="Eval Method (sCSCode)" Url="html/163f0bb6-36aa-7cf3-90d5-c5c0edc37f9d.htm" />
+    <HelpKINode Title="Eval Method (sCSCode, scriptname, NameSapce, Clas, func, refs, scrinf)" Url="html/36c62d45-b90a-49bb-6376-a35425df1ff3.htm" />
+  </HelpKINode>
   <HelpKINode Title="Eval2 method" Url="html/e30ae6ca-69b7-5fca-348b-a402853c270d.htm" />
   <HelpKINode Title="EvalAndSave method" Url="html/7f73b380-d0ae-af37-1e6c-97da4fbc09e8.htm" />
-  <HelpKINode Title="EvalWithParams method" Url="html/588c988b-ca69-de56-a7c4-94754f225c1c.htm" />
-  <HelpKINode Title="EvalWithParams method" Url="html/ac0787d4-fb22-cbf2-586b-9a462e50c050.htm" />
-  <HelpKINode Title="EvalWithParams method" Url="html/ed6bb143-7851-362e-45d5-986ba963b657.htm" />
+  <HelpKINode Title="EvalWithParams method">
+    <HelpKINode Title="EvalWithParams Method " Url="html/588c988b-ca69-de56-a7c4-94754f225c1c.htm" />
+    <HelpKINode Title="EvalWithParams Method (sCSCode, scriptname, NameSapce, Clas, func, refs, winGUI, scrinf)" Url="html/ed6bb143-7851-362e-45d5-986ba963b657.htm" />
+    <HelpKINode Title="EvalWithParams Method (sCSCode, scriptname, NameSapce, Clas, func, refs, winGUI, scrinf)" Url="html/ac0787d4-fb22-cbf2-586b-9a462e50c050.htm" />
+  </HelpKINode>
   <HelpKINode Title="Executables method" Url="html/43e0a785-ad5b-de5b-9ef2-eaa906bd6dff.htm" />
   <HelpKINode Title="execution_func field" Url="html/3ec32261-9d04-e8ca-d630-a0c1c1051d9b.htm" />
   <HelpKINode Title="ExistScrablerPlugin method" Url="html/75c561a4-2add-e787-8747-13fb4368cc11.htm" />
   <HelpKINode Title="ExistScrablerPluginStartsWith method" Url="html/7f373e86-7957-acef-ca91-41d918be61e3.htm" />
   <HelpKINode Title="Filename property" Url="html/ff66af0a-2c58-b4f1-aba9-1171b4abd4ea.htm" />
+  <HelpKINode Title="FileQueue field" Url="html/8e99a958-a1e1-600c-038b-a712ac03fd17.htm" />
   <HelpKINode Title="findandreplaceDefinedConsts method" Url="html/37a65e4b-d355-a1a0-fecd-edab0176ccf5.htm" />
   <HelpKINode Title="findandreplaceSymbols method" Url="html/202141a3-6b6f-9653-e289-3937e23696b8.htm" />
   <HelpKINode Title="FindAScrablerPlugin method" Url="html/681af6ac-a4c3-479a-7717-c9e74671f267.htm" />
   <HelpKINode Title="FindProcesessByName method" Url="html/7a0a4dff-1ee2-9536-d988-0a7316595ffb.htm" />
   <HelpKINode Title="FindProcessByName method" Url="html/ae1345b1-6023-e745-afe0-d410cdd562e5.htm" />
-  <HelpKINode Title="GetChildAtPoint method" Url="html/11f6ec01-6a5a-dcdb-16f9-b5b19205a4f3.htm" />
-  <HelpKINode Title="GetChildAtPoint method" Url="html/1541389a-c016-9310-66ed-6a7d18407dbd.htm" />
-  <HelpKINode Title="GetChildAtPoint method" Url="html/2d91efc8-d4b1-2363-4628-2b0ad6815215.htm" />
-  <HelpKINode Title="GetChildAtPoint method" Url="html/34cd5903-1905-07b8-a41f-cdcb5a0fa0ff.htm" />
-  <HelpKINode Title="GetChildAtPoint method" Url="html/77dc5aef-e3bd-f4dd-15f1-b83f8aa99de2.htm" />
+  <HelpKINode Title="Flags field" Url="html/9ba16cda-64ad-297e-d411-097dbadba0ee.htm" />
+  <HelpKINode Title="FlagsEx field" Url="html/493181fe-8947-1aee-a2e8-a9117c212b86.htm" />
+  <HelpKINode Title="GetAll method" Url="html/5adf6234-9ede-5499-e2dd-fbf79f26d7ba.htm" />
+  <HelpKINode Title="GetChildAtPoint method">
+    <HelpKINode Title="GetChildAtPoint Method " Url="html/77dc5aef-e3bd-f4dd-15f1-b83f8aa99de2.htm" />
+    <HelpKINode Title="GetChildAtPoint Method " Url="html/2d91efc8-d4b1-2363-4628-2b0ad6815215.htm" />
+    <HelpKINode Title="GetChildAtPoint Method " Url="html/34cd5903-1905-07b8-a41f-cdcb5a0fa0ff.htm" />
+    <HelpKINode Title="GetChildAtPoint Method " Url="html/11f6ec01-6a5a-dcdb-16f9-b5b19205a4f3.htm" />
+    <HelpKINode Title="GetChildAtPoint Method " Url="html/1541389a-c016-9310-66ed-6a7d18407dbd.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetClass method" Url="html/415295d4-4f73-cf4e-49c6-a00e41ab9e70.htm" />
   <HelpKINode Title="GetCode method" Url="html/727d3f67-2616-ae43-5637-b5590137c2c3.htm" />
   <HelpKINode Title="GetEnumerator method" Url="html/0077d17f-c501-7780-db91-989df2b3fbb2.htm" />
   <HelpKINode Title="GetExeCutingApplicationVersion method" Url="html/79c7523d-707b-eebc-622e-0586be824d8f.htm" />
   <HelpKINode Title="GetFunction method" Url="html/e4f8f3f6-063e-a786-15f5-bf291f268711.htm" />
   <HelpKINode Title="GetHydrobaseScrablerPluginsInfo method" Url="html/ff8036cc-8481-085e-0841-2bae0953bf93.htm" />
-  <HelpKINode Title="GetItem method" Url="html/2fd3a71f-cc7b-452a-c5bd-eb0497ff0878.htm" />
-  <HelpKINode Title="GetItem method" Url="html/98a43764-563c-b59b-7d02-29dd9edb137c.htm" />
-  <HelpKINode Title="GetItem method" Url="html/b37c878b-a991-0770-fc49-4c178af8b207.htm" />
+  <HelpKINode Title="GetItem method">
+    <HelpKINode Title="GetItem Method " Url="html/98a43764-563c-b59b-7d02-29dd9edb137c.htm" />
+    <HelpKINode Title="GetItem Method (index)" Url="html/b37c878b-a991-0770-fc49-4c178af8b207.htm" />
+    <HelpKINode Title="GetItem Method (Namespace)" Url="html/2fd3a71f-cc7b-452a-c5bd-eb0497ff0878.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetLanguage method" Url="html/d1d3b4f9-0f36-bfa1-79f5-f2b14bba0225.htm" />
+  <HelpKINode Title="GetMemory method" Url="html/9f748ac1-ac52-3c86-b719-c640a1df285a.htm" />
   <HelpKINode Title="GetNameSace method" Url="html/ed276044-19c7-55b5-0ad5-ec66fe9f4961.htm" />
   <HelpKINode Title="GetNetworkTime method" Url="html/7b6e0422-465a-7455-bc33-3d03fd873d99.htm" />
   <HelpKINode Title="GetReferences method" Url="html/38d2a3bc-7922-5e4f-4a73-ef11193be87e.htm" />
@@ -172,24 +243,43 @@
   <HelpKINode Title="GetScrablerPluginVersion method" Url="html/c8e224d3-6e3e-c0a0-f505-9cb92b9d8290.htm" />
   <HelpKINode Title="GetScriptInfo method" Url="html/ae33629a-cea9-9ffa-5d80-536396291af2.htm" />
   <HelpKINode Title="GetVersion method" Url="html/a64ee7d5-441e-9795-6b23-002101eccd72.htm" />
-  <HelpKINode Title="IndexOf method" Url="html/7c7acf1f-13e1-4228-379d-effcab809519.htm" />
-  <HelpKINode Title="IndexOf method" Url="html/9cc68660-2036-eaf3-60e0-2c1d83acc447.htm" />
-  <HelpKINode Title="IndexOf method" Url="html/bc4c3d24-8469-3b49-dfeb-80222ad82104.htm" />
-  <HelpKINode Title="IndexOf method" Url="html/f9c7e6dc-d3be-cc19-56d7-49f9c3c4d6b6.htm" />
+  <HelpKINode Title="HH_Lib class" Url="html/b22c5fa3-cf99-b98d-7e25-baeb1914d038.htm" />
+  <HelpKINode Title="HH_Lib constructor" Url="html/6d454d24-d57b-0c6d-46ec-2bc718838de4.htm" />
+  <HelpKINode Title="HH_Lib.CutLooseHardwareNotifications method" Url="html/bde235b9-c107-21db-9cfe-2b147f35cd0f.htm" />
+  <HelpKINode Title="HH_Lib.GetAll method" Url="html/5adf6234-9ede-5499-e2dd-fbf79f26d7ba.htm" />
+  <HelpKINode Title="HH_Lib.HookHardwareNotifications method" Url="html/9f5d8baa-4725-52fa-0648-f6df0e0b9507.htm" />
+  <HelpKINode Title="HH_Lib.SetDeviceState method" Url="html/6171401d-a514-bc2e-5ff1-96f7d295c877.htm" />
+  <HelpKINode Title="HookHardwareNotifications method" Url="html/9f5d8baa-4725-52fa-0648-f6df0e0b9507.htm" />
+  <HelpKINode Title="hwndParent field" Url="html/961b7748-852a-51a1-47d3-1929af7f69ca.htm" />
+  <HelpKINode Title="HwProfile field" Url="html/c9fbe0cb-7654-7286-9421-c8c627288cd7.htm" />
+  <HelpKINode Title="IndexOf method">
+    <HelpKINode Title="IndexOf Method " Url="html/9cc68660-2036-eaf3-60e0-2c1d83acc447.htm" />
+    <HelpKINode Title="IndexOf Method (assmbly)" Url="html/7c7acf1f-13e1-4228-379d-effcab809519.htm" />
+    <HelpKINode Title="IndexOf Method (nameSpace)" Url="html/bc4c3d24-8469-3b49-dfeb-80222ad82104.htm" />
+    <HelpKINode Title="IndexOf Method (value)" Url="html/f9c7e6dc-d3be-cc19-56d7-49f9c3c4d6b6.htm" />
+  </HelpKINode>
   <HelpKINode Title="IngoreKeys property" Url="html/8b82250e-d549-9a70-f9a7-d85231beb16a.htm" />
   <HelpKINode Title="Init method" Url="html/27546c58-56c1-8cc5-40dd-2c42724d0fd8.htm" />
   <HelpKINode Title="Insert method" Url="html/a3dc301e-1a38-9923-f239-548507e75dec.htm" />
   <HelpKINode Title="Install method" Url="html/7fdb0594-d5d5-ffdb-f0ac-0b311f729359.htm" />
-  <HelpKINode Title="Invalidate method" Url="html/80e6c74e-9f89-7a5d-0380-585503ab16ad.htm" />
-  <HelpKINode Title="Invalidate method" Url="html/a00713ae-cc9e-4518-28bf-03a8c6a450e5.htm" />
-  <HelpKINode Title="Invalidate method" Url="html/a7441118-61fa-548f-e70e-bf5a16628f36.htm" />
-  <HelpKINode Title="Invalidate method" Url="html/b763fc59-a355-aa0c-27cb-83a84529e200.htm" />
-  <HelpKINode Title="Invalidate method" Url="html/dee58106-b92a-d140-b505-ce95fbd50745.htm" />
-  <HelpKINode Title="Invoke method" Url="html/25a200fa-5f85-7ebb-350e-8e3ee892d615.htm" />
-  <HelpKINode Title="Invoke method" Url="html/36a2638f-f7d7-ce7a-efc6-316586f922a9.htm" />
-  <HelpKINode Title="Invoke method" Url="html/683a6440-5673-1aaf-bc83-03d041cb77d0.htm" />
-  <HelpKINode Title="Invoke method" Url="html/7363c86a-23ec-a6fe-ff56-100b901c50a8.htm" />
-  <HelpKINode Title="Invoke method" Url="html/8dec3fbb-8b1d-40a7-8929-a0ed1b2d8b2e.htm" />
+  <HelpKINode Title="InstallFunction field" Url="html/c7fe9fb9-6d9b-29c9-4683-100bed003f26.htm" />
+  <HelpKINode Title="InstallMsgHandler field" Url="html/d6c12586-4144-95fb-8337-915c4613b201.htm" />
+  <HelpKINode Title="InstallMsgHandlerContext field" Url="html/0b44fb51-95eb-b017-4c4b-6d761391761b.htm" />
+  <HelpKINode Title="Invalidate method">
+    <HelpKINode Title="Invalidate Method " Url="html/dee58106-b92a-d140-b505-ce95fbd50745.htm" />
+    <HelpKINode Title="Invalidate Method " Url="html/a00713ae-cc9e-4518-28bf-03a8c6a450e5.htm" />
+    <HelpKINode Title="Invalidate Method " Url="html/a7441118-61fa-548f-e70e-bf5a16628f36.htm" />
+    <HelpKINode Title="Invalidate Method " Url="html/b763fc59-a355-aa0c-27cb-83a84529e200.htm" />
+    <HelpKINode Title="Invalidate Method " Url="html/80e6c74e-9f89-7a5d-0380-585503ab16ad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INVALID_HANDLE_VALUE field" Url="html/df8c3e52-3f71-7b63-47a9-e89ac2c7c264.htm" />
+  <HelpKINode Title="Invoke method">
+    <HelpKINode Title="Invoke Method " Url="html/36a2638f-f7d7-ce7a-efc6-316586f922a9.htm" />
+    <HelpKINode Title="Invoke Method " Url="html/683a6440-5673-1aaf-bc83-03d041cb77d0.htm" />
+    <HelpKINode Title="Invoke Method " Url="html/8dec3fbb-8b1d-40a7-8929-a0ed1b2d8b2e.htm" />
+    <HelpKINode Title="Invoke Method " Url="html/25a200fa-5f85-7ebb-350e-8e3ee892d615.htm" />
+    <HelpKINode Title="Invoke Method " Url="html/7363c86a-23ec-a6fe-ff56-100b901c50a8.htm" />
+  </HelpKINode>
   <HelpKINode Title="Item property" Url="html/802fad7b-a4cd-0ff4-21be-84cbebc096f2.htm" />
   <HelpKINode Title="Kill method" Url="html/e5276a08-ba21-62e6-3208-0eb16d0aa06a.htm" />
   <HelpKINode Title="KillById method" Url="html/afb38e3c-07a2-b326-61ab-c36e46642664.htm" />
@@ -202,8 +292,10 @@
   <HelpKINode Title="LoadedScripts.AccessibilityNotifyClients method" Url="html/6461ba5e-a5db-332d-ad7a-58d1fee23a56.htm" />
   <HelpKINode Title="LoadedScripts.BeginInvoke method" Url="html/59b05f2a-ca25-96c2-9150-cf80c5e99449.htm" />
   <HelpKINode Title="LoadedScripts.dataScriptsInfo field" Url="html/b8056f0f-86c6-a004-d203-7f43d9975ceb.htm" />
-  <HelpKINode Title="LoadedScripts.Dispose method" Url="html/eb49a606-40d1-3ba4-b287-92508fd022c7.htm" />
-  <HelpKINode Title="LoadedScripts.Dispose method" Url="html/f789440d-cc85-9f60-c1a9-0be72e9c0b44.htm" />
+  <HelpKINode Title="LoadedScripts.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/eb49a606-40d1-3ba4-b287-92508fd022c7.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/f789440d-cc85-9f60-c1a9-0be72e9c0b44.htm" />
+  </HelpKINode>
   <HelpKINode Title="LoadedScripts.GetChildAtPoint method" Url="html/34cd5903-1905-07b8-a41f-cdcb5a0fa0ff.htm" />
   <HelpKINode Title="LoadedScripts.Invalidate method" Url="html/a7441118-61fa-548f-e70e-bf5a16628f36.htm" />
   <HelpKINode Title="LoadedScripts.Invoke method" Url="html/8dec3fbb-8b1d-40a7-8929-a0ed1b2d8b2e.htm" />
@@ -220,17 +312,22 @@
   <HelpKINode Title="LoadedScripts.Validate method" Url="html/1995e3a4-0711-f7e9-e781-e11ebac4c94a.htm" />
   <HelpKINode Title="LoadedScripts.ValidateChildren method" Url="html/2a5638c8-1ae6-4a4c-2c6b-4c972e5343bb.htm" />
   <HelpKINode Title="LockWorkStation method" Url="html/3f9738d1-3800-1cfe-9f1d-180f3d42d6a5.htm" />
+  <HelpKINode Title="LogMessage method" Url="html/ba1c395b-1552-ec69-4ee1-8d08ef91a6a3.htm" />
   <HelpKINode Title="LowerApplicationVersion property" Url="html/8221e514-9020-3a2d-f5b9-88d99ddb394f.htm" />
   <HelpKINode Title="LowerApplicationVersionTag field" Url="html/e4464775-55cd-6783-b75c-f21f8bb243c8.htm" />
   <HelpKINode Title="MainForm field" Url="html/23e5c4ce-172e-b5d9-0e08-072fee7485d6.htm" />
   <HelpKINode Title="MakeAction method" Url="html/14d5c52d-d39d-6504-a98a-e47d33a13bb0.htm" />
+  <HelpKINode Title="MaxAllowedBytes property" Url="html/a14f959a-3ce0-5a6b-f0f0-6f7dd2832f9c.htm" />
   <HelpKINode Title="MaxApplicationVersion property" Url="html/caa8207d-cf1f-549f-a963-a404edfb3050.htm" />
   <HelpKINode Title="MaxApplicationVersionTag field" Url="html/ca5d928c-9d51-f732-eb0f-c19310f743bc.htm" />
-  <HelpKINode Title="MemberwiseClone method" Url="html/1dd750c0-9e2a-a78f-d80a-6fcd693b147a.htm" />
-  <HelpKINode Title="MemberwiseClone method" Url="html/63ee47c0-0aa8-af44-f414-45016945c53b.htm" />
-  <HelpKINode Title="MemberwiseClone method" Url="html/666bcce6-b6b9-c3b5-a8e5-816d2d3d4246.htm" />
-  <HelpKINode Title="MemberwiseClone method" Url="html/b765ad45-644f-5524-6bfc-c9e82cd36876.htm" />
-  <HelpKINode Title="MemberwiseClone method" Url="html/be79a963-708d-c3d7-2efb-f8dd77ca8c16.htm" />
+  <HelpKINode Title="MAX_DEV_LEN field" Url="html/5abfe2da-6ccd-c5b5-f92b-e9c2bd6f8cd4.htm" />
+  <HelpKINode Title="MemberwiseClone method">
+    <HelpKINode Title="MemberwiseClone Method " Url="html/be79a963-708d-c3d7-2efb-f8dd77ca8c16.htm" />
+    <HelpKINode Title="MemberwiseClone Method " Url="html/63ee47c0-0aa8-af44-f414-45016945c53b.htm" />
+    <HelpKINode Title="MemberwiseClone Method " Url="html/1dd750c0-9e2a-a78f-d80a-6fcd693b147a.htm" />
+    <HelpKINode Title="MemberwiseClone Method " Url="html/b765ad45-644f-5524-6bfc-c9e82cd36876.htm" />
+    <HelpKINode Title="MemberwiseClone Method " Url="html/666bcce6-b6b9-c3b5-a8e5-816d2d3d4246.htm" />
+  </HelpKINode>
   <HelpKINode Title="Monitor class" Url="html/732c7d5c-c8c0-329e-ba29-fa598b3f3c2e.htm" />
   <HelpKINode Title="Monitor constructor" Url="html/64ace94b-7c47-b8d4-9cda-bceb8f16474d.htm" />
   <HelpKINode Title="Monitor.LockWorkStation method" Url="html/3f9738d1-3800-1cfe-9f1d-180f3d42d6a5.htm" />
@@ -240,46 +337,129 @@
   <HelpKINode Title="MoveNext method" Url="html/2e0f9781-305e-72a0-c96a-8a11bf4525d5.htm" />
   <HelpKINode Title="Name property" Url="html/6516f5eb-9941-e276-45dd-73be43a10802.htm" />
   <HelpKINode Title="namespacetag field" Url="html/8b0f3a21-a0c2-d7e9-7249-b279c29c27d1.htm" />
-  <HelpKINode Title="PerformLayout method" Url="html/044e1a93-5b2b-fc7f-5625-309e95a2bba7.htm" />
-  <HelpKINode Title="PerformLayout method" Url="html/218d7aa4-2b40-7e33-224a-c8938ef5ec3f.htm" />
-  <HelpKINode Title="PerformLayout method" Url="html/4bce65ea-a705-5a14-55f6-259fe7389fc9.htm" />
-  <HelpKINode Title="PerformLayout method" Url="html/5e8ddddb-1a04-d7e6-f8e6-5b631af83265.htm" />
-  <HelpKINode Title="PerformLayout method" Url="html/c5f232a3-aaf4-b724-016a-7bbfa0578ba2.htm" />
+  <HelpKINode Title="Native class" Url="html/4a9cdbc1-a29d-a198-e9c8-366cd0d5ed6f.htm" />
+  <HelpKINode Title="Native constructor" Url="html/247abc86-d90f-0ffa-a3f4-332f513f6853.htm" />
+  <HelpKINode Title="Native.DBT_DEVNODES_CHANGED field" Url="html/fd3ac42d-7e27-a560-0c30-8808f6c51aef.htm" />
+  <HelpKINode Title="Native.DBT_DEVTYP_DEVICEINTERFACE field" Url="html/43337258-0264-6b6d-1927-0350ed02e55e.htm" />
+  <HelpKINode Title="Native.DEVICE_NOTIFY_ALL_INTERFACE_CLASSES field" Url="html/83d7d04c-ba4d-3823-fb11-3224d1f06865.htm" />
+  <HelpKINode Title="Native.DEVICE_NOTIFY_SERVICE_HANDLE field" Url="html/c31a813d-a779-6002-5b56-077e12704077.htm" />
+  <HelpKINode Title="Native.DEVICE_NOTIFY_WINDOW_HANDLE field" Url="html/abefb435-34ed-b7d5-5ac9-c98228e7d167.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_DEVICEINTERFACE class" Url="html/6eae12ff-2e09-3ede-489c-d5c4ff5c7108.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_DEVICEINTERFACE constructor" Url="html/467936f0-503b-dffd-7368-6bd5d627c93e.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_DEVICEINTERFACE.dbcc_devicetype field" Url="html/547c27e4-a002-1721-b6e0-f38dfcd081e9.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_DEVICEINTERFACE.dbcc_reserved field" Url="html/b05ad5a1-1522-5c79-04e8-b5ca596bb028.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_DEVICEINTERFACE.dbcc_size field" Url="html/269d0f9b-b4e3-1cab-aea3-c1cd5fc86c88.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE structure" Url="html/00a9eb3a-71e0-eee5-dba0-b5368a343f7d.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_data field" Url="html/5d214593-30ee-cee9-6b8d-4c014ff07786.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_data1 field" Url="html/b377fcbe-2b9d-72d6-190d-256a4b76acb2.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_devicetype field" Url="html/9e9c864f-ec88-9339-daca-e153a61df533.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_eventguid field" Url="html/068b55ac-62f7-ca77-812a-eaf7cfcf9813.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_handle field" Url="html/8081a9c8-d610-0af4-1812-2477144a20c8.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_hdevnotify field" Url="html/43bd1549-80b0-e136-eea5-00753c1ac81a.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_nameoffset field" Url="html/c55fc0aa-f8a5-b3de-1839-e4d77221c056.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_reserved field" Url="html/35d783ff-b187-fd4e-47ac-b465de6f32a6.htm" />
+  <HelpKINode Title="Native.DEV_BROADCAST_HANDLE.dbch_size field" Url="html/f6e2fa5c-22fe-b74f-123e-1b5e986c8812.htm" />
+  <HelpKINode Title="Native.DICS_DISABLE field" Url="html/c2bba270-a6ce-13a7-ef7c-167e2eb4ed54.htm" />
+  <HelpKINode Title="Native.DICS_ENABLE field" Url="html/64ba1073-a55f-6925-585d-67ebca8d30c2.htm" />
+  <HelpKINode Title="Native.DICS_FLAG_CONFIGSPECIFIC field" Url="html/a596579f-ecec-40ac-8aac-92b875151b4d.htm" />
+  <HelpKINode Title="Native.DICS_FLAG_GLOBAL field" Url="html/9d3c7eac-d37e-7e94-b395-a2353246484b.htm" />
+  <HelpKINode Title="Native.DIF_PROPERTYCHANGE field" Url="html/c4508a18-ac84-63d5-e027-394fd822645a.htm" />
+  <HelpKINode Title="Native.DIGCF_ALLCLASSES field" Url="html/fe09b9c7-158c-07cb-a754-656ae36f52aa.htm" />
+  <HelpKINode Title="Native.DIGCF_PRESENT field" Url="html/098e90b2-37ed-9ce4-b0f5-2580df62162c.htm" />
+  <HelpKINode Title="Native.INVALID_HANDLE_VALUE field" Url="html/df8c3e52-3f71-7b63-47a9-e89ac2c7c264.htm" />
+  <HelpKINode Title="Native.MAX_DEV_LEN field" Url="html/5abfe2da-6ccd-c5b5-f92b-e9c2bd6f8cd4.htm" />
+  <HelpKINode Title="Native.RegisterDeviceNotification method" Url="html/7de13ae7-dad1-6058-cd86-b91988a217a1.htm" />
+  <HelpKINode Title="Native.SetupDiCallClassInstaller method" Url="html/c95491b6-a7b5-0959-173b-756ac0066a85.htm" />
+  <HelpKINode Title="Native.SetupDiDestroyDeviceInfoList method" Url="html/c76ce39c-80cc-6bac-dde1-2005b8de82c1.htm" />
+  <HelpKINode Title="Native.SetupDiEnumDeviceInfo method" Url="html/adacab38-f36d-7764-ff09-30296047a22a.htm" />
+  <HelpKINode Title="Native.SetupDiGetClassDevs method" Url="html/bc806d5b-11f5-7e33-3e55-4d1be57d97ff.htm" />
+  <HelpKINode Title="Native.SetupDiGetDeviceRegistryProperty method" Url="html/e894ce5f-35b3-b240-d334-680c7084bf49.htm" />
+  <HelpKINode Title="Native.SetupDiSetClassInstallParams method" Url="html/d6816715-6ddf-0d8f-724f-c7c92461195d.htm" />
+  <HelpKINode Title="Native.SPDRP_DEVICEDESC field" Url="html/4951c152-bb32-a2fe-2fd3-cdc35be5b1ac.htm" />
+  <HelpKINode Title="Native.SP_CLASSINSTALL_HEADER class" Url="html/3a0b79e8-86da-06c4-b546-babef1af6782.htm" />
+  <HelpKINode Title="Native.SP_CLASSINSTALL_HEADER constructor" Url="html/dd0b8a83-5876-bd6b-2f23-55d84b072e28.htm" />
+  <HelpKINode Title="Native.SP_CLASSINSTALL_HEADER.cbSize field" Url="html/63c6ed4d-24d6-d30c-823f-d798d9e4d79b.htm" />
+  <HelpKINode Title="Native.SP_CLASSINSTALL_HEADER.InstallFunction field" Url="html/c7fe9fb9-6d9b-29c9-4683-100bed003f26.htm" />
+  <HelpKINode Title="Native.SP_DEVINFO_DATA class" Url="html/d83d8535-3009-1add-4fb6-1dde88c68e45.htm" />
+  <HelpKINode Title="Native.SP_DEVINFO_DATA constructor" Url="html/8ad311a7-20be-6ac0-6193-ffc81264dc6f.htm" />
+  <HelpKINode Title="Native.SP_DEVINFO_DATA.cbSize field" Url="html/4ef3e056-3441-d8f2-82c8-641f076e50e7.htm" />
+  <HelpKINode Title="Native.SP_DEVINFO_DATA.classGuid field" Url="html/13015e4e-68e6-a2ef-9609-02ab2c0a4cc1.htm" />
+  <HelpKINode Title="Native.SP_DEVINFO_DATA.devInst field" Url="html/6ba04768-613d-e4ef-2bee-720d701432d1.htm" />
+  <HelpKINode Title="Native.SP_DEVINFO_DATA.reserved field" Url="html/0fc53284-2b1d-7e6e-9ec5-25537f64d7c5.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS class" Url="html/3e68be6e-78e4-e579-2105-8905f5ec4646.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS constructor" Url="html/c9d86687-e3b9-40d0-15c8-31de7cad5d43.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.cbSize field" Url="html/b54ae0a0-c49c-d9ba-0a75-5a8fd8c91832.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.ClassInstallReserved field" Url="html/e6dcd510-732f-8b82-059b-d7aaee84962e.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.DriverPath field" Url="html/666c2958-aae7-2352-4be9-758c0c6b5d13.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.FileQueue field" Url="html/8e99a958-a1e1-600c-038b-a712ac03fd17.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.Flags field" Url="html/9ba16cda-64ad-297e-d411-097dbadba0ee.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.FlagsEx field" Url="html/493181fe-8947-1aee-a2e8-a9117c212b86.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.hwndParent field" Url="html/961b7748-852a-51a1-47d3-1929af7f69ca.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.InstallMsgHandler field" Url="html/d6c12586-4144-95fb-8337-915c4613b201.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.InstallMsgHandlerContext field" Url="html/0b44fb51-95eb-b017-4c4b-6d761391761b.htm" />
+  <HelpKINode Title="Native.SP_DEVINSTALL_PARAMS.Reserved field" Url="html/25f67188-a4fe-a2ad-6572-3b5e99531e13.htm" />
+  <HelpKINode Title="Native.SP_PROPCHANGE_PARAMS class" Url="html/522a48d1-e0ee-0407-3d6e-f0af8f30fcd0.htm" />
+  <HelpKINode Title="Native.SP_PROPCHANGE_PARAMS constructor" Url="html/f1214f44-c65e-26a3-96bc-0842c8b659a6.htm" />
+  <HelpKINode Title="Native.SP_PROPCHANGE_PARAMS.ClassInstallHeader field" Url="html/5be79d52-04f6-9160-74a1-74c8539d8187.htm" />
+  <HelpKINode Title="Native.SP_PROPCHANGE_PARAMS.HwProfile field" Url="html/c9fbe0cb-7654-7286-9421-c8c627288cd7.htm" />
+  <HelpKINode Title="Native.SP_PROPCHANGE_PARAMS.Scope field" Url="html/a81eeeac-cd08-d1df-3cab-6c7166565852.htm" />
+  <HelpKINode Title="Native.SP_PROPCHANGE_PARAMS.StateChange field" Url="html/6fa17531-08da-0831-c121-31272e889a9e.htm" />
+  <HelpKINode Title="Native.UnregisterDeviceNotification method" Url="html/39a131f4-179e-00c1-cfff-26986b9fedf5.htm" />
+  <HelpKINode Title="Native.WM_DEVICECHANGE field" Url="html/31510db4-16ef-fc7f-e8e8-4d4f22c12caf.htm" />
+  <HelpKINode Title="Performance class" Url="html/b8483cd4-67d0-d6d3-ac04-19e057e496f2.htm" />
+  <HelpKINode Title="Performance constructor" Url="html/3b1e38d6-efa3-83a7-3f02-dd4c99548d7d.htm" />
+  <HelpKINode Title="Performance.GetMemory method" Url="html/9f748ac1-ac52-3c86-b719-c640a1df285a.htm" />
+  <HelpKINode Title="PerformLayout method">
+    <HelpKINode Title="PerformLayout Method " Url="html/5e8ddddb-1a04-d7e6-f8e6-5b631af83265.htm" />
+    <HelpKINode Title="PerformLayout Method " Url="html/4bce65ea-a705-5a14-55f6-259fe7389fc9.htm" />
+    <HelpKINode Title="PerformLayout Method " Url="html/044e1a93-5b2b-fc7f-5625-309e95a2bba7.htm" />
+    <HelpKINode Title="PerformLayout Method " Url="html/c5f232a3-aaf4-b724-016a-7bbfa0578ba2.htm" />
+    <HelpKINode Title="PerformLayout Method " Url="html/218d7aa4-2b40-7e33-224a-c8938ef5ec3f.htm" />
+  </HelpKINode>
   <HelpKINode Title="PowerShellOutput field" Url="html/333149ce-1b14-e29b-08b7-162b7f999b86.htm" />
   <HelpKINode Title="Process property" Url="html/9b1a6fef-a28b-7591-817a-1bf52275b429.htm" />
   <HelpKINode Title="ProcessWatcher class" Url="html/64798bf6-d348-4dd9-531f-7951a6d93dc1.htm" />
-  <HelpKINode Title="ProcessWatcher constructor" Url="html/0204c1d5-9a45-01f1-1206-21f76d644270.htm" />
-  <HelpKINode Title="ProcessWatcher constructor" Url="html/17e890ad-a86e-c451-d60d-2e68bbb48ba0.htm" />
-  <HelpKINode Title="ProcessWatcher constructor" Url="html/18b7efba-9db9-0859-09cc-8d3039862387.htm" />
-  <HelpKINode Title="ProcessWatcher constructor" Url="html/5d5f3436-89df-6b39-2a65-900319f3bb00.htm" />
-  <HelpKINode Title="ProcessWatcher constructor" Url="html/cfca4c4d-c1df-5823-2ba8-b4732f95a98c.htm" />
+  <HelpKINode Title="ProcessWatcher constructor">
+    <HelpKINode Title="ProcessWatcher Constructor " Url="html/18b7efba-9db9-0859-09cc-8d3039862387.htm" />
+    <HelpKINode Title="ProcessWatcher Constructor " Url="html/cfca4c4d-c1df-5823-2ba8-b4732f95a98c.htm" />
+    <HelpKINode Title="ProcessWatcher Constructor (tmr)" Url="html/0204c1d5-9a45-01f1-1206-21f76d644270.htm" />
+    <HelpKINode Title="ProcessWatcher Constructor (tproc)" Url="html/17e890ad-a86e-c451-d60d-2e68bbb48ba0.htm" />
+    <HelpKINode Title="ProcessWatcher Constructor (tproc, tmr)" Url="html/5d5f3436-89df-6b39-2a65-900319f3bb00.htm" />
+  </HelpKINode>
   <HelpKINode Title="ProcessWatcher.BasePrioirty property" Url="html/ce44315e-a138-e8e1-8d68-f6a1a38486fb.htm" />
   <HelpKINode Title="ProcessWatcher.Kill method" Url="html/e5276a08-ba21-62e6-3208-0eb16d0aa06a.htm" />
+  <HelpKINode Title="ProcessWatcher.MaxAllowedBytes property" Url="html/a14f959a-3ce0-5a6b-f0f0-6f7dd2832f9c.htm" />
   <HelpKINode Title="ProcessWatcher.Process property" Url="html/9b1a6fef-a28b-7591-817a-1bf52275b429.htm" />
+  <HelpKINode Title="ProcessWatcher.ReStart method" Url="html/fc1d0d8c-715d-32d7-869c-7f124cfa98af.htm" />
+  <HelpKINode Title="ProcessWatcher.setOnTimeEvent method" Url="html/af0d8a99-bf27-5e9f-7126-408dbb65f6e5.htm" />
   <HelpKINode Title="ProcessWatcher.Start method" Url="html/34fdd3cf-f4fa-9979-e65b-247565f38f1c.htm" />
   <HelpKINode Title="ProcessWatcher.Timer property" Url="html/ba808f36-8b52-518f-eebf-db9723d21fc1.htm" />
   <HelpKINode Title="Program class" Url="html/382c53aa-b964-b681-72c3-e3bdfb012776.htm" />
-  <HelpKINode Title="Program.Bugger field" Url="html/76aba697-88bc-a4a2-5aab-577c590f98ac.htm" />
   <HelpKINode Title="Program.Bugtracking method" Url="html/e6ded5f2-f73e-a57d-8ea9-af2af67a1aec.htm" />
   <HelpKINode Title="Program.MainForm field" Url="html/23e5c4ce-172e-b5d9-0e08-072fee7485d6.htm" />
   <HelpKINode Title="Readconfig method" Url="html/74b75e7f-056a-13cb-6660-6c60dbeceb74.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/2b5c26fd-fdc3-b2a7-c491-3f309d631a32.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/410944f4-caa2-8cdd-2e23-b84a17fe626d.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/6f72c730-abe1-b2dd-b5f5-92178a9f119e.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/7b593a93-0a09-224f-2cb5-b55d5f345583.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/7e9ca06a-0a3c-399b-4c33-045558d469d3.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/80577bc0-ce87-4a2b-eba8-0007b8274820.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/86fdccd4-1655-449b-9509-09685c9f094a.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/99fb056a-3b53-8d90-3c42-4208c8a2c0bd.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/c915991d-f062-ac86-113d-1dda60f55c96.htm" />
-  <HelpKINode Title="ReadScript method" Url="html/e9404fb8-0fb8-62b8-ce28-36e2990eb636.htm" />
+  <HelpKINode Title="ReadScript method">
+    <HelpKINode Title="ReadScript Method " Url="html/7b593a93-0a09-224f-2cb5-b55d5f345583.htm" />
+    <HelpKINode Title="ReadScript Method " Url="html/c915991d-f062-ac86-113d-1dda60f55c96.htm" />
+    <HelpKINode Title="ReadScript Method " Url="html/e9404fb8-0fb8-62b8-ce28-36e2990eb636.htm" />
+    <HelpKINode Title="ReadScript Method " Url="html/410944f4-caa2-8cdd-2e23-b84a17fe626d.htm" />
+    <HelpKINode Title="ReadScript Method (filename)" Url="html/7e9ca06a-0a3c-399b-4c33-045558d469d3.htm" />
+    <HelpKINode Title="ReadScript Method (filename)" Url="html/99fb056a-3b53-8d90-3c42-4208c8a2c0bd.htm" />
+    <HelpKINode Title="ReadScript Method (filename, dontExecute)" Url="html/6f72c730-abe1-b2dd-b5f5-92178a9f119e.htm" />
+    <HelpKINode Title="ReadScript Method (filename, gui)" Url="html/2b5c26fd-fdc3-b2a7-c491-3f309d631a32.htm" />
+    <HelpKINode Title="ReadScript Method (filename, gui)" Url="html/86fdccd4-1655-449b-9509-09685c9f094a.htm" />
+    <HelpKINode Title="ReadScript Method (scriptname, gui)" Url="html/80577bc0-ce87-4a2b-eba8-0007b8274820.htm" />
+  </HelpKINode>
   <HelpKINode Title="ReadScript2 method" Url="html/bafb78ef-03e5-f01c-7b5b-bf57d2298dca.htm" />
   <HelpKINode Title="ReadScriptAndInstall method" Url="html/c8831fd4-c7df-d622-1161-501ee837ff5a.htm" />
   <HelpKINode Title="ReadScriptInLightMode method" Url="html/64afe728-4255-7838-5933-4ec27546ae37.htm" />
   <HelpKINode Title="references field" Url="html/213175fd-faa7-3303-0bf4-e4c9cedbead1.htm" />
   <HelpKINode Title="ReferenceTag field" Url="html/54d678e7-9674-1811-bcfc-13426f6f23ee.htm" />
-  <HelpKINode Title="Remove method" Url="html/6917c439-cefa-d0e5-0b02-75bbf5288fc0.htm" />
-  <HelpKINode Title="Remove method" Url="html/cdef7f5d-5abd-23c9-7746-e8738cca8b4f.htm" />
+  <HelpKINode Title="RegisterDeviceNotification method" Url="html/7de13ae7-dad1-6058-cd86-b91988a217a1.htm" />
+  <HelpKINode Title="Remove method">
+    <HelpKINode Title="Remove Method (assembly)" Url="html/6917c439-cefa-d0e5-0b02-75bbf5288fc0.htm" />
+    <HelpKINode Title="Remove Method (value)" Url="html/cdef7f5d-5abd-23c9-7746-e8738cca8b4f.htm" />
+  </HelpKINode>
   <HelpKINode Title="replacemanettag field" Url="html/5484d9c0-592b-29fc-a558-5833a7c6a995.htm" />
   <HelpKINode Title="Replacer class" Url="html/c523d961-f10b-d6eb-185d-11643f47bd15.htm" />
   <HelpKINode Title="Replacer constructor" Url="html/fb8d200d-6e09-cb03-0225-d8a87b461ca8.htm" />
@@ -287,25 +467,37 @@
   <HelpKINode Title="Replacer.findandreplaceSymbols method" Url="html/202141a3-6b6f-9653-e289-3937e23696b8.htm" />
   <HelpKINode Title="Replacer.replacemanettag field" Url="html/5484d9c0-592b-29fc-a558-5833a7c6a995.htm" />
   <HelpKINode Title="Repository property" Url="html/75ae5e5b-cc15-e897-e62f-7a23e2051d7e.htm" />
+  <HelpKINode Title="reserved field" Url="html/0fc53284-2b1d-7e6e-9ec5-25537f64d7c5.htm" />
+  <HelpKINode Title="Reserved field" Url="html/25f67188-a4fe-a2ad-6572-3b5e99531e13.htm" />
   <HelpKINode Title="Reset method" Url="html/d1ae9d22-7b4c-6ac7-bf6b-63bcc0b5e7da.htm" />
-  <HelpKINode Title="ResumeLayout method" Url="html/a5af5af1-5190-bdcc-7765-c8f4a1e31732.htm" />
-  <HelpKINode Title="ResumeLayout method" Url="html/adebe1f7-d24c-8b46-a25f-e715064a8961.htm" />
-  <HelpKINode Title="ResumeLayout method" Url="html/b06a8277-7788-7999-5f18-2586fffefd96.htm" />
-  <HelpKINode Title="ResumeLayout method" Url="html/b9b2934f-056c-07f9-6f65-241562dfd1eb.htm" />
-  <HelpKINode Title="ResumeLayout method" Url="html/bebda180-c4b2-6682-f052-2a1fa9dd5277.htm" />
-  <HelpKINode Title="RtlTranslateAlignment method" Url="html/2958736b-1b43-87d0-2fd8-28b0e774350a.htm" />
-  <HelpKINode Title="RtlTranslateAlignment method" Url="html/2c98376b-12f5-dbb4-0d15-b0cde14f60c0.htm" />
-  <HelpKINode Title="RtlTranslateAlignment method" Url="html/7b51e1d1-be95-9711-7481-9758fdbf005e.htm" />
-  <HelpKINode Title="RtlTranslateAlignment method" Url="html/bc1fe9b6-7bdb-c931-0422-22bf7f7e67e1.htm" />
-  <HelpKINode Title="RtlTranslateAlignment method" Url="html/d899987d-c0a0-568e-f616-7e2e14185191.htm" />
-  <HelpKINode Title="SaveErrorrs method" Url="html/261f682b-a1af-1781-13bc-631e67d16d2f.htm" />
-  <HelpKINode Title="SaveErrorrs method" Url="html/8a7439d5-a538-0540-8a4c-12fb37fb6a7d.htm" />
+  <HelpKINode Title="ReStart method" Url="html/fc1d0d8c-715d-32d7-869c-7f124cfa98af.htm" />
+  <HelpKINode Title="ResumeLayout method">
+    <HelpKINode Title="ResumeLayout Method " Url="html/a5af5af1-5190-bdcc-7765-c8f4a1e31732.htm" />
+    <HelpKINode Title="ResumeLayout Method " Url="html/b06a8277-7788-7999-5f18-2586fffefd96.htm" />
+    <HelpKINode Title="ResumeLayout Method " Url="html/b9b2934f-056c-07f9-6f65-241562dfd1eb.htm" />
+    <HelpKINode Title="ResumeLayout Method " Url="html/adebe1f7-d24c-8b46-a25f-e715064a8961.htm" />
+    <HelpKINode Title="ResumeLayout Method " Url="html/bebda180-c4b2-6682-f052-2a1fa9dd5277.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RtlTranslateAlignment method">
+    <HelpKINode Title="RtlTranslateAlignment Method " Url="html/2958736b-1b43-87d0-2fd8-28b0e774350a.htm" />
+    <HelpKINode Title="RtlTranslateAlignment Method " Url="html/d899987d-c0a0-568e-f616-7e2e14185191.htm" />
+    <HelpKINode Title="RtlTranslateAlignment Method " Url="html/bc1fe9b6-7bdb-c931-0422-22bf7f7e67e1.htm" />
+    <HelpKINode Title="RtlTranslateAlignment Method " Url="html/7b51e1d1-be95-9711-7481-9758fdbf005e.htm" />
+    <HelpKINode Title="RtlTranslateAlignment Method " Url="html/2c98376b-12f5-dbb4-0d15-b0cde14f60c0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SaveErrorrs method">
+    <HelpKINode Title="SaveErrorrs Method " Url="html/8a7439d5-a538-0540-8a4c-12fb37fb6a7d.htm" />
+    <HelpKINode Title="SaveErrorrs Method (compilererrcol)" Url="html/261f682b-a1af-1781-13bc-631e67d16d2f.htm" />
+  </HelpKINode>
   <HelpKINode Title="SaveScript method" Url="html/4a3f86dc-2984-1f9e-6731-880fcd4317e9.htm" />
-  <HelpKINode Title="Scale method" Url="html/3cfc98e2-7711-a239-7900-88a433ab4a13.htm" />
-  <HelpKINode Title="Scale method" Url="html/455433c5-d976-48d6-2214-b1cd3251ca82.htm" />
-  <HelpKINode Title="Scale method" Url="html/72fef1d3-cbca-0c9f-88e4-9c53c48c9e13.htm" />
-  <HelpKINode Title="Scale method" Url="html/c7184686-2df7-0564-d2b8-8398f16684b8.htm" />
-  <HelpKINode Title="Scale method" Url="html/e354cc7e-2031-f570-0541-687e53b58998.htm" />
+  <HelpKINode Title="Scale method">
+    <HelpKINode Title="Scale Method " Url="html/c7184686-2df7-0564-d2b8-8398f16684b8.htm" />
+    <HelpKINode Title="Scale Method " Url="html/e354cc7e-2031-f570-0541-687e53b58998.htm" />
+    <HelpKINode Title="Scale Method " Url="html/3cfc98e2-7711-a239-7900-88a433ab4a13.htm" />
+    <HelpKINode Title="Scale Method " Url="html/72fef1d3-cbca-0c9f-88e4-9c53c48c9e13.htm" />
+    <HelpKINode Title="Scale Method " Url="html/455433c5-d976-48d6-2214-b1cd3251ca82.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scope field" Url="html/a81eeeac-cd08-d1df-3cab-6c7166565852.htm" />
   <HelpKINode Title="Scrabler namespace" Url="html/eb740115-b877-1f3c-2886-46f41f55d903.htm" />
   <HelpKINode Title="Scrabler.AssemblyCollection class" Url="html/7c517f9f-f025-6c48-a3c0-f42acaa9e4fc.htm" />
   <HelpKINode Title="Scrabler.Controls namespace" Url="html/bb59a921-10fd-6a23-43ae-b092315d46ff.htm" />
@@ -332,15 +524,26 @@
   <HelpKINode Title="Scrabler.ScriptRepo class" Url="html/38540422-b602-b54a-2874-19f3b15eb7a5.htm" />
   <HelpKINode Title="Scrabler.Tools namespace" Url="html/e1d96217-7e7f-5e05-ceeb-07ad0b008dfe.htm" />
   <HelpKINode Title="Scrabler.Tools.Helpers.Hardware namespace" Url="html/ea877e8c-0a88-e425-89aa-5c1d09ab3602.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.HH_Lib class" Url="html/b22c5fa3-cf99-b98d-7e25-baeb1914d038.htm" />
   <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Monitor class" Url="html/732c7d5c-c8c0-329e-ba29-fa598b3f3c2e.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Native class" Url="html/4a9cdbc1-a29d-a198-e9c8-366cd0d5ed6f.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Native.DEV_BROADCAST_DEVICEINTERFACE class" Url="html/6eae12ff-2e09-3ede-489c-d5c4ff5c7108.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Native.DEV_BROADCAST_HANDLE structure" Url="html/00a9eb3a-71e0-eee5-dba0-b5368a343f7d.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Native.SP_CLASSINSTALL_HEADER class" Url="html/3a0b79e8-86da-06c4-b546-babef1af6782.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Native.SP_DEVINFO_DATA class" Url="html/d83d8535-3009-1add-4fb6-1dde88c68e45.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Native.SP_DEVINSTALL_PARAMS class" Url="html/3e68be6e-78e4-e579-2105-8905f5ec4646.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Native.SP_PROPCHANGE_PARAMS class" Url="html/522a48d1-e0ee-0407-3d6e-f0af8f30fcd0.htm" />
+  <HelpKINode Title="Scrabler.Tools.Helpers.Hardware.Performance class" Url="html/b8483cd4-67d0-d6d3-ac04-19e057e496f2.htm" />
   <HelpKINode Title="Scrabler.Tools.Helpers.Software namespace" Url="html/5d37105a-e80d-346e-a638-14250d5b78fc.htm" />
   <HelpKINode Title="Scrabler.Tools.Helpers.Software.SystemTime class" Url="html/a82094d5-46d9-135e-e480-048a2133f89e.htm" />
   <HelpKINode Title="Scrabler.Tools.ProcessWatcher class" Url="html/64798bf6-d348-4dd9-531f-7951a6d93dc1.htm" />
   <HelpKINode Title="Scrabler.Tools.TaskManager class" Url="html/8bb584f9-2327-34cf-f8f8-9f48462a3d02.htm" />
   <HelpKINode Title="ScrablerCore class" Url="html/d3b0e383-a4b1-2daa-dd91-5f912a76b5f0.htm" />
-  <HelpKINode Title="ScrablerCore constructor" Url="html/14de93e5-5f56-5fcc-9bda-0fab088d4c4b.htm" />
-  <HelpKINode Title="ScrablerCore constructor" Url="html/57c3ba47-683e-c51a-2947-bf1a7b3b60a1.htm" />
-  <HelpKINode Title="ScrablerCore constructor" Url="html/727705fb-5312-21e9-f158-de6f26366a2f.htm" />
+  <HelpKINode Title="ScrablerCore constructor">
+    <HelpKINode Title="ScrablerCore Constructor " Url="html/727705fb-5312-21e9-f158-de6f26366a2f.htm" />
+    <HelpKINode Title="ScrablerCore Constructor " Url="html/14de93e5-5f56-5fcc-9bda-0fab088d4c4b.htm" />
+    <HelpKINode Title="ScrablerCore Constructor (runingmode)" Url="html/57c3ba47-683e-c51a-2947-bf1a7b3b60a1.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScrablerCore.AssemblyCol field" Url="html/6fe27431-1a6d-1f5e-4cc4-54cd408e2c03.htm" />
   <HelpKINode Title="ScrablerCore.Author field" Url="html/a70fdc70-6bc6-5a18-e2cb-ed0c972875ff.htm" />
   <HelpKINode Title="ScrablerCore.c field" Url="html/b4b05f20-5e84-49cf-2843-e446e4b0c03d.htm" />
@@ -352,9 +555,12 @@
   <HelpKINode Title="ScrablerCore.definedConstants field" Url="html/51bbb538-782f-f253-82a1-ef93d2bc7202.htm" />
   <HelpKINode Title="ScrablerCore.definedValues field" Url="html/cc09cfb5-bb2e-ee44-000d-2403414ff5fd.htm" />
   <HelpKINode Title="ScrablerCore.Description field" Url="html/6fa38638-f78e-2e6b-9954-4e671ad29ec2.htm" />
-  <HelpKINode Title="ScrablerCore.Eval method" Url="html/163f0bb6-36aa-7cf3-90d5-c5c0edc37f9d.htm" />
-  <HelpKINode Title="ScrablerCore.Eval method" Url="html/36c62d45-b90a-49bb-6376-a35425df1ff3.htm" />
-  <HelpKINode Title="ScrablerCore.Eval method" Url="html/50472772-8d4f-3fcb-a039-aad1050ebf20.htm" />
+  <HelpKINode Title="ScrablerCore.ErrorLogScript method" Url="html/d458cfe8-d025-a763-dfec-02d407801ec4.htm" />
+  <HelpKINode Title="ScrablerCore.Eval method">
+    <HelpKINode Title="Eval Method " Url="html/50472772-8d4f-3fcb-a039-aad1050ebf20.htm" />
+    <HelpKINode Title="Eval Method (sCSCode)" Url="html/163f0bb6-36aa-7cf3-90d5-c5c0edc37f9d.htm" />
+    <HelpKINode Title="Eval Method (sCSCode, scriptname, NameSapce, Clas, func, refs, scrinf)" Url="html/36c62d45-b90a-49bb-6376-a35425df1ff3.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScrablerCore.EvalAndSave method" Url="html/7f73b380-d0ae-af37-1e6c-97da4fbc09e8.htm" />
   <HelpKINode Title="ScrablerCore.EvalWithParams method" Url="html/ac0787d4-fb22-cbf2-586b-9a462e50c050.htm" />
   <HelpKINode Title="ScrablerCore.execution_func field" Url="html/3ec32261-9d04-e8ca-d630-a0c1c1051d9b.htm" />
@@ -368,13 +574,16 @@
   <HelpKINode Title="ScrablerCore.GetScriptInfo method" Url="html/ae33629a-cea9-9ffa-5d80-536396291af2.htm" />
   <HelpKINode Title="ScrablerCore.GetVersion method" Url="html/a64ee7d5-441e-9795-6b23-002101eccd72.htm" />
   <HelpKINode Title="ScrablerCore.LangTag field" Url="html/95166451-29d3-752b-cb29-495db50b97be.htm" />
+  <HelpKINode Title="ScrablerCore.LogMessage method" Url="html/ba1c395b-1552-ec69-4ee1-8d08ef91a6a3.htm" />
   <HelpKINode Title="ScrablerCore.LowerApplicationVersionTag field" Url="html/e4464775-55cd-6783-b75c-f21f8bb243c8.htm" />
   <HelpKINode Title="ScrablerCore.MaxApplicationVersionTag field" Url="html/ca5d928c-9d51-f732-eb0f-c19310f743bc.htm" />
   <HelpKINode Title="ScrablerCore.namespacetag field" Url="html/8b0f3a21-a0c2-d7e9-7249-b279c29c27d1.htm" />
-  <HelpKINode Title="ScrablerCore.ReadScript method" Url="html/2b5c26fd-fdc3-b2a7-c491-3f309d631a32.htm" />
-  <HelpKINode Title="ScrablerCore.ReadScript method" Url="html/6f72c730-abe1-b2dd-b5f5-92178a9f119e.htm" />
-  <HelpKINode Title="ScrablerCore.ReadScript method" Url="html/99fb056a-3b53-8d90-3c42-4208c8a2c0bd.htm" />
-  <HelpKINode Title="ScrablerCore.ReadScript method" Url="html/e9404fb8-0fb8-62b8-ce28-36e2990eb636.htm" />
+  <HelpKINode Title="ScrablerCore.ReadScript method">
+    <HelpKINode Title="ReadScript Method " Url="html/e9404fb8-0fb8-62b8-ce28-36e2990eb636.htm" />
+    <HelpKINode Title="ReadScript Method (filename)" Url="html/99fb056a-3b53-8d90-3c42-4208c8a2c0bd.htm" />
+    <HelpKINode Title="ReadScript Method (filename, dontExecute)" Url="html/6f72c730-abe1-b2dd-b5f5-92178a9f119e.htm" />
+    <HelpKINode Title="ReadScript Method (filename, gui)" Url="html/2b5c26fd-fdc3-b2a7-c491-3f309d631a32.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScrablerCore.ReadScriptAndInstall method" Url="html/c8831fd4-c7df-d622-1161-501ee837ff5a.htm" />
   <HelpKINode Title="ScrablerCore.ReadScriptInLightMode method" Url="html/64afe728-4255-7838-5933-4ec27546ae37.htm" />
   <HelpKINode Title="ScrablerCore.references field" Url="html/213175fd-faa7-3303-0bf4-e4c9cedbead1.htm" />
@@ -404,14 +613,18 @@
   <HelpKINode Title="ScrablerPlugin.Eval method" Url="html/c2c586f3-e365-3696-a1b2-e73244c32437.htm" />
   <HelpKINode Title="ScrablerPlugin.ReadScript method" Url="html/c915991d-f062-ac86-113d-1dda60f55c96.htm" />
   <HelpKINode Title="ScrablerPluginCollection class" Url="html/4f590a98-c52e-dff2-e668-fb192294017c.htm" />
-  <HelpKINode Title="ScrablerPluginCollection constructor" Url="html/2f7b6b67-c28d-4404-40c9-728a89d61dcf.htm" />
-  <HelpKINode Title="ScrablerPluginCollection constructor" Url="html/6c153bc1-7959-7c61-550c-5de497bae431.htm" />
-  <HelpKINode Title="ScrablerPluginCollection constructor" Url="html/cb77d9c4-4979-8ab6-1d1a-c61130d48e24.htm" />
-  <HelpKINode Title="ScrablerPluginCollection constructor" Url="html/d5859b64-f5e5-3edb-23c5-c4102a9094e8.htm" />
+  <HelpKINode Title="ScrablerPluginCollection constructor">
+    <HelpKINode Title="ScrablerPluginCollection Constructor " Url="html/cb77d9c4-4979-8ab6-1d1a-c61130d48e24.htm" />
+    <HelpKINode Title="ScrablerPluginCollection Constructor " Url="html/6c153bc1-7959-7c61-550c-5de497bae431.htm" />
+    <HelpKINode Title="ScrablerPluginCollection Constructor (value)" Url="html/d5859b64-f5e5-3edb-23c5-c4102a9094e8.htm" />
+    <HelpKINode Title="ScrablerPluginCollection Constructor (value)" Url="html/2f7b6b67-c28d-4404-40c9-728a89d61dcf.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScrablerPluginCollection.Add method" Url="html/9e25dbd1-ce6f-47b6-905d-3c44db50332e.htm" />
-  <HelpKINode Title="ScrablerPluginCollection.AddRange method" Url="html/3b9802df-995b-4877-41a5-3aa688c10456.htm" />
-  <HelpKINode Title="ScrablerPluginCollection.AddRange method" Url="html/533b29fe-a1ef-89c0-a495-9c412c92cbe0.htm" />
-  <HelpKINode Title="ScrablerPluginCollection.AddRange method" Url="html/96ec391c-cc0b-3c5c-19fa-7ba9961a7579.htm" />
+  <HelpKINode Title="ScrablerPluginCollection.AddRange method">
+    <HelpKINode Title="AddRange Method " Url="html/3b9802df-995b-4877-41a5-3aa688c10456.htm" />
+    <HelpKINode Title="AddRange Method (value)" Url="html/533b29fe-a1ef-89c0-a495-9c412c92cbe0.htm" />
+    <HelpKINode Title="AddRange Method (value)" Url="html/96ec391c-cc0b-3c5c-19fa-7ba9961a7579.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScrablerPluginCollection.Contains method" Url="html/147e2b1d-70c0-bd48-9105-817658e1a80c.htm" />
   <HelpKINode Title="ScrablerPluginCollection.CopyTo method" Url="html/26f46520-7706-acc5-3e2d-6f5c12a96e24.htm" />
   <HelpKINode Title="ScrablerPluginCollection.GetEnumerator method" Url="html/0077d17f-c501-7780-db91-989df2b3fbb2.htm" />
@@ -433,9 +646,11 @@
   <HelpKINode Title="ScrablerPluginSDK.GetScrablerPluginVersion method" Url="html/c8e224d3-6e3e-c0a0-f505-9cb92b9d8290.htm" />
   <HelpKINode Title="ScrablerPluginSDK.MakeAction method" Url="html/14d5c52d-d39d-6504-a98a-e47d33a13bb0.htm" />
   <HelpKINode Title="ScrablerPluginSDK.Name property" Url="html/6516f5eb-9941-e276-45dd-73be43a10802.htm" />
-  <HelpKINode Title="ScrablerPluginSDK.ReadScript method" Url="html/7b593a93-0a09-224f-2cb5-b55d5f345583.htm" />
-  <HelpKINode Title="ScrablerPluginSDK.ReadScript method" Url="html/7e9ca06a-0a3c-399b-4c33-045558d469d3.htm" />
-  <HelpKINode Title="ScrablerPluginSDK.ReadScript method" Url="html/86fdccd4-1655-449b-9509-09685c9f094a.htm" />
+  <HelpKINode Title="ScrablerPluginSDK.ReadScript method">
+    <HelpKINode Title="ReadScript Method " Url="html/7b593a93-0a09-224f-2cb5-b55d5f345583.htm" />
+    <HelpKINode Title="ReadScript Method (filename)" Url="html/7e9ca06a-0a3c-399b-4c33-045558d469d3.htm" />
+    <HelpKINode Title="ReadScript Method (filename, gui)" Url="html/86fdccd4-1655-449b-9509-09685c9f094a.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScrablerPluginsLoader class" Url="html/cb7149c6-841a-0b8b-7e66-3ac0a124bf06.htm" />
   <HelpKINode Title="ScrablerPluginsLoader constructor" Url="html/12c6d1d1-1c60-cbc1-5297-4234c8b40ef4.htm" />
   <HelpKINode Title="ScrablerPluginsLoader.ClearScrablerPluginsCollection method" Url="html/9c888249-d57d-3e67-e0f8-b12cd462d4d7.htm" />
@@ -453,23 +668,31 @@
   <HelpKINode Title="ScrablerV2 constructor" Url="html/de958ab1-3f49-127d-c427-33ae6feec86d.htm" />
   <HelpKINode Title="ScrablerV2.Eval method" Url="html/fef050aa-1f6c-5855-a7ac-fdf1a6ba1836.htm" />
   <HelpKINode Title="ScrablerV2.Eval2 method" Url="html/e30ae6ca-69b7-5fca-348b-a402853c270d.htm" />
-  <HelpKINode Title="ScrablerV2.EvalWithParams method" Url="html/588c988b-ca69-de56-a7c4-94754f225c1c.htm" />
-  <HelpKINode Title="ScrablerV2.EvalWithParams method" Url="html/ed6bb143-7851-362e-45d5-986ba963b657.htm" />
-  <HelpKINode Title="ScrablerV2.ReadScript method" Url="html/410944f4-caa2-8cdd-2e23-b84a17fe626d.htm" />
-  <HelpKINode Title="ScrablerV2.ReadScript method" Url="html/80577bc0-ce87-4a2b-eba8-0007b8274820.htm" />
+  <HelpKINode Title="ScrablerV2.EvalWithParams method">
+    <HelpKINode Title="EvalWithParams Method " Url="html/588c988b-ca69-de56-a7c4-94754f225c1c.htm" />
+    <HelpKINode Title="EvalWithParams Method (sCSCode, scriptname, NameSapce, Clas, func, refs, winGUI, scrinf)" Url="html/ed6bb143-7851-362e-45d5-986ba963b657.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ScrablerV2.ReadScript method">
+    <HelpKINode Title="ReadScript Method " Url="html/410944f4-caa2-8cdd-2e23-b84a17fe626d.htm" />
+    <HelpKINode Title="ReadScript Method (scriptname, gui)" Url="html/80577bc0-ce87-4a2b-eba8-0007b8274820.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScrablerV2.ReadScript2 method" Url="html/bafb78ef-03e5-f01c-7b5b-bf57d2298dca.htm" />
   <HelpKINode Title="ScrablerV2.SaveErrorrs method" Url="html/261f682b-a1af-1781-13bc-631e67d16d2f.htm" />
-  <HelpKINode Title="ScrablerV2.scrptInf field" Url="html/d6cd86b6-9bb8-76c5-b85c-34877c40da55.htm" />
+  <HelpKINode Title="ScrablerV2.scriptext field" Url="html/a51c79a2-18c9-3a91-b8c8-783004f7919b.htm" />
   <HelpKINode Title="ScrablerVersion property" Url="html/5180039a-6104-471f-be4d-2fc5cc4f5b11.htm" />
   <HelpKINode Title="Scrabler_VersionTag field" Url="html/3f2c7c36-5f8c-0e48-0e1f-ac5b4627767e.htm" />
   <HelpKINode Title="ScriptEditor class" Url="html/aa1dcf02-dffe-0c99-59e8-44c4bef0e252.htm" />
-  <HelpKINode Title="ScriptEditor constructor" Url="html/005e2fd5-1a4d-d2e7-003e-4f7e7d1df5eb.htm" />
-  <HelpKINode Title="ScriptEditor constructor" Url="html/0bed4e44-a600-bc28-79e4-7a4e92894355.htm" />
-  <HelpKINode Title="ScriptEditor constructor" Url="html/fe8da3c9-b66f-4195-7c00-fb86ae52e5ab.htm" />
+  <HelpKINode Title="ScriptEditor constructor">
+    <HelpKINode Title="ScriptEditor Constructor " Url="html/fe8da3c9-b66f-4195-7c00-fb86ae52e5ab.htm" />
+    <HelpKINode Title="ScriptEditor Constructor " Url="html/0bed4e44-a600-bc28-79e4-7a4e92894355.htm" />
+    <HelpKINode Title="ScriptEditor Constructor (filename)" Url="html/005e2fd5-1a4d-d2e7-003e-4f7e7d1df5eb.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScriptEditor.AccessibilityNotifyClients method" Url="html/d67fb0c8-fbcb-c9cb-754e-c77562fb9dfb.htm" />
   <HelpKINode Title="ScriptEditor.BeginInvoke method" Url="html/a805ac42-49ec-bd8c-30a1-51e7d189641a.htm" />
-  <HelpKINode Title="ScriptEditor.Dispose method" Url="html/0f8945ca-4050-7336-5b53-68796d6e404b.htm" />
-  <HelpKINode Title="ScriptEditor.Dispose method" Url="html/5bb04d61-e247-648e-1303-971c7f3f4437.htm" />
+  <HelpKINode Title="ScriptEditor.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/0f8945ca-4050-7336-5b53-68796d6e404b.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/5bb04d61-e247-648e-1303-971c7f3f4437.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScriptEditor.GetChildAtPoint method" Url="html/77dc5aef-e3bd-f4dd-15f1-b83f8aa99de2.htm" />
   <HelpKINode Title="ScriptEditor.Invalidate method" Url="html/b763fc59-a355-aa0c-27cb-83a84529e200.htm" />
   <HelpKINode Title="ScriptEditor.Invoke method" Url="html/25a200fa-5f85-7ebb-350e-8e3ee892d615.htm" />
@@ -485,6 +708,7 @@
   <HelpKINode Title="ScriptEditor.UpdateBounds method" Url="html/3d86882a-68de-5565-8bda-d86eb13d3f01.htm" />
   <HelpKINode Title="ScriptEditor.Validate method" Url="html/dbc23096-ae40-6415-abc0-51275ecaad1b.htm" />
   <HelpKINode Title="ScriptEditor.ValidateChildren method" Url="html/f7548464-2df8-e8ab-6912-c1d208cf6696.htm" />
+  <HelpKINode Title="scriptext field" Url="html/a51c79a2-18c9-3a91-b8c8-783004f7919b.htm" />
   <HelpKINode Title="scriptextenstion field" Url="html/87ccc68b-7224-79a5-3d63-6dbaaec75ee9.htm" />
   <HelpKINode Title="ScriptInfo class" Url="html/d710a1bd-1f61-d828-6012-ac68390b86aa.htm" />
   <HelpKINode Title="ScriptInfo constructor" Url="html/52df6f89-64c7-7f3c-c5be-a0374bf98333.htm" />
@@ -500,9 +724,11 @@
   <HelpKINode Title="ScriptInfo.Version property" Url="html/79e24b5d-22e7-7bef-500d-ba529659a931.htm" />
   <HelpKINode Title="ScriptInfoCollection method" Url="html/26441f4a-389e-151e-87b0-f5c0d6c6a0d5.htm" />
   <HelpKINode Title="ScriptRepo class" Url="html/38540422-b602-b54a-2874-19f3b15eb7a5.htm" />
-  <HelpKINode Title="ScriptRepo constructor" Url="html/15859b0c-8925-51d8-6590-15438c3b3c05.htm" />
-  <HelpKINode Title="ScriptRepo constructor" Url="html/87841ee7-0dd8-9add-6b37-3ff099e99357.htm" />
-  <HelpKINode Title="ScriptRepo constructor" Url="html/d6f39a68-3d6b-5a0f-fa04-8954946d28f4.htm" />
+  <HelpKINode Title="ScriptRepo constructor">
+    <HelpKINode Title="ScriptRepo Constructor " Url="html/d6f39a68-3d6b-5a0f-fa04-8954946d28f4.htm" />
+    <HelpKINode Title="ScriptRepo Constructor " Url="html/87841ee7-0dd8-9add-6b37-3ff099e99357.htm" />
+    <HelpKINode Title="ScriptRepo Constructor (mainfold)" Url="html/15859b0c-8925-51d8-6590-15438c3b3c05.htm" />
+  </HelpKINode>
   <HelpKINode Title="ScriptRepo.Binaryfolder property" Url="html/d2ac4ab1-c344-bcf7-6938-d024b1672f6e.htm" />
   <HelpKINode Title="ScriptRepo.ClearTempfolder method" Url="html/834c3fed-3e21-6662-0bec-aef0de1c41d1.htm" />
   <HelpKINode Title="ScriptRepo.Executables method" Url="html/43e0a785-ad5b-de5b-9ef2-eaa906bd6dff.htm" />
@@ -512,28 +738,47 @@
   <HelpKINode Title="ScriptsFolder field" Url="html/c7b6ad64-4caf-f23f-f3b4-27ba140363b3.htm" />
   <HelpKINode Title="ScriptsFolderDLL field" Url="html/0c72a12e-423e-29b2-9242-6c469944c03e.htm" />
   <HelpKINode Title="ScriptsSet field" Url="html/256f91d7-ca51-dc3a-d8f1-6acb4a854551.htm" />
-  <HelpKINode Title="scrptInf field" Url="html/d6cd86b6-9bb8-76c5-b85c-34877c40da55.htm" />
-  <HelpKINode Title="SecureDirs property" Url="html/34a5c8a0-e678-13e1-438d-9208de4aebc4.htm" />
-  <HelpKINode Title="SecureDirs property" Url="html/620196a4-5cd2-5692-cbae-96f1bacafb87.htm" />
-  <HelpKINode Title="Select method" Url="html/10257043-51d9-52f0-c71d-19149caaadf6.htm" />
-  <HelpKINode Title="Select method" Url="html/2a70cf6b-565a-c29d-4903-11460319d2c9.htm" />
-  <HelpKINode Title="Select method" Url="html/46d2b676-0860-2261-ab07-9b55d4a5f4ae.htm" />
-  <HelpKINode Title="Select method" Url="html/4dcc1d11-e47c-0e2a-b132-54121491c6c0.htm" />
-  <HelpKINode Title="Select method" Url="html/9f63716d-77e1-d1a1-4628-c290675f43b5.htm" />
+  <HelpKINode Title="SecureDirs property">
+    <HelpKINode Title="SecureDirs Property " Url="html/34a5c8a0-e678-13e1-438d-9208de4aebc4.htm" />
+    <HelpKINode Title="SecureDirs Property " Url="html/620196a4-5cd2-5692-cbae-96f1bacafb87.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Select method">
+    <HelpKINode Title="Select Method " Url="html/46d2b676-0860-2261-ab07-9b55d4a5f4ae.htm" />
+    <HelpKINode Title="Select Method " Url="html/9f63716d-77e1-d1a1-4628-c290675f43b5.htm" />
+    <HelpKINode Title="Select Method " Url="html/10257043-51d9-52f0-c71d-19149caaadf6.htm" />
+    <HelpKINode Title="Select Method " Url="html/2a70cf6b-565a-c29d-4903-11460319d2c9.htm" />
+    <HelpKINode Title="Select Method " Url="html/4dcc1d11-e47c-0e2a-b132-54121491c6c0.htm" />
+  </HelpKINode>
   <HelpKINode Title="SendMessage method" Url="html/b710316b-0fb1-e434-38f1-fb209d0f1205.htm" />
-  <HelpKINode Title="SetBounds method" Url="html/200df305-ef3e-9455-b6f4-4bfcf3af8577.htm" />
-  <HelpKINode Title="SetBounds method" Url="html/4cd98f0f-03b2-c645-5c83-364f3ee56685.htm" />
-  <HelpKINode Title="SetBounds method" Url="html/87701b16-a344-4b25-e097-086994a6c39b.htm" />
-  <HelpKINode Title="SetBounds method" Url="html/d5e70515-04ac-4882-c4fc-5a82c325c73f.htm" />
-  <HelpKINode Title="SetBounds method" Url="html/e688f080-58c8-5ac6-df99-aae014f79ee7.htm" />
+  <HelpKINode Title="SetBounds method">
+    <HelpKINode Title="SetBounds Method " Url="html/d5e70515-04ac-4882-c4fc-5a82c325c73f.htm" />
+    <HelpKINode Title="SetBounds Method " Url="html/87701b16-a344-4b25-e097-086994a6c39b.htm" />
+    <HelpKINode Title="SetBounds Method " Url="html/200df305-ef3e-9455-b6f4-4bfcf3af8577.htm" />
+    <HelpKINode Title="SetBounds Method " Url="html/4cd98f0f-03b2-c645-5c83-364f3ee56685.htm" />
+    <HelpKINode Title="SetBounds Method " Url="html/e688f080-58c8-5ac6-df99-aae014f79ee7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetDeviceState method" Url="html/6171401d-a514-bc2e-5ff1-96f7d295c877.htm" />
+  <HelpKINode Title="setOnTimeEvent method" Url="html/af0d8a99-bf27-5e9f-7126-408dbb65f6e5.htm" />
   <HelpKINode Title="SetReferences method" Url="html/f6ac4657-e98f-695a-65bb-3c52c806e4ed.htm" />
-  <HelpKINode Title="Show method" Url="html/cba87ac2-b1cf-4158-bfe4-f0b30c797a30.htm" />
-  <HelpKINode Title="Show method" Url="html/cc8b45dd-0719-2b70-86e4-6a0b3464aa7d.htm" />
-  <HelpKINode Title="Show method" Url="html/cccb4ffc-831b-5874-f265-8384aedd368a.htm" />
-  <HelpKINode Title="ShowDialog method" Url="html/7a52a609-5dc8-4a9c-5afe-a8c12ab46d29.htm" />
-  <HelpKINode Title="ShowDialog method" Url="html/adaefd9a-d745-a1c5-473b-9cf7831d1ceb.htm" />
-  <HelpKINode Title="ShowDialog method" Url="html/e8f38b33-4d36-7ce3-4c31-652a3fad9797.htm" />
+  <HelpKINode Title="SetupDiCallClassInstaller method" Url="html/c95491b6-a7b5-0959-173b-756ac0066a85.htm" />
+  <HelpKINode Title="SetupDiDestroyDeviceInfoList method" Url="html/c76ce39c-80cc-6bac-dde1-2005b8de82c1.htm" />
+  <HelpKINode Title="SetupDiEnumDeviceInfo method" Url="html/adacab38-f36d-7764-ff09-30296047a22a.htm" />
+  <HelpKINode Title="SetupDiGetClassDevs method" Url="html/bc806d5b-11f5-7e33-3e55-4d1be57d97ff.htm" />
+  <HelpKINode Title="SetupDiGetDeviceRegistryProperty method" Url="html/e894ce5f-35b3-b240-d334-680c7084bf49.htm" />
+  <HelpKINode Title="SetupDiSetClassInstallParams method" Url="html/d6816715-6ddf-0d8f-724f-c7c92461195d.htm" />
+  <HelpKINode Title="Show method">
+    <HelpKINode Title="Show Method " Url="html/cc8b45dd-0719-2b70-86e4-6a0b3464aa7d.htm" />
+    <HelpKINode Title="Show Method " Url="html/cccb4ffc-831b-5874-f265-8384aedd368a.htm" />
+    <HelpKINode Title="Show Method " Url="html/cba87ac2-b1cf-4158-bfe4-f0b30c797a30.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowDialog method">
+    <HelpKINode Title="ShowDialog Method " Url="html/7a52a609-5dc8-4a9c-5afe-a8c12ab46d29.htm" />
+    <HelpKINode Title="ShowDialog Method " Url="html/adaefd9a-d745-a1c5-473b-9cf7831d1ceb.htm" />
+    <HelpKINode Title="ShowDialog Method " Url="html/e8f38b33-4d36-7ce3-4c31-652a3fad9797.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SPDRP_DEVICEDESC field" Url="html/4951c152-bb32-a2fe-2fd3-cdc35be5b1ac.htm" />
   <HelpKINode Title="Start method" Url="html/34fdd3cf-f4fa-9979-e65b-247565f38f1c.htm" />
+  <HelpKINode Title="StateChange field" Url="html/6fa17531-08da-0831-c121-31272e889a9e.htm" />
   <HelpKINode Title="SystemTime class" Url="html/a82094d5-46d9-135e-e480-048a2133f89e.htm" />
   <HelpKINode Title="SystemTime constructor" Url="html/b22a6793-70a6-34e3-7eee-e3e270a1c74b.htm" />
   <HelpKINode Title="SystemTime.GetNetworkTime method" Url="html/7b6e0422-465a-7455-bc33-3d03fd873d99.htm" />
@@ -543,8 +788,10 @@
   <HelpKINode Title="TabConsoleControl.BeginInvoke method" Url="html/c04ed21b-c135-7e2f-17e1-1085068f1639.htm" />
   <HelpKINode Title="TabConsoleControl.CloseSession method" Url="html/854043cb-4a32-6cc5-e78a-14f1e7132d9b.htm" />
   <HelpKINode Title="TabConsoleControl.createNewTabSession method" Url="html/de5d3043-deca-c45e-0be4-d3d8274e91b2.htm" />
-  <HelpKINode Title="TabConsoleControl.Dispose method" Url="html/7e22b25d-faa9-8d09-2ea4-afde2cea4e11.htm" />
-  <HelpKINode Title="TabConsoleControl.Dispose method" Url="html/c24e61d0-9a8f-4c12-5573-3fe08c0685c6.htm" />
+  <HelpKINode Title="TabConsoleControl.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/7e22b25d-faa9-8d09-2ea4-afde2cea4e11.htm" />
+    <HelpKINode Title="Dispose Method (disposing)" Url="html/c24e61d0-9a8f-4c12-5573-3fe08c0685c6.htm" />
+  </HelpKINode>
   <HelpKINode Title="TabConsoleControl.GetChildAtPoint method" Url="html/1541389a-c016-9310-66ed-6a7d18407dbd.htm" />
   <HelpKINode Title="TabConsoleControl.IngoreKeys property" Url="html/8b82250e-d549-9a70-f9a7-d85231beb16a.htm" />
   <HelpKINode Title="TabConsoleControl.Invalidate method" Url="html/80e6c74e-9f89-7a5d-0380-585503ab16ad.htm" />
@@ -578,22 +825,30 @@
   <HelpKINode Title="TurnOffMonitor method" Url="html/28cb230c-7367-71aa-2a95-f0cf5834c6eb.htm" />
   <HelpKINode Title="TurnOnMonitor method" Url="html/cc301bc6-4c96-c73d-d471-2173b7239d7b.htm" />
   <HelpKINode Title="txtCode field" Url="html/6c3314a3-5459-f7d2-2815-39a996d7ff13.htm" />
-  <HelpKINode Title="UpdateBounds method" Url="html/045b56b3-7764-6010-a9ad-fe1d3273cccc.htm" />
-  <HelpKINode Title="UpdateBounds method" Url="html/3d86882a-68de-5565-8bda-d86eb13d3f01.htm" />
-  <HelpKINode Title="UpdateBounds method" Url="html/7f2ab499-b59c-3044-4212-a541df679837.htm" />
-  <HelpKINode Title="UpdateBounds method" Url="html/98660d17-da48-9ee7-6df9-0ff868303013.htm" />
-  <HelpKINode Title="UpdateBounds method" Url="html/f1949cb1-d4bc-351c-96cf-5e028898a515.htm" />
-  <HelpKINode Title="Validate method" Url="html/1995e3a4-0711-f7e9-e781-e11ebac4c94a.htm" />
-  <HelpKINode Title="Validate method" Url="html/51b03622-a596-e299-be29-aa35a0e41388.htm" />
-  <HelpKINode Title="Validate method" Url="html/53a62bef-e5a8-7174-f43d-ad7d7faec895.htm" />
-  <HelpKINode Title="Validate method" Url="html/5b9ece6c-7895-61d0-598e-4ec48e678d2d.htm" />
-  <HelpKINode Title="Validate method" Url="html/dbc23096-ae40-6415-abc0-51275ecaad1b.htm" />
-  <HelpKINode Title="ValidateChildren method" Url="html/2a5638c8-1ae6-4a4c-2c6b-4c972e5343bb.htm" />
-  <HelpKINode Title="ValidateChildren method" Url="html/9ff90faf-87bc-7e29-065d-ad64abfe76de.htm" />
-  <HelpKINode Title="ValidateChildren method" Url="html/a70fc238-f2a4-b281-aebc-4a1b750719a6.htm" />
-  <HelpKINode Title="ValidateChildren method" Url="html/de2f16ef-6895-d2ec-8e1a-887f8a98b443.htm" />
-  <HelpKINode Title="ValidateChildren method" Url="html/f7548464-2df8-e8ab-6912-c1d208cf6696.htm" />
+  <HelpKINode Title="UnregisterDeviceNotification method" Url="html/39a131f4-179e-00c1-cfff-26986b9fedf5.htm" />
+  <HelpKINode Title="UpdateBounds method">
+    <HelpKINode Title="UpdateBounds Method " Url="html/3d86882a-68de-5565-8bda-d86eb13d3f01.htm" />
+    <HelpKINode Title="UpdateBounds Method " Url="html/98660d17-da48-9ee7-6df9-0ff868303013.htm" />
+    <HelpKINode Title="UpdateBounds Method " Url="html/7f2ab499-b59c-3044-4212-a541df679837.htm" />
+    <HelpKINode Title="UpdateBounds Method " Url="html/f1949cb1-d4bc-351c-96cf-5e028898a515.htm" />
+    <HelpKINode Title="UpdateBounds Method " Url="html/045b56b3-7764-6010-a9ad-fe1d3273cccc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Validate method">
+    <HelpKINode Title="Validate Method " Url="html/1995e3a4-0711-f7e9-e781-e11ebac4c94a.htm" />
+    <HelpKINode Title="Validate Method " Url="html/53a62bef-e5a8-7174-f43d-ad7d7faec895.htm" />
+    <HelpKINode Title="Validate Method " Url="html/51b03622-a596-e299-be29-aa35a0e41388.htm" />
+    <HelpKINode Title="Validate Method " Url="html/5b9ece6c-7895-61d0-598e-4ec48e678d2d.htm" />
+    <HelpKINode Title="Validate Method " Url="html/dbc23096-ae40-6415-abc0-51275ecaad1b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValidateChildren method">
+    <HelpKINode Title="ValidateChildren Method " Url="html/a70fc238-f2a4-b281-aebc-4a1b750719a6.htm" />
+    <HelpKINode Title="ValidateChildren Method " Url="html/9ff90faf-87bc-7e29-065d-ad64abfe76de.htm" />
+    <HelpKINode Title="ValidateChildren Method " Url="html/de2f16ef-6895-d2ec-8e1a-887f8a98b443.htm" />
+    <HelpKINode Title="ValidateChildren Method " Url="html/f7548464-2df8-e8ab-6912-c1d208cf6696.htm" />
+    <HelpKINode Title="ValidateChildren Method " Url="html/2a5638c8-1ae6-4a4c-2c6b-4c972e5343bb.htm" />
+  </HelpKINode>
   <HelpKINode Title="vb field" Url="html/910892a7-6468-8628-87bd-47d1247354ea.htm" />
   <HelpKINode Title="Version property" Url="html/79e24b5d-22e7-7bef-500d-ba529659a931.htm" />
   <HelpKINode Title="VersionTag field" Url="html/c5583252-834f-024f-142e-99325ac593e2.htm" />
+  <HelpKINode Title="WM_DEVICECHANGE field" Url="html/31510db4-16ef-fc7f-e8e8-4d4f22c12caf.htm" />
 </HelpKI>

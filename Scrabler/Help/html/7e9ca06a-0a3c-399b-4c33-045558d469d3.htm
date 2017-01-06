@@ -3,7 +3,7 @@
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
     <title>ReadScript Method (filename)</title>
     <link rel="stylesheet" type="text/css" href="../styles/presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/script_prototype.js"> </script>
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/StyleUtilities.js"> </script>
@@ -29,10 +29,12 @@
       <MSHelp:Attr Name="APILocation" Value="Scrabler.dll" />
       <MSHelp:Attr Name="APIName" Value="Scrabler.ScrablerPluginSDK.ReadScript" />
       <MSHelp:Attr Name="Locale" Value="en-us" />
-      <MSHelp:Attr Name="Abstract" Value="[Missing &lt;summary&gt; documentation for &quot;M:Scrabler.ScrablerPluginSDK.ReadScript(System.String)&quot;]" />
+      <MSHelp:Attr Name="Abstract" Value="summaryM:Scrabler.ScrablerPluginSDK.ReadScript(System.String)" />
     </xml>
   </head>
   <body>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
     <div id="control">
       <span class="productTitle">Scrabler  Class Library</span>
       <br />
@@ -70,21 +72,21 @@
             <div id="syntaxBlocks">
               <div class="code" x-lang="CSharp">
                 <pre xml:space="preserve">
-<span class="keyword">public</span> <span class="keyword">abstract</span> <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> <span class="identifier">ReadScript</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">filename</span>
+<span class="keyword">public</span> <span class="keyword">abstract</span> <span class="identifier">Object</span> <span class="identifier">ReadScript</span>(
+	<span class="identifier">string</span> <span class="parameter">filename</span>
 )</pre>
               </div>
               <div class="code" x-lang="VisualBasic">
                 <pre xml:space="preserve">
-<span class="keyword">Public</span> <span class="keyword">MustOverride</span> <span class="keyword">Function</span> <span class="identifier">ReadScript</span> ( _
-	<span class="parameter">filename</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a> _
-) <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a></pre>
+<span class="keyword">Public</span> <span class="keyword">MustOverride</span> <span class="keyword">Function</span> <span class="identifier">ReadScript</span> ( 
+	<span class="parameter">filename</span> <span class="keyword">As</span> <span class="identifier">String</span>
+) <span class="keyword">As</span> <span class="identifier">Object</span></pre>
               </div>
               <div class="code" x-lang="ManagedCPlusPlus">
                 <pre xml:space="preserve">
 <span class="keyword">public</span>:
-<span class="keyword">virtual</span> <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>^ <span class="identifier">ReadScript</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">filename</span>
+<span class="keyword">virtual</span> <span class="identifier">Object</span>^ <span class="identifier">ReadScript</span>(
+	<span class="identifier">String</span>^ <span class="parameter">filename</span>
 ) <span class="keyword">abstract</span></pre>
               </div>
             </div>
@@ -110,11 +112,13 @@
         <div class="sectionTitle" onclick="toggleSection(this.parentNode)">
           <img src="../icons/collapse_all.gif" /> Return Value</div>
         <div class="sectionContent">
+          <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>
+          <br />
           <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:Scrabler.ScrablerPluginSDK.ReadScript(System.String)"]</p>
         </div>
       </div>
-      <p>
-        <div id="footer"></div>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler) Version: 0.7.1.0 (0.7.1.0)</p>
+      <div id="footer"></div>
+      <p>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler.dll) Version: 1.0.0.3 (1.0.0.3)</p>
     </div>
   </body>
 </html>

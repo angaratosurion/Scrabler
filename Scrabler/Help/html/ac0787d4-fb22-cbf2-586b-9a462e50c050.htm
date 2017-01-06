@@ -3,7 +3,7 @@
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
     <title>EvalWithParams Method (sCSCode, scriptname, NameSapce, Clas, func, refs, winGUI, scrinf)</title>
     <link rel="stylesheet" type="text/css" href="../styles/presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/script_prototype.js"> </script>
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/StyleUtilities.js"> </script>
@@ -33,6 +33,8 @@
     </xml>
   </head>
   <body>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
     <div id="control">
       <span class="productTitle">Scrabler  Class Library</span>
       <br />
@@ -72,42 +74,42 @@
             <div id="syntaxBlocks">
               <div class="code" x-lang="CSharp">
                 <pre xml:space="preserve">
-<span class="keyword">public</span> <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> <span class="identifier">EvalWithParams</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">sCSCode</span>,
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">scriptname</span>,
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">NameSapce</span>,
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">Clas</span>,
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">func</span>,
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a>[] <span class="parameter">refs</span>,
-	<span class="nolink">WareForm</span> <span class="parameter">winGUI</span>,
-	<a href="d710a1bd-1f61-d828-6012-ac68390b86aa.htm">ScriptInfo</a> <span class="parameter">scrinf</span>
+<span class="keyword">public</span> <span class="identifier">Object</span> <span class="identifier">EvalWithParams</span>(
+	<span class="identifier">string</span> <span class="parameter">sCSCode</span>,
+	<span class="identifier">string</span> <span class="parameter">scriptname</span>,
+	<span class="identifier">string</span> <span class="parameter">NameSapce</span>,
+	<span class="identifier">string</span> <span class="parameter">Clas</span>,
+	<span class="identifier">string</span> <span class="parameter">func</span>,
+	<span class="identifier">string</span>[] <span class="parameter">refs</span>,
+	<span class="identifier">WareForm</span> <span class="parameter">winGUI</span>,
+	<span class="identifier">ScriptInfo</span> <span class="parameter">scrinf</span>
 )</pre>
               </div>
               <div class="code" x-lang="VisualBasic">
                 <pre xml:space="preserve">
-<span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">EvalWithParams</span> ( _
-	<span class="parameter">sCSCode</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>, _
-	<span class="parameter">scriptname</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>, _
-	<span class="parameter">NameSapce</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>, _
-	<span class="parameter">Clas</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>, _
-	<span class="parameter">func</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>, _
-	<span class="parameter">refs</span> <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>(), _
-	<span class="parameter">winGUI</span> <span class="keyword">As</span> <span class="nolink">WareForm</span>, _
-	<span class="parameter">scrinf</span> <span class="keyword">As</span> <a href="d710a1bd-1f61-d828-6012-ac68390b86aa.htm">ScriptInfo</a> _
-) <span class="keyword">As</span> <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a></pre>
+<span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">EvalWithParams</span> ( 
+	<span class="parameter">sCSCode</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">scriptname</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">NameSapce</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">Clas</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">func</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">refs</span> <span class="keyword">As</span> <span class="identifier">String</span>(),
+	<span class="parameter">winGUI</span> <span class="keyword">As</span> <span class="identifier">WareForm</span>,
+	<span class="parameter">scrinf</span> <span class="keyword">As</span> <span class="identifier">ScriptInfo</span>
+) <span class="keyword">As</span> <span class="identifier">Object</span></pre>
               </div>
               <div class="code" x-lang="ManagedCPlusPlus">
                 <pre xml:space="preserve">
 <span class="keyword">public</span>:
-<a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>^ <span class="identifier">EvalWithParams</span>(
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">sCSCode</span>, 
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">scriptname</span>, 
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">NameSapce</span>, 
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">Clas</span>, 
-	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^ <span class="parameter">func</span>, 
-	<span class="keyword">array</span>&lt;<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>^&gt;^ <span class="parameter">refs</span>, 
-	<span class="nolink">WareForm</span>^ <span class="parameter">winGUI</span>, 
-	<a href="d710a1bd-1f61-d828-6012-ac68390b86aa.htm">ScriptInfo</a>^ <span class="parameter">scrinf</span>
+<span class="identifier">Object</span>^ <span class="identifier">EvalWithParams</span>(
+	<span class="identifier">String</span>^ <span class="parameter">sCSCode</span>, 
+	<span class="identifier">String</span>^ <span class="parameter">scriptname</span>, 
+	<span class="identifier">String</span>^ <span class="parameter">NameSapce</span>, 
+	<span class="identifier">String</span>^ <span class="parameter">Clas</span>, 
+	<span class="identifier">String</span>^ <span class="parameter">func</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">String</span>^&gt;^ <span class="parameter">refs</span>, 
+	<span class="identifier">WareForm</span>^ <span class="parameter">winGUI</span>, 
+	<span class="identifier">ScriptInfo</span>^ <span class="parameter">scrinf</span>
 )</pre>
               </div>
             </div>
@@ -168,12 +170,14 @@
       <div class="section">
         <div class="sectionTitle" onclick="toggleSection(this.parentNode)">
           <img src="../icons/collapse_all.gif" /> Return Value</div>
-        <div class="sectionContent">Executes the code that is saved in the sCSCode
+        <div class="sectionContent">
+          <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>
+          <br />Executes the code that is saved in the sCSCode
             and returns the assembly if the script is being 
             excuted or null if no ecript executed or an error occures.</div>
       </div>
-      <p>
-        <div id="footer"></div>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler) Version: 0.7.1.0 (0.7.1.0)</p>
+      <div id="footer"></div>
+      <p>Assembly: <span sdata="assembly">Scrabler</span> (Module: Scrabler.dll) Version: 1.0.0.3 (1.0.0.3)</p>
     </div>
   </body>
 </html>
