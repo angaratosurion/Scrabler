@@ -174,7 +174,6 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\bin
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\bin\Debug\Hydrobase.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\bin\Debug\NLog.xml
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\bin\Debug\WareForms.pdb
-G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Debug\Scrabler.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Debug\Scrabler.Controls.ConsoleBox.resources
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Debug\Scrabler.ErrorWindow.resources
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Debug\Scrabler.IDE.ScriptEditor.resources

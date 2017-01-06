@@ -212,3 +212,4 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Release\en\Scrabler.resources.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Release\Scrabler.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Release\Scrabler.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Release\Scrabler.csprojResolveAssemblyReference.cache

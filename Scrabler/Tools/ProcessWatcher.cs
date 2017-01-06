@@ -173,7 +173,7 @@ namespace Scrabler.Tools
                 {
 
 
-
+                    this.timer.Start();
                  return    proc.Start();
                 }
                 return false;
@@ -286,7 +286,7 @@ namespace Scrabler.Tools
                     double memusage = perf.GetMemory(proc);
                      if (this.MaxAllowedBytes>0 && memusage >this.MaxAllowedBytes)
                     {
-                       // Console.WriteLine("Memory  usage of {0}:{1}", proc.ProcessName, memusage);
+                    //   Console.WriteLine("Memory  usage of {0}:{1}", proc.ProcessName, memusage);
                         this.ReStart();
                     }
                     

@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "ScrablerRunnerService"
-#define MyAppVersion "1.0.0.2"
+#define MyAppVersion "1.0.0.3"
 #define MyAppPublisher "Paris koutsioukis"
 #define MyAppURL "http://pariskoutsioukis.net/blog/"
 #define MyAppExeName "ScrablerRunnerService.exe"
