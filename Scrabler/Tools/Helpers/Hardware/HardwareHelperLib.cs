@@ -292,6 +292,8 @@ namespace Scrabler.Tools.Helpers.Hardware
                 {
                     inf.Arguments = "/disable " + "\"" + match + "\"";
                 }
+                p.StartInfo = inf;
+                p.Start();
             }
             catch (Exception ex)
             {
