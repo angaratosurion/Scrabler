@@ -140,7 +140,11 @@ namespace Scrabler.Tools.Helpers.Hardware
         const string devmanviewfilename = "DevManView.exe";
         public HH_Lib()
         {
-            devmanviewpath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),devmanviewfilename);
+            devmanviewpath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),"refs",devmanviewfilename);
+            if ( File.Exists(devmanviewpath)==false)
+            {
+                devmanviewpath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), devmanviewfilename);
+            }
         }
 
         #region Public Methods
@@ -297,7 +301,7 @@ namespace Scrabler.Tools.Helpers.Hardware
             }
             catch (Exception ex)
             {
-                throw new Exception("Failed to enumerate device tree!", ex);
+                throw ex;
                 return false;
             }
             return true;
