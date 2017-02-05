@@ -92,3 +92,5 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScri
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Release\ScrablerService.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Release\ScrablerService.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\obj\Release\ScrablerService.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\CoreAudioApi.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerService\bin\Release\CoreAudioApi.pdb

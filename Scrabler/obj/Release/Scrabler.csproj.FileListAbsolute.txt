@@ -213,3 +213,5 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Release\Scrabler.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Release\Scrabler.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\obj\Release\Scrabler.csprojResolveAssemblyReference.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\bin\Release\CoreAudioApi.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\Scrabler\bin\Release\CoreAudioApi.pdb

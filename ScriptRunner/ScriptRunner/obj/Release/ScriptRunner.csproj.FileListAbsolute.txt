@@ -107,3 +107,5 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csproj.GenerateResource.Cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.exe
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\CoreAudioApi.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\CoreAudioApi.pdb

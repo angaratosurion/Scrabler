@@ -59,6 +59,10 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CoreAudioApi, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>refs\CoreAudioApi.dll</HintPath>
+    </Reference>
     <Reference Include="Hydrobase, Version=1.5.1.6, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Hydrobase.1.5.1.6\lib\net40\Hydrobase.dll</HintPath>
       <Private>True</Private>
@@ -138,6 +142,7 @@
     <Compile Include="Controls\TabConsoleControl.Designer.cs">
       <DependentUpon>TabConsoleControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tools\Helpers\Hardware\AudioDeviceManager.cs" />
     <Compile Include="Tools\Helpers\Hardware\HardwareHelperLib.cs" />
     <Compile Include="Tools\Helpers\Hardware\Monitor.cs" />
     <Compile Include="Tools\Helpers\Hardware\Performance.cs" />
@@ -203,6 +208,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="licence.txt" />
+    <Content Include="refs\CoreAudioApi.dll" />
+    <Content Include="refs\CoreAudioApi.pdb" />
     <Content Include="refs\ICSharpCode.SharpZipLib.dll" />
     <Content Include="refs\ICSharpCode.TextEditor.dll" />
     <EmbeddedResource Include="ToolboxImage.bmp" />

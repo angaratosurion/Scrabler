@@ -135,3 +135,5 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServ
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.csproj.GenerateResource.Cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.exe
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\CoreAudioApi.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\CoreAudioApi.pdb

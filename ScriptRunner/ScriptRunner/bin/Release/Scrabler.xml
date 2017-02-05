@@ -937,6 +937,65 @@
             <returns>Returns the full path of the executable filles in script repository
             null on fail </returns>
         </member>
+        <member name="T:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager">
+            <summary>
+            This class helps you manage audio devices on PC
+            </summary>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager.GetAllAudioEndPoints(CoreAudioApi.EDataFlow,CoreAudioApi.EDeviceState)">
+            <summary>
+            Gets all the audio endpoints based on the criteria given
+            </summary>
+            <param name="edataflow"> choose if you want the input or output endpoints or both</param>
+            <param name="devicestate">choose if you want to get the disabled,enabled or unpluged or all.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager.FindEndpointByName(System.String,CoreAudioApi.EDataFlow,CoreAudioApi.EDeviceState)">
+            <summary>
+            Find audio endpoint by name
+            </summary>
+            <param name="name">the name of the endpint</param>
+            <param name="deviceflow">whenever it is input or output or both</param>
+            <param name="state">whenever it is enabled,disabled unpluged or both</param>
+            <returns>the desired endpoint</returns>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager.FindEndpointByNameinInputEndpoints(System.String)">
+            <summary>
+            Find audio input endpoint by name
+            </summary>
+            <param name="name">the name of the endpint</param>
+            <returns>the desired endpoint</returns>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager.FindEndpointByNameinOutputEndpoints(System.String)">
+            <summary>
+            Find audio output endpoint by name
+            </summary>
+            <param name="name">the name of the endpint</param>
+            <returns>the desired endpoint</returns>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager.FindEndpointContaininginName(System.String,CoreAudioApi.EDataFlow,CoreAudioApi.EDeviceState)">
+            <summary>
+            Find all audio endpoint containing the given  name
+            </summary>
+            <param name="name">the name of the endpint</param>
+            <param name="deviceflow">whenever it is input or output or both</param>
+            <param name="state">whenever it is enabled,disabled unpluged or both</param>
+            <returns>the desired endpoint</returns>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager.FindInputEndpointContaininginName(System.String)">
+            <summary>
+            Find all audio input endpoint containing the given  name
+            </summary>
+            <param name="name">the name of the endpint</param>
+            <returns>the desired endpoint</returns>
+        </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.AudioDeviceManager.FindOutputEndpointContaininginName(System.String)">
+            <summary>
+            Find all audio output endpoint containing the given  name
+            </summary>
+            <param name="name">the name of the endpint</param>
+            <returns>the desired endpoint</returns>
+        </member>
         <member name="T:Scrabler.Tools.Helpers.Hardware.Monitor">
             <summary>
             PC Monitor(win32 api) helper class

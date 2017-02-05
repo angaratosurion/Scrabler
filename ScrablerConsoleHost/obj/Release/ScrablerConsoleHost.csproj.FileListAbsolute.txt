@@ -72,3 +72,5 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerCons
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\en\Scrabler.resources.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\obj\Release\ScrablerConsoleHost.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\obj\Release\ScrablerConsoleHost.exe
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\CoreAudioApi.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\CoreAudioApi.pdb
