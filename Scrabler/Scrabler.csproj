@@ -210,6 +210,9 @@
     <Content Include="licence.txt" />
     <Content Include="refs\CoreAudioApi.dll" />
     <Content Include="refs\CoreAudioApi.pdb" />
+    <Content Include="refs\DevManView.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="refs\ICSharpCode.SharpZipLib.dll" />
     <Content Include="refs\ICSharpCode.TextEditor.dll" />
     <EmbeddedResource Include="ToolboxImage.bmp" />

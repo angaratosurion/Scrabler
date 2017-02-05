@@ -109,3 +109,4 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\CoreAudioApi.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\CoreAudioApi.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\refs\DevManView.exe

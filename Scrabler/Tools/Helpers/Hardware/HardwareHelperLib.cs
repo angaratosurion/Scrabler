@@ -2,18 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Runtime.InteropServices;
+using System.IO;
+using System.Windows.Forms;
+using System.Diagnostics;
 /*
- * HardwareHelperLib
- * ===========================================================
- * Windows XP SP2, VS2005 C#.NET, DotNet 2.0
- * HH Lib is a hardware helper for library for C#.
- * It can be used for notifications of hardware add/remove
- * events, retrieving a list of hardware currently connected,
- * and enabling or disabling devices.
- * ===========================================================
- * LOG:      Who?    When?       What?
- * (v)1.0.0  WJF     11/26/07    Original Implementation
- */
+* HardwareHelperLib
+* ===========================================================
+* Windows XP SP2, VS2005 C#.NET, DotNet 2.0
+* HH Lib is a hardware helper for library for C#.
+* It can be used for notifications of hardware add/remove
+* events, retrieving a list of hardware currently connected,
+* and enabling or disabling devices.
+* ===========================================================
+* LOG:      Who?    When?       What?
+* (v)1.0.0  WJF     11/26/07    Original Implementation
+*/
 namespace Scrabler.Tools.Helpers.Hardware
 {
     #region Unmanaged
@@ -133,6 +136,12 @@ namespace Scrabler.Tools.Helpers.Hardware
     public class HH_Lib
     {
         Version m_Version = new Version(1, 0, 0);
+      public  string devmanviewpath;
+        const string devmanviewfilename = "DevManView.exe";
+        public HH_Lib()
+        {
+            devmanviewpath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),devmanviewfilename);
+        }
 
         #region Public Methods
 
@@ -249,6 +258,40 @@ namespace Scrabler.Tools.Helpers.Hardware
                     }
                 }
                 Native.SetupDiDestroyDeviceInfoList(hDevInfo);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Failed to enumerate device tree!", ex);
+                return false;
+            }
+            return true;
+        }
+        //Name:     SetDeviceState
+        //Inputs:   string,bool
+        //Outputs:  bool
+        //Errors:   This method may throw the following exceptions.
+        //          Failed to enumerate device tree!
+        //Remarks:  This is nearly identical to the method above except it
+        //          tries to match the hardware description against the criteria
+        //          passed in.  If a match is found, that device will the be
+        //          enabled or disabled based on bEnable.
+        public bool SetDeviceStateUsingDevmanView(string match, bool bEnable)
+        {
+            try
+            {
+
+                Process p = new Process();
+                ProcessStartInfo inf = new ProcessStartInfo();
+
+                inf.FileName = this.devmanviewpath;
+                if (bEnable == true)
+                {
+                    inf.Arguments = "/enable "+ "\""+ match+"\"";
+                }
+                if (bEnable != true)
+                {
+                    inf.Arguments = "/disable " + "\"" + match + "\"";
+                }
             }
             catch (Exception ex)
             {
