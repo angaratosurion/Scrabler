@@ -996,6 +996,13 @@
             <param name="name">the name of the endpint</param>
             <returns>the desired endpoint</returns>
         </member>
+        <member name="M:Scrabler.Tools.Helpers.Hardware.HH_Lib.GetDeviceStateUsingWMI(System.String)">
+            <summary>
+            Gets the sttate of the device with the given name
+            </summary>
+            <param name="match">name of the device</param>
+            <returns></returns>
+        </member>
         <member name="T:Scrabler.Tools.Helpers.Hardware.Monitor">
             <summary>
             PC Monitor(win32 api) helper class

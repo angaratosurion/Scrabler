@@ -5,6 +5,8 @@ using System.Runtime.InteropServices;
 using System.IO;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Management;
+using System.Threading;
 /*
 * HardwareHelperLib
 * ===========================================================
@@ -135,8 +137,8 @@ namespace Scrabler.Tools.Helpers.Hardware
 
     public class HH_Lib
     {
-        Version m_Version = new Version(1, 0, 0);
-      public  string devmanviewpath;
+        //Version m_Version = new Version(1, 0, 0);
+        string devmanviewpath;
         const string devmanviewfilename = "DevManView.exe";
         public HH_Lib()
         {
@@ -305,6 +307,112 @@ namespace Scrabler.Tools.Helpers.Hardware
                 return false;
             }
             return true;
+        }
+        /*
+         //Name:     SetDeviceStateUsingWMI
+        //Inputs:   string,bool
+        //Outputs:  bool
+        //Errors:   This method may throw the following exceptions.
+        //          Failed to enumerate device tree!
+        //Remarks:  This is nearly identical to the method above except it
+        //          tries to match the hardware description against the criteria
+        //          passed in.  If a match is found, that device will the be
+        //          enabled or disabled based on bEnable.
+        public bool SetP2PDeviceStateUsingWMI(string match, bool bEnable)
+        {
+            try
+            {
+                ManagementObjectSearcher deviceList =
+    new ManagementObjectSearcher("Select * from Win32_PnPEntity where name='" + match+"'");
+               
+
+                ManagementObject ctrDev=null;
+
+                if (deviceList != null)
+                {
+                    
+                    foreach ( ManagementObject dev in deviceList.Get())
+                    {
+                        if (dev.GetPropertyValue("Name").ToString() == match)
+                        {
+                            ctrDev = dev;
+                            break;
+                        }
+                    }
+
+                    if (ctrDev != null)
+                    {
+                        if (bEnable == true)
+                        {
+                           
+                           // ctrDev.InvokeMethod("Enable", null);
+
+
+
+                        }
+
+                        else
+                        {
+                            ctrDev.InvokeMethod("disable",null);
+                        }
+                    }
+                    //Thread.Sleep(500);
+                }
+
+
+            }
+            catch(System.Management.ManagementException ex)
+            {
+                throw ex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+                return false;
+            }
+            return true;
+        }
+        */
+
+
+            /// <summary>
+            /// Gets the sttate of the device with the given name
+            /// </summary>
+            /// <param name="match">name of the device</param>
+            /// <returns></returns>
+        public string GetDeviceStateUsingWMI(string match)
+        {
+            try
+            {
+                string ap = null;
+                ManagementObjectSearcher deviceList =
+    new ManagementObjectSearcher("Select Name, Status from Win32_PnPEntity");
+
+
+
+                if (deviceList != null)
+                {
+                    foreach (var dev in deviceList.Get())
+                    {
+                        if (dev.GetPropertyValue("Name").ToString() == match)
+                        {
+                            ap=dev.GetPropertyValue("Status").ToString();
+                            break;
+                        }
+                    }
+                }
+
+
+
+
+                return ap;
+        }
+            catch (Exception ex)
+            {
+                throw ex;
+                return null;
+            }
+           
         }
         //Name:     HookHardwareNotifications
         //Inputs:   Handle to a window or service, 
