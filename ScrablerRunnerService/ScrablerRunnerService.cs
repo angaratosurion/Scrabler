@@ -177,7 +177,7 @@ namespace ScrablerRunnerService
         public ScrablerRunnerService()
         {
             InitializeComponent();
-            this.AutoLog = true;
+            //this.AutoLog = true;
            // this.RequestAdditionalTime(5000);
            
         }
@@ -196,6 +196,7 @@ namespace ScrablerRunnerService
                 username = Convert.ToString(vals[0]);
                 password = Convert.ToString(vals[1]);
                 maxmemoryperapp = Convert.ToDouble(vals[2]);
+                this.AutoLog = Convert.ToBoolean(vals[3]);
                // MessageBox.Show(password);
                 this.createScriptsDirectory();
                 this.Autoexecutescripts();

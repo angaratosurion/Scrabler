@@ -64,7 +64,7 @@ namespace ScrablerRunnerService
             //bugger.TakeTheException2XmlLog(ex, Application.ProductName, Application.ProductVersion);
             // TheDarkOwlLogger.TheDarkOwlLogger.TakeTheExceptiontoXmlLog(ex, Application.ProductName, Application.ProductVersion);
             Scrabler.Program.Bugtracking(ex);
-            MessageBox.Show(ex.ToString());
+            //MessageBox.Show(ex.ToString());
 
         }
     }

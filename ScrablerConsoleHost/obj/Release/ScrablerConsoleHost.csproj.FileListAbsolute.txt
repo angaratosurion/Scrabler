@@ -70,8 +70,12 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerCons
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\WareForms.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\el-GR\Scrabler.resources.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\en\Scrabler.resources.dll
-G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\obj\Release\ScrablerConsoleHost.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\obj\Release\ScrablerConsoleHost.exe
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\CoreAudioApi.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\CoreAudioApi.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\refs\DevManView.exe
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\ScrablerService.dll.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\bin\Release\Scrabler.dll.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\obj\Release\ScrablerConsoleHost.csproj.AssemblyReference.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\obj\Release\ScrablerConsoleHost.csproj.CoreCompileInputs.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerConsoleHost\obj\Release\ScrablerConsoleHost.csproj.CopyComplete

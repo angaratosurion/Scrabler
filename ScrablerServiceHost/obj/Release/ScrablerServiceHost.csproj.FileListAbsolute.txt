@@ -129,7 +129,6 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServ
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\Scrabler.xml
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\el-GR\Scrabler.resources.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\en\Scrabler.resources.dll
-G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.ProjectInstaller.resources
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.ScrablerServiceHost.resources
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.csproj.GenerateResource.Cache
@@ -138,3 +137,8 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServ
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\CoreAudioApi.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\CoreAudioApi.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\refs\DevManView.exe
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\ScrablerService.dll.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\bin\Release\Scrabler.dll.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.csproj.AssemblyReference.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.csproj.CoreCompileInputs.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerServiceHost\obj\Release\ScrablerServiceHost.csproj.CopyComplete

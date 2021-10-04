@@ -100,7 +100,6 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\WareForms.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\el-GR\Scrabler.resources.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\en\Scrabler.resources.dll
-G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.AddAllias.resources
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.MesageConsole.resources
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.Properties.Resources.resources
@@ -110,3 +109,7 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\CoreAudioApi.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\CoreAudioApi.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\refs\DevManView.exe
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\bin\Release\Scrabler.dll.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csproj.AssemblyReference.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csproj.CoreCompileInputs.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScriptRunner\ScriptRunner\obj\Release\ScriptRunner.csproj.CopyComplete

@@ -106,7 +106,9 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScri
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.csproj.GenerateResource.Cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.exe
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.pdb
-G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\CoreAudioApi.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\CoreAudioApi.pdb
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\refs\DevManView.exe
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\bin\Release\Scrabler.dll.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.csproj.CoreCompileInputs.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\Scrabler\ScrablerScriptsRunnerClient\obj\Release\ScrablerScriptsRunner.csproj.CopyComplete
